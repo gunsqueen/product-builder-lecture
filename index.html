@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>서울 강서구 나선거구 통계 지도</title>
+  <meta name="description" content="서울 강서구 나선거구(화곡3동, 발산1동) 인구·세대·연령 통계와 대형 지도" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="bg-shape bg-shape-a" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-b" aria-hidden="true"></div>
+
+  <header class="hero">
+    <p class="hero-eyebrow">서울특별시 강서구의회 의원선거</p>
+    <h1>나선거구 데이터 브리프</h1>
+    <p class="hero-sub">화곡3동 · 발산1동</p>
+    <div class="hero-tags">
+      <span>대형 인터랙티브 지도</span>
+      <span>행정안전부 주민등록 통계</span>
+      <span id="latest-month-pill">최신 공표월 로딩 중</span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel map-panel">
+      <div class="section-head">
+        <div>
+          <h2>네이버 지도</h2>
+          <p>네이버 지도에서 화곡3동·발산1동 위치를 확인하고 버튼으로 빠르게 이동할 수 있습니다.</p>
+        </div>
+        <button id="fit-btn" type="button" class="fit-btn">선거구 전체 보기</button>
+      </div>
+      <div id="district-map" aria-label="서울 강서구 나선거구 지도"></div>
+      <div class="legend">
+        <a class="map-nav-link" data-map-target="district" href="#">나선거구 중심</a>
+        <a class="map-nav-link" data-map-target="hwagok3" href="#">화곡3동 보기</a>
+        <a class="map-nav-link" data-map-target="balsan1" href="#">발산1동 보기</a>
+      </div>
+    </section>
+
+    <section class="panel kpi-panel">
+      <div class="section-head compact">
+        <div>
+          <h2>핵심 통계</h2>
+          <p id="kpi-subtitle">기준월 로딩 중</p>
+        </div>
+      </div>
+      <div id="kpi-grid" class="kpi-grid"></div>
+    </section>
+
+    <section class="panel button-panel">
+      <div class="section-head compact">
+        <div>
+          <h2>버튼으로 보는 동별 인구통계</h2>
+          <p>아래 버튼을 눌러 화곡3동/발산1동 통계를 확인하세요.</p>
+        </div>
+      </div>
+      <div class="dong-toggle-wrap">
+        <div class="dong-toggle-buttons" role="tablist" aria-label="동별 통계 선택">
+          <button type="button" class="dong-toggle-btn is-active" data-dong="hwagok3" aria-selected="true">화곡3동</button>
+          <button type="button" class="dong-toggle-btn" data-dong="balsan1" aria-selected="false">발산1동</button>
+        </div>
+        <article id="dong-stat-view" class="dong-stat-view" aria-live="polite"></article>
+      </div>
+    </section>
+
+    <section class="panel age-dong-panel">
+      <div class="section-head compact">
+        <div>
+          <h2>행정동별 연령별 인구현황 분석</h2>
+          <p>행정안전부 5세 단위 연령통계를 바탕으로 화곡3동/발산1동 구조를 비교합니다.</p>
+        </div>
+      </div>
+      <div id="age-dong-insights" class="age-dong-insights"></div>
+      <div class="chart-grid">
+        <article class="chart-card wide">
+          <h3>5세 단위 연령대 인구 비교</h3>
+          <canvas id="dong-age-band-chart" aria-label="화곡3동 발산1동 5세 단위 연령 인구 비교" role="img"></canvas>
+        </article>
+      </div>
+      <div class="table-wrap">
+        <table id="age-band-table">
+          <thead>
+            <tr>
+              <th>연령대</th>
+              <th>화곡3동 인구</th>
+              <th>화곡3동 비중</th>
+              <th>발산1동 인구</th>
+              <th>발산1동 비중</th>
+              <th>격차(발산1동-화곡3동)</th>
+            </tr>
+          </thead>
+          <tbody id="age-band-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel dong-panel">
+      <div class="section-head compact">
+        <div>
+          <h2>동별 요약</h2>
+          <p>화곡3동, 발산1동의 세부 지표 비교</p>
+        </div>
+      </div>
+      <div id="dong-cards" class="dong-cards"></div>
+    </section>
+
+    <section class="panel chart-panel">
+      <div class="section-head compact">
+        <div>
+          <h2>인구구조 분석</h2>
+          <p>화곡3동·발산1동의 인구구조를 남/여로 구분해 확인합니다.</p>
+        </div>
+      </div>
+      <div class="chart-grid">
+        <article class="chart-card">
+          <h3>동별 남/여 인구 비율</h3>
+          <canvas id="age-chart" aria-label="동별 남여 인구 비율 비교" role="img"></canvas>
+        </article>
+        <article class="chart-card">
+          <h3>나선거구 남/여 구성</h3>
+          <canvas id="gender-chart" aria-label="성별 구성" role="img"></canvas>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel table-panel">
+      <div class="section-head compact">
+        <div>
+          <h2>지역별 상세 지표</h2>
+          <p>나선거구, 구성 동, 강서구를 같은 축으로 비교합니다.</p>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table id="stats-table">
+          <thead>
+            <tr>
+              <th>구역</th>
+              <th>인구수</th>
+              <th>세대수</th>
+              <th>세대당 인구</th>
+              <th>65세+ 비율</th>
+              <th>인구밀도(명/㎢)</th>
+              <th>전월 증감</th>
+              <th>전년동월 증감</th>
+            </tr>
+          </thead>
+          <tbody id="stats-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel rank-panel">
+      <div class="section-head compact">
+        <div>
+          <h2>강서구 동별 인구 순위</h2>
+          <p>강서구 20개 동 기준, 나선거구 포함 동의 상대적 규모</p>
+        </div>
+      </div>
+      <div class="table-wrap rank-wrap">
+        <table id="rank-table">
+          <thead>
+            <tr>
+              <th>순위</th>
+              <th>동</th>
+              <th>인구수</th>
+              <th>세대수</th>
+            </tr>
+          </thead>
+          <tbody id="rank-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel source-panel">
+      <div class="section-head compact">
+        <div>
+          <h2>데이터 출처 및 기준</h2>
+          <p id="source-summary">출처 로딩 중</p>
+        </div>
+      </div>
+      <ul id="source-list" class="source-list"></ul>
+      <p class="source-note">※ 본 페이지의 주민등록 통계는 행정안전부 기준으로 외국인은 제외됩니다.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    서울 강서구 나선거구 통계 페이지 · 네이버 지도 기반
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="./data/district-stats.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
