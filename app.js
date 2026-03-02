@@ -1241,6 +1241,37 @@ const balsan1GeoJson =
     return;
   }
 
+  // --- Theme Switching Logic ---
+  const themeToggle = document.getElementById("theme-toggle");
+  const currentTheme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+
+  if (currentTheme === "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+  }
+
+  themeToggle.addEventListener("click", () => {
+    let theme = document.documentElement.getAttribute("data-theme");
+    if (theme === "dark") {
+      document.documentElement.removeAttribute("data-theme");
+      localStorage.setItem("theme", "light");
+    } else {
+      document.documentElement.setAttribute("data-theme", "dark");
+      localStorage.setItem("theme", "dark");
+    }
+    // Update charts to reflect new theme colors if needed
+    updateAllCharts();
+  });
+
+  function updateAllCharts() {
+    // Re-render charts with theme-aware colors
+    // In this case, we'll just clear and re-init them for simplicity
+    // or update their options if we have references.
+    // For this implementation, we'll call initCharts again which will recreate them.
+    initCharts(stats);
+    initAgeDongAnalysis(stats, { fmtInt, fmtDec, fmtPct, fmtSigned, signClass });
+  }
+  // -----------------------------
+
   const nf = new Intl.NumberFormat("ko-KR");
 
   const fmtInt = (value) => nf.format(Math.round(value));
