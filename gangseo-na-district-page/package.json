@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
+    "install:app": "echo \"gangseo-na-district-page dependencies ready\"",
     "prepare:population": "tsx scripts/prepare-population-data.ts",
     "prepare:election": "tsx scripts/prepare-election-data.ts",
     "prepare:boundary": "tsx scripts/convert-boundary-to-geojson.ts",
