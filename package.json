@@ -1,0 +1,11 @@
+{
+  "name": "documents-root-deploy",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "npm --prefix gangseo-na-district-page run dev",
+    "build": "npm --prefix gangseo-na-district-page run build",
+    "preview": "npm --prefix gangseo-na-district-page run preview",
+    "install:app": "npm --prefix gangseo-na-district-page install"
+  }
+}
