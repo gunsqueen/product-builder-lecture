@@ -1,0 +1,8 @@
+<svg width="240" height="64" viewBox="0 0 240 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="64" rx="18" fill="#123A63"/>
+  <path d="M24 42L34 20L44 42H39.6L37.7 37.5H30.2L28.3 42H24ZM31.7 34.1H36.2L33.9 28.2L31.7 34.1Z" fill="white"/>
+  <path d="M56 42V20H71V23.8H60.5V29.1H69.7V32.8H60.5V42H56Z" fill="white"/>
+  <path d="M82 42V20H96.8V23.8H86.5V28.8H95.6V32.5H86.5V38.2H97.1V42H82Z" fill="white"/>
+  <text x="112" y="27" fill="white" font-family="Arial, sans-serif" font-size="11" font-weight="700">SEOUL DATA MAP</text>
+  <text x="112" y="44" fill="#D8E8F6" font-family="Arial, sans-serif" font-size="13">서울시 전체 대시보드</text>
+</svg>

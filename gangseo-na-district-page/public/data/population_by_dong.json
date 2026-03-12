@@ -1,0 +1,346 @@
+{
+  "updatedAt": "2026-02",
+  "source": "변환 스크립트 생성 (population_month_2026_02.csv)",
+  "items": [
+    {
+      "dongName": "염창동",
+      "totalPopulation": 41039,
+      "malePopulation": 19599,
+      "femalePopulation": 21440,
+      "households": 16857,
+      "averageHouseholdSize": 2.43,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 16857,
+        "onePerson": 5216,
+        "twoPerson": 3767,
+        "threePerson": 3977,
+        "fourPerson": 3271,
+        "fiveOrMore": 626
+      }
+    },
+    {
+      "dongName": "등촌1동",
+      "totalPopulation": 24877,
+      "malePopulation": 11475,
+      "femalePopulation": 13402,
+      "households": 14305,
+      "averageHouseholdSize": 1.74,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 14305,
+        "onePerson": 8351,
+        "twoPerson": 2936,
+        "threePerson": 1714,
+        "fourPerson": 1072,
+        "fiveOrMore": 232
+      }
+    },
+    {
+      "dongName": "등촌2동",
+      "totalPopulation": 18964,
+      "malePopulation": 9246,
+      "femalePopulation": 9718,
+      "households": 8643,
+      "averageHouseholdSize": 2.19,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 8643,
+        "onePerson": 3362,
+        "twoPerson": 2145,
+        "threePerson": 1688,
+        "fourPerson": 1111,
+        "fiveOrMore": 337
+      }
+    },
+    {
+      "dongName": "등촌3동",
+      "totalPopulation": 28443,
+      "malePopulation": 13333,
+      "femalePopulation": 15110,
+      "households": 15011,
+      "averageHouseholdSize": 1.89,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 15011,
+        "onePerson": 7484,
+        "twoPerson": 3761,
+        "threePerson": 2079,
+        "fourPerson": 1351,
+        "fiveOrMore": 336
+      }
+    },
+    {
+      "dongName": "화곡1동",
+      "totalPopulation": 49454,
+      "malePopulation": 23832,
+      "femalePopulation": 25622,
+      "households": 28105,
+      "averageHouseholdSize": 1.76,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 28105,
+        "onePerson": 15722,
+        "twoPerson": 6540,
+        "threePerson": 3488,
+        "fourPerson": 1788,
+        "fiveOrMore": 567
+      }
+    },
+    {
+      "dongName": "화곡2동",
+      "totalPopulation": 16678,
+      "malePopulation": 8003,
+      "femalePopulation": 8675,
+      "households": 8203,
+      "averageHouseholdSize": 2.03,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 8203,
+        "onePerson": 3587,
+        "twoPerson": 2170,
+        "threePerson": 1349,
+        "fourPerson": 838,
+        "fiveOrMore": 259
+      }
+    },
+    {
+      "dongName": "화곡3동",
+      "totalPopulation": 20498,
+      "malePopulation": 9755,
+      "femalePopulation": 10743,
+      "households": 9647,
+      "averageHouseholdSize": 2.12,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 9647,
+        "onePerson": 4036,
+        "twoPerson": 2448,
+        "threePerson": 1612,
+        "fourPerson": 1152,
+        "fiveOrMore": 399
+      }
+    },
+    {
+      "dongName": "화곡4동",
+      "totalPopulation": 18984,
+      "malePopulation": 9219,
+      "femalePopulation": 9765,
+      "households": 9614,
+      "averageHouseholdSize": 1.97,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 9614,
+        "onePerson": 4322,
+        "twoPerson": 2647,
+        "threePerson": 1549,
+        "fourPerson": 848,
+        "fiveOrMore": 248
+      }
+    },
+    {
+      "dongName": "화곡본동",
+      "totalPopulation": 31763,
+      "malePopulation": 15374,
+      "femalePopulation": 16389,
+      "households": 17198,
+      "averageHouseholdSize": 1.85,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 17198,
+        "onePerson": 9094,
+        "twoPerson": 3996,
+        "threePerson": 2296,
+        "fourPerson": 1406,
+        "fiveOrMore": 406
+      }
+    },
+    {
+      "dongName": "화곡6동",
+      "totalPopulation": 25380,
+      "malePopulation": 12082,
+      "femalePopulation": 13298,
+      "households": 13464,
+      "averageHouseholdSize": 1.89,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 13464,
+        "onePerson": 7098,
+        "twoPerson": 2910,
+        "threePerson": 1855,
+        "fourPerson": 1284,
+        "fiveOrMore": 317
+      }
+    },
+    {
+      "dongName": "화곡8동",
+      "totalPopulation": 22343,
+      "malePopulation": 10760,
+      "femalePopulation": 11583,
+      "households": 11501,
+      "averageHouseholdSize": 1.94,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 11501,
+        "onePerson": 5324,
+        "twoPerson": 3173,
+        "threePerson": 1746,
+        "fourPerson": 957,
+        "fiveOrMore": 301
+      }
+    },
+    {
+      "dongName": "가양1동",
+      "totalPopulation": 33399,
+      "malePopulation": 14972,
+      "femalePopulation": 18427,
+      "households": 21064,
+      "averageHouseholdSize": 1.59,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 21064,
+        "onePerson": 14497,
+        "twoPerson": 2956,
+        "threePerson": 1930,
+        "fourPerson": 1321,
+        "fiveOrMore": 360
+      }
+    },
+    {
+      "dongName": "가양2동",
+      "totalPopulation": 12885,
+      "malePopulation": 6080,
+      "femalePopulation": 6805,
+      "households": 7912,
+      "averageHouseholdSize": 1.63,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 7912,
+        "onePerson": 4830,
+        "twoPerson": 1848,
+        "threePerson": 748,
+        "fourPerson": 374,
+        "fiveOrMore": 112
+      }
+    },
+    {
+      "dongName": "가양3동",
+      "totalPopulation": 13360,
+      "malePopulation": 6184,
+      "femalePopulation": 7176,
+      "households": 7529,
+      "averageHouseholdSize": 1.77,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 7529,
+        "onePerson": 3781,
+        "twoPerson": 2258,
+        "threePerson": 1004,
+        "fourPerson": 403,
+        "fiveOrMore": 83
+      }
+    },
+    {
+      "dongName": "발산1동",
+      "totalPopulation": 34614,
+      "malePopulation": 16251,
+      "femalePopulation": 18363,
+      "households": 13543,
+      "averageHouseholdSize": 2.56,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 13543,
+        "onePerson": 3481,
+        "twoPerson": 3466,
+        "threePerson": 3072,
+        "fourPerson": 2803,
+        "fiveOrMore": 721
+      }
+    },
+    {
+      "dongName": "우장산동",
+      "totalPopulation": 43668,
+      "malePopulation": 20700,
+      "femalePopulation": 22968,
+      "households": 17416,
+      "averageHouseholdSize": 2.51,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 17416,
+        "onePerson": 5015,
+        "twoPerson": 4006,
+        "threePerson": 3995,
+        "fourPerson": 3574,
+        "fiveOrMore": 826
+      }
+    },
+    {
+      "dongName": "공항동",
+      "totalPopulation": 28555,
+      "malePopulation": 14371,
+      "femalePopulation": 14184,
+      "households": 13706,
+      "averageHouseholdSize": 2.08,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 13706,
+        "onePerson": 6143,
+        "twoPerson": 3088,
+        "threePerson": 2287,
+        "fourPerson": 1691,
+        "fiveOrMore": 497
+      }
+    },
+    {
+      "dongName": "방화1동",
+      "totalPopulation": 40180,
+      "malePopulation": 19500,
+      "femalePopulation": 20680,
+      "households": 16686,
+      "averageHouseholdSize": 2.41,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 16686,
+        "onePerson": 5140,
+        "twoPerson": 4316,
+        "threePerson": 3526,
+        "fourPerson": 2880,
+        "fiveOrMore": 824
+      }
+    },
+    {
+      "dongName": "방화2동",
+      "totalPopulation": 22698,
+      "malePopulation": 11231,
+      "femalePopulation": 11467,
+      "households": 12400,
+      "averageHouseholdSize": 1.83,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 12400,
+        "onePerson": 6628,
+        "twoPerson": 2938,
+        "threePerson": 1578,
+        "fourPerson": 954,
+        "fiveOrMore": 302
+      }
+    },
+    {
+      "dongName": "방화3동",
+      "totalPopulation": 21268,
+      "malePopulation": 10175,
+      "femalePopulation": 11093,
+      "households": 11087,
+      "averageHouseholdSize": 1.92,
+      "sourceMonth": "2026-02",
+      "householdComposition": {
+        "totalHouseholds": 11087,
+        "onePerson": 5357,
+        "twoPerson": 2879,
+        "threePerson": 1626,
+        "fourPerson": 947,
+        "fiveOrMore": 278
+      }
+    }
+  ]
+}

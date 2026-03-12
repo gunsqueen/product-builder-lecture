@@ -1,0 +1,352 @@
+[
+  {
+    "code": "11110",
+    "name": "종로구",
+    "slug": "jongno",
+    "population": 136764,
+    "households": 72381,
+    "administrativeDongCount": 17,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      126.986149,
+      37.5991
+    ]
+  },
+  {
+    "code": "11140",
+    "name": "중구",
+    "slug": "jung",
+    "population": 117625,
+    "households": 63883,
+    "administrativeDongCount": 15,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      126.99419,
+      37.557945
+    ]
+  },
+  {
+    "code": "11170",
+    "name": "용산구",
+    "slug": "yongsan",
+    "population": 201494,
+    "households": 102844,
+    "administrativeDongCount": 16,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      126.981074,
+      37.531101
+    ]
+  },
+  {
+    "code": "11200",
+    "name": "성동구",
+    "slug": "seongdong",
+    "population": 274854,
+    "households": 133618,
+    "administrativeDongCount": 17,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      127.040962,
+      37.550675
+    ]
+  },
+  {
+    "code": "11215",
+    "name": "광진구",
+    "slug": "gwangjin",
+    "population": 331095,
+    "households": 171518,
+    "administrativeDongCount": 15,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      127.085753,
+      37.548145
+    ]
+  },
+  {
+    "code": "11230",
+    "name": "동대문구",
+    "slug": "dongdaemun",
+    "population": 350393,
+    "households": 179035,
+    "administrativeDongCount": 15,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      127.0507,
+      37.583801
+    ]
+  },
+  {
+    "code": "11260",
+    "name": "중랑구",
+    "slug": "jungnang",
+    "population": 376884,
+    "households": 189939,
+    "administrativeDongCount": 16,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      127.093967,
+      37.59538
+    ]
+  },
+  {
+    "code": "11290",
+    "name": "성북구",
+    "slug": "seongbuk",
+    "population": 422542,
+    "households": 199301,
+    "administrativeDongCount": 20,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      127.023218,
+      37.606991
+    ]
+  },
+  {
+    "code": "11305",
+    "name": "강북구",
+    "slug": "gangbuk",
+    "population": 278786,
+    "households": 142553,
+    "administrativeDongCount": 13,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      127.014716,
+      37.646995
+    ]
+  },
+  {
+    "code": "11320",
+    "name": "도봉구",
+    "slug": "dobong",
+    "population": 299295,
+    "households": 139054,
+    "administrativeDongCount": 14,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      127.031767,
+      37.665861
+    ]
+  },
+  {
+    "code": "11350",
+    "name": "노원구",
+    "slug": "nowon",
+    "population": 482293,
+    "households": 216429,
+    "administrativeDongCount": 19,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      127.07712,
+      37.655264
+    ]
+  },
+  {
+    "code": "11380",
+    "name": "은평구",
+    "slug": "eunpyeong",
+    "population": 454341,
+    "households": 214489,
+    "administrativeDongCount": 16,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      126.9227,
+      37.617613
+    ]
+  },
+  {
+    "code": "11410",
+    "name": "서대문구",
+    "slug": "seodaemun",
+    "population": 300175,
+    "households": 146591,
+    "administrativeDongCount": 14,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      126.935667,
+      37.582037
+    ]
+  },
+  {
+    "code": "11440",
+    "name": "마포구",
+    "slug": "mapo",
+    "population": 357136,
+    "households": 180447,
+    "administrativeDongCount": 16,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      126.90878,
+      37.562291
+    ]
+  },
+  {
+    "code": "11470",
+    "name": "양천구",
+    "slug": "yangcheon",
+    "population": 424499,
+    "households": 179618,
+    "administrativeDongCount": 18,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      126.856153,
+      37.527062
+    ]
+  },
+  {
+    "code": "11500",
+    "name": "강서구",
+    "slug": "gangseo",
+    "population": 549050,
+    "households": 273891,
+    "administrativeDongCount": 20,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      126.822656,
+      37.565762
+    ]
+  },
+  {
+    "code": "11530",
+    "name": "구로구",
+    "slug": "guro",
+    "population": 382800,
+    "households": 184378,
+    "administrativeDongCount": 16,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      126.858121,
+      37.495486
+    ]
+  },
+  {
+    "code": "11545",
+    "name": "금천구",
+    "slug": "geumcheon",
+    "population": 222809,
+    "households": 121591,
+    "administrativeDongCount": 10,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      126.900155,
+      37.460097
+    ]
+  },
+  {
+    "code": "11560",
+    "name": "영등포구",
+    "slug": "yeongdeungpo",
+    "population": 371055,
+    "households": 192779,
+    "administrativeDongCount": 18,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      126.913924,
+      37.520641
+    ]
+  },
+  {
+    "code": "11590",
+    "name": "동작구",
+    "slug": "dongjak",
+    "population": 371746,
+    "households": 187240,
+    "administrativeDongCount": 15,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      126.944307,
+      37.496504
+    ]
+  },
+  {
+    "code": "11620",
+    "name": "관악구",
+    "slug": "gwanak",
+    "population": 478195,
+    "households": 290146,
+    "administrativeDongCount": 21,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      126.943807,
+      37.465399
+    ]
+  },
+  {
+    "code": "11650",
+    "name": "서초구",
+    "slug": "seocho",
+    "population": 415691,
+    "households": 174010,
+    "administrativeDongCount": 18,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      127.03781,
+      37.476953
+    ]
+  },
+  {
+    "code": "11680",
+    "name": "강남구",
+    "slug": "gangnam",
+    "population": 555502,
+    "households": 245226,
+    "administrativeDongCount": 22,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      127.066409,
+      37.495985
+    ]
+  },
+  {
+    "code": "11710",
+    "name": "송파구",
+    "slug": "songpa",
+    "population": 649042,
+    "households": 288403,
+    "administrativeDongCount": 27,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      127.114482,
+      37.504853
+    ]
+  },
+  {
+    "code": "11740",
+    "name": "강동구",
+    "slug": "gangdong",
+    "population": 500063,
+    "households": 223454,
+    "administrativeDongCount": 19,
+    "areaKm2": null,
+    "description": "실제 행정구역 경계 및 주민등록 통계 기준 자치구입니다.",
+    "centroid": [
+      127.146482,
+      37.549208
+    ]
+  }
+]

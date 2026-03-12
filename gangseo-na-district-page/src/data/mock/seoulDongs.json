@@ -1,0 +1,5126 @@
+[
+  {
+    "code": "1111060000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "가회동",
+    "centroid": [
+      126.986305,
+      37.584034
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111058000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "교남동",
+    "centroid": [
+      126.96431,
+      37.571228
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111057000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "무악동",
+    "centroid": [
+      126.958199,
+      37.577329
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111055000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "부암동",
+    "centroid": [
+      126.9643,
+      37.595435
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111053000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "사직동",
+    "centroid": [
+      126.969922,
+      37.573898
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111054000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "삼청동",
+    "centroid": [
+      126.981532,
+      37.586045
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111070000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "숭인1동",
+    "centroid": [
+      127.017059,
+      37.577557
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111071000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "숭인2동",
+    "centroid": [
+      127.019547,
+      37.57454
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111064000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "이화동",
+    "centroid": [
+      127.002627,
+      37.580327
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111061500",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "종로1·2·3·4가동",
+    "centroid": [
+      126.989256,
+      37.577789
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111063000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "종로5·6가동",
+    "centroid": [
+      127.004065,
+      37.57315
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111067000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "창신1동",
+    "centroid": [
+      127.014202,
+      37.573296
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111068000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "창신2동",
+    "centroid": [
+      127.010527,
+      37.575973
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111069000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "창신3동",
+    "centroid": [
+      127.012979,
+      37.578804
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111051500",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "청운효자동",
+    "centroid": [
+      126.969029,
+      37.584768
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111056000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "평창동",
+    "centroid": [
+      126.968862,
+      37.613675
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1111065000",
+    "districtCode": "11110",
+    "districtName": "종로구",
+    "name": "혜화동",
+    "centroid": [
+      126.997832,
+      37.586769
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114059000",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "광희동",
+    "centroid": [
+      127.00264,
+      37.565606
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114062500",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "다산동",
+    "centroid": [
+      127.008709,
+      37.554875
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114066500",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "동화동",
+    "centroid": [
+      127.018633,
+      37.560811
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114055000",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "명동",
+    "centroid": [
+      126.983072,
+      37.561648
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114052000",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "소공동",
+    "centroid": [
+      126.97471,
+      37.564459
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114065000",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "신당5동",
+    "centroid": [
+      127.021374,
+      37.563238
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114061500",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "신당동",
+    "centroid": [
+      127.013719,
+      37.565436
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114063500",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "약수동",
+    "centroid": [
+      127.010574,
+      37.549671
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114060500",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "을지로동",
+    "centroid": [
+      126.997596,
+      37.566257
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114058000",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "장충동",
+    "centroid": [
+      127.001109,
+      37.555405
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114068000",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "중림동",
+    "centroid": [
+      126.966441,
+      37.556759
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114064500",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "청구동",
+    "centroid": [
+      127.01526,
+      37.557046
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114057000",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "필동",
+    "centroid": [
+      126.994309,
+      37.556696
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114067000",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "황학동",
+    "centroid": [
+      127.020564,
+      37.568454
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1114054000",
+    "districtCode": "11140",
+    "districtName": "중구",
+    "name": "회현동",
+    "centroid": [
+      126.976958,
+      37.557255
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117053000",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "남영동",
+    "centroid": [
+      126.974839,
+      37.544479
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117070000",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "보광동",
+    "centroid": [
+      127.001385,
+      37.525296
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117069000",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "서빙고동",
+    "centroid": [
+      126.988318,
+      37.518017
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117059000",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "용문동",
+    "centroid": [
+      126.958433,
+      37.538204
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117052000",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "용산2가동",
+    "centroid": [
+      126.98585,
+      37.538785
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117056000",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "원효로1동",
+    "centroid": [
+      126.965753,
+      37.537373
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117057000",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "원효로2동",
+    "centroid": [
+      126.953128,
+      37.533197
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117063000",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "이촌1동",
+    "centroid": [
+      126.970151,
+      37.514766
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117064000",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "이촌2동",
+    "centroid": [
+      126.955201,
+      37.52347
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117065000",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "이태원1동",
+    "centroid": [
+      126.992878,
+      37.533853
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117066000",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "이태원2동",
+    "centroid": [
+      126.992322,
+      37.541665
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117055500",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "청파동",
+    "centroid": [
+      126.966552,
+      37.548427
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117062500",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "한강로동",
+    "centroid": [
+      126.967606,
+      37.531054
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117068500",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "한남동",
+    "centroid": [
+      127.008024,
+      37.537482
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117058000",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "효창동",
+    "centroid": [
+      126.960696,
+      37.543697
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1117051000",
+    "districtCode": "11170",
+    "districtName": "용산구",
+    "name": "후암동",
+    "centroid": [
+      126.981053,
+      37.550281
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120059000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "금호1가동",
+    "centroid": [
+      127.024441,
+      37.553109
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120061500",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "금호2·3가동",
+    "centroid": [
+      127.019645,
+      37.552711
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120062000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "금호4가동",
+    "centroid": [
+      127.022979,
+      37.545328
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120054000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "마장동",
+    "centroid": [
+      127.040271,
+      37.567479
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120055000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "사근동",
+    "centroid": [
+      127.04525,
+      37.559012
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120065000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "성수1가1동",
+    "centroid": [
+      127.04114,
+      37.540054
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120066000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "성수1가2동",
+    "centroid": [
+      127.041819,
+      37.548596
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120067000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "성수2가1동",
+    "centroid": [
+      127.055942,
+      37.536287
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120069000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "성수2가3동",
+    "centroid": [
+      127.058542,
+      37.545512
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120072000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "송정동",
+    "centroid": [
+      127.06294,
+      37.553771
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120064500",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "옥수동",
+    "centroid": [
+      127.022165,
+      37.542532
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120052000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "왕십리2동",
+    "centroid": [
+      127.028184,
+      37.561429
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120053500",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "왕십리도선동",
+    "centroid": [
+      127.029932,
+      37.56651
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120079000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "용답동",
+    "centroid": [
+      127.057939,
+      37.561338
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120058000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "응봉동",
+    "centroid": [
+      127.03472,
+      37.550565
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120056000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "행당1동",
+    "centroid": [
+      127.035085,
+      37.559947
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1120057000",
+    "districtCode": "11200",
+    "districtName": "성동구",
+    "name": "행당2동",
+    "centroid": [
+      127.029295,
+      37.556678
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121581000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "광장동",
+    "centroid": [
+      127.103538,
+      37.547271
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121585000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "구의1동",
+    "centroid": [
+      127.085965,
+      37.540964
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121586000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "구의2동",
+    "centroid": [
+      127.094655,
+      37.551859
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121587000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "구의3동",
+    "centroid": [
+      127.096128,
+      37.535736
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121573000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "군자동",
+    "centroid": [
+      127.073349,
+      37.55339
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121578000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "능동",
+    "centroid": [
+      127.081843,
+      37.551453
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121582000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "자양1동",
+    "centroid": [
+      127.080242,
+      37.536412
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121583000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "자양2동",
+    "centroid": [
+      127.082414,
+      37.530737
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121584000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "자양3동",
+    "centroid": [
+      127.071218,
+      37.531804
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121584700",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "자양4동",
+    "centroid": [
+      127.063561,
+      37.533877
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121574000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "중곡1동",
+    "centroid": [
+      127.07773,
+      37.5622
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121575000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "중곡2동",
+    "centroid": [
+      127.084152,
+      37.558749
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121576000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "중곡3동",
+    "centroid": [
+      127.081383,
+      37.567675
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121577000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "중곡4동",
+    "centroid": [
+      127.095127,
+      37.562979
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1121571000",
+    "districtCode": "11215",
+    "districtName": "광진구",
+    "name": "화양동",
+    "centroid": [
+      127.073439,
+      37.543511
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123060000",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "답십리1동",
+    "centroid": [
+      127.049906,
+      37.57056
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123061000",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "답십리2동",
+    "centroid": [
+      127.061928,
+      37.569809
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123051500",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "신설동",
+    "centroid": [
+      127.029823,
+      37.576272
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123053300",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "용두동",
+    "centroid": [
+      127.037368,
+      37.576923
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123074000",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "이문1동",
+    "centroid": [
+      127.06093,
+      37.597509
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123075000",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "이문2동",
+    "centroid": [
+      127.066747,
+      37.60354
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123065000",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "장안1동",
+    "centroid": [
+      127.068175,
+      37.566403
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123066000",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "장안2동",
+    "centroid": [
+      127.072479,
+      37.57495
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123056000",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "전농1동",
+    "centroid": [
+      127.050131,
+      37.580317
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123057000",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "전농2동",
+    "centroid": [
+      127.060982,
+      37.58084
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123054500",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "제기동",
+    "centroid": [
+      127.036803,
+      37.584666
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123070500",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "청량리동",
+    "centroid": [
+      127.045944,
+      37.588337
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123071000",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "회기동",
+    "centroid": [
+      127.052158,
+      37.594452
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123072000",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "휘경1동",
+    "centroid": [
+      127.061815,
+      37.591565
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1123073000",
+    "districtCode": "11230",
+    "districtName": "동대문구",
+    "name": "휘경2동",
+    "centroid": [
+      127.066073,
+      37.586729
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126066000",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "망우3동",
+    "centroid": [
+      127.102799,
+      37.591528
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126065500",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "망우본동",
+    "centroid": [
+      127.105582,
+      37.602571
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126052000",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "면목2동",
+    "centroid": [
+      127.078744,
+      37.58916
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126057500",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "면목3·8동",
+    "centroid": [
+      127.096767,
+      37.584741
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126054000",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "면목4동",
+    "centroid": [
+      127.087035,
+      37.573472
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126055000",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "면목5동",
+    "centroid": [
+      127.078881,
+      37.582198
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126057000",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "면목7동",
+    "centroid": [
+      127.091144,
+      37.576125
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126056500",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "면목본동",
+    "centroid": [
+      127.089205,
+      37.588919
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126062000",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "묵1동",
+    "centroid": [
+      127.083172,
+      37.61277
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126063000",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "묵2동",
+    "centroid": [
+      127.075069,
+      37.610867
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126058000",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "상봉1동",
+    "centroid": [
+      127.088042,
+      37.60245
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126059000",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "상봉2동",
+    "centroid": [
+      127.081777,
+      37.594538
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126068000",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "신내1동",
+    "centroid": [
+      127.103565,
+      37.610148
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126069000",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "신내2동",
+    "centroid": [
+      127.090687,
+      37.609012
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126060000",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "중화1동",
+    "centroid": [
+      127.082913,
+      37.602627
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1126061000",
+    "districtCode": "11260",
+    "districtName": "중랑구",
+    "name": "중화2동",
+    "centroid": [
+      127.074979,
+      37.598924
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129066000",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "길음1동",
+    "centroid": [
+      127.0202,
+      37.608264
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129068500",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "길음2동",
+    "centroid": [
+      127.027205,
+      37.607871
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129058000",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "돈암1동",
+    "centroid": [
+      127.024501,
+      37.599064
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129059000",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "돈암2동",
+    "centroid": [
+      127.012689,
+      37.596792
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129057500",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "동선동",
+    "centroid": [
+      127.018269,
+      37.59362
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129061000",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "보문동",
+    "centroid": [
+      127.019568,
+      37.583101
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129055500",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "삼선동",
+    "centroid": [
+      127.011564,
+      37.586316
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129081000",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "석관동",
+    "centroid": [
+      127.061143,
+      37.608161
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129052500",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "성북동",
+    "centroid": [
+      126.997414,
+      37.595339
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129060000",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "안암동",
+    "centroid": [
+      127.027637,
+      37.586663
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129071500",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "월곡1동",
+    "centroid": [
+      127.037005,
+      37.607603
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129072500",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "월곡2동",
+    "centroid": [
+      127.044648,
+      37.603614
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129076000",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "장위1동",
+    "centroid": [
+      127.043744,
+      37.615594
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129077000",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "장위2동",
+    "centroid": [
+      127.053025,
+      37.612651
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129078000",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "장위3동",
+    "centroid": [
+      127.053811,
+      37.618381
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129062000",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "정릉1동",
+    "centroid": [
+      127.017476,
+      37.606024
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129063000",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "정릉2동",
+    "centroid": [
+      127.007455,
+      37.604145
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129064000",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "정릉3동",
+    "centroid": [
+      126.994292,
+      37.614783
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129065000",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "정릉4동",
+    "centroid": [
+      126.995164,
+      37.62233
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1129070500",
+    "districtCode": "11290",
+    "districtName": "성북구",
+    "name": "종암동",
+    "centroid": [
+      127.032899,
+      37.597557
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1130553500",
+    "districtCode": "11305",
+    "districtName": "강북구",
+    "name": "미아동",
+    "centroid": [
+      127.026825,
+      37.628958
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1130559500",
+    "districtCode": "11305",
+    "districtName": "강북구",
+    "name": "번1동",
+    "centroid": [
+      127.030867,
+      37.638385
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1130560300",
+    "districtCode": "11305",
+    "districtName": "강북구",
+    "name": "번2동",
+    "centroid": [
+      127.034729,
+      37.627683
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1130560800",
+    "districtCode": "11305",
+    "districtName": "강북구",
+    "name": "번3동",
+    "centroid": [
+      127.04336,
+      37.623467
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1130557500",
+    "districtCode": "11305",
+    "districtName": "강북구",
+    "name": "삼각산동",
+    "centroid": [
+      127.015387,
+      37.616259
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1130553400",
+    "districtCode": "11305",
+    "districtName": "강북구",
+    "name": "삼양동",
+    "centroid": [
+      127.013545,
+      37.62445
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1130554500",
+    "districtCode": "11305",
+    "districtName": "강북구",
+    "name": "송중동",
+    "centroid": [
+      127.033007,
+      37.617415
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1130555500",
+    "districtCode": "11305",
+    "districtName": "강북구",
+    "name": "송천동",
+    "centroid": [
+      127.024193,
+      37.618225
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1130561500",
+    "districtCode": "11305",
+    "districtName": "강북구",
+    "name": "수유1동",
+    "centroid": [
+      127.008313,
+      37.629544
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1130562500",
+    "districtCode": "11305",
+    "districtName": "강북구",
+    "name": "수유2동",
+    "centroid": [
+      127.019524,
+      37.644962
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1130563500",
+    "districtCode": "11305",
+    "districtName": "강북구",
+    "name": "수유3동",
+    "centroid": [
+      127.023874,
+      37.641072
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1130564500",
+    "districtCode": "11305",
+    "districtName": "강북구",
+    "name": "우이동",
+    "centroid": [
+      126.998982,
+      37.66197
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1130566000",
+    "districtCode": "11305",
+    "districtName": "강북구",
+    "name": "인수동",
+    "centroid": [
+      127.004104,
+      37.63853
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132052100",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "도봉1동",
+    "centroid": [
+      127.027054,
+      37.685254
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132052200",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "도봉2동",
+    "centroid": [
+      127.047834,
+      37.681504
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132069000",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "방학1동",
+    "centroid": [
+      127.043117,
+      37.665144
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132070000",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "방학2동",
+    "centroid": [
+      127.031303,
+      37.668551
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132071000",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "방학3동",
+    "centroid": [
+      127.025159,
+      37.662608
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132066000",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "쌍문1동",
+    "centroid": [
+      127.02061,
+      37.654096
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132067000",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "쌍문2동",
+    "centroid": [
+      127.037584,
+      37.656447
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132068000",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "쌍문3동",
+    "centroid": [
+      127.030742,
+      37.647115
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132068100",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "쌍문4동",
+    "centroid": [
+      127.029924,
+      37.655397
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132051100",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "창1동",
+    "centroid": [
+      127.042358,
+      37.645425
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132051200",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "창2동",
+    "centroid": [
+      127.037243,
+      37.641696
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132051300",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "창3동",
+    "centroid": [
+      127.041397,
+      37.637599
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132051400",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "창4동",
+    "centroid": [
+      127.050238,
+      37.651336
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1132051500",
+    "districtCode": "11320",
+    "districtName": "도봉구",
+    "name": "창5동",
+    "centroid": [
+      127.042314,
+      37.656576
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135059500",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "공릉1동",
+    "centroid": [
+      127.073015,
+      37.623516
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135060000",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "공릉2동",
+    "centroid": [
+      127.091844,
+      37.631404
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135072000",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "상계10동",
+    "centroid": [
+      127.058578,
+      37.659837
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135063000",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "상계1동",
+    "centroid": [
+      127.067036,
+      37.683452
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135064000",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "상계2동",
+    "centroid": [
+      127.066281,
+      37.656019
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135066500",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "상계3·4동",
+    "centroid": [
+      127.081299,
+      37.676168
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135067000",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "상계5동",
+    "centroid": [
+      127.070066,
+      37.663208
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135069500",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "상계6·7동",
+    "centroid": [
+      127.061391,
+      37.646692
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135070000",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "상계8동",
+    "centroid": [
+      127.053762,
+      37.666194
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135071000",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "상계9동",
+    "centroid": [
+      127.063178,
+      37.667594
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135056000",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "월계1동",
+    "centroid": [
+      127.058999,
+      37.622211
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135057000",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "월계2동",
+    "centroid": [
+      127.050534,
+      37.634813
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135058000",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "월계3동",
+    "centroid": [
+      127.064903,
+      37.62582
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135062100",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "중계1동",
+    "centroid": [
+      127.073387,
+      37.649813
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135062500",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "중계2·3동",
+    "centroid": [
+      127.065991,
+      37.643831
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135062400",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "중계4동",
+    "centroid": [
+      127.082784,
+      37.658577
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135061900",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "중계본동",
+    "centroid": [
+      127.085558,
+      37.647993
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135061100",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "하계1동",
+    "centroid": [
+      127.074945,
+      37.638523
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1135061200",
+    "districtCode": "11350",
+    "districtName": "노원구",
+    "name": "하계2동",
+    "centroid": [
+      127.064588,
+      37.635157
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138055100",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "갈현1동",
+    "centroid": [
+      126.914634,
+      37.62479
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138055200",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "갈현2동",
+    "centroid": [
+      126.91266,
+      37.618346
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138056000",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "구산동",
+    "centroid": [
+      126.909159,
+      37.612094
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138051000",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "녹번동",
+    "centroid": [
+      126.935504,
+      37.604219
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138057000",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "대조동",
+    "centroid": [
+      126.924324,
+      37.612595
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138052000",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "불광1동",
+    "centroid": [
+      126.937255,
+      37.61812
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138053000",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "불광2동",
+    "centroid": [
+      126.930241,
+      37.624211
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138065000",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "수색동",
+    "centroid": [
+      126.89326,
+      37.586049
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138063100",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "신사1동",
+    "centroid": [
+      126.908145,
+      37.598059
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138063200",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "신사2동",
+    "centroid": [
+      126.906735,
+      37.593294
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138062500",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "역촌동",
+    "centroid": [
+      126.9123,
+      37.605255
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138058000",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "응암1동",
+    "centroid": [
+      126.927147,
+      37.597157
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138059000",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "응암2동",
+    "centroid": [
+      126.922835,
+      37.59126
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138060000",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "응암3동",
+    "centroid": [
+      126.918086,
+      37.589995
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138064000",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "증산동",
+    "centroid": [
+      126.90589,
+      37.582663
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1138069000",
+    "districtCode": "11380",
+    "districtName": "은평구",
+    "name": "진관동",
+    "centroid": [
+      126.938528,
+      37.642077
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141069000",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "남가좌1동",
+    "centroid": [
+      126.916589,
+      37.571524
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141070000",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "남가좌2동",
+    "centroid": [
+      126.920918,
+      37.578453
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141071000",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "북가좌1동",
+    "centroid": [
+      126.90837,
+      37.575199
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141072000",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "북가좌2동",
+    "centroid": [
+      126.913913,
+      37.581138
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141055500",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "북아현동",
+    "centroid": [
+      126.955457,
+      37.559315
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141058500",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "신촌동",
+    "centroid": [
+      126.938248,
+      37.565958
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141061500",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "연희동",
+    "centroid": [
+      126.931803,
+      37.572415
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141052000",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "천연동",
+    "centroid": [
+      126.958297,
+      37.572015
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141056500",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "충현동",
+    "centroid": [
+      126.959404,
+      37.564303
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141066000",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "홍은1동",
+    "centroid": [
+      126.947873,
+      37.599626
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141068500",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "홍은2동",
+    "centroid": [
+      126.932135,
+      37.586843
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141062000",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "홍제1동",
+    "centroid": [
+      126.944641,
+      37.579928
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141065500",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "홍제2동",
+    "centroid": [
+      126.952828,
+      37.584086
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1141064000",
+    "districtCode": "11410",
+    "districtName": "서대문구",
+    "name": "홍제3동",
+    "centroid": [
+      126.949885,
+      37.591977
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144056500",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "공덕동",
+    "centroid": [
+      126.957204,
+      37.549719
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144060000",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "대흥동",
+    "centroid": [
+      126.940265,
+      37.551053
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144058500",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "도화동",
+    "centroid": [
+      126.948807,
+      37.538575
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144069000",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "망원1동",
+    "centroid": [
+      126.901144,
+      37.552982
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144070000",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "망원2동",
+    "centroid": [
+      126.900559,
+      37.559333
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144074000",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "상암동",
+    "centroid": [
+      126.878342,
+      37.571055
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144065500",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "서강동",
+    "centroid": [
+      126.925388,
+      37.546872
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144066000",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "서교동",
+    "centroid": [
+      126.922832,
+      37.555032
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144072000",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "성산1동",
+    "centroid": [
+      126.910867,
+      37.562179
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144073000",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "성산2동",
+    "centroid": [
+      126.904453,
+      37.567676
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144063000",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "신수동",
+    "centroid": [
+      126.934368,
+      37.546053
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144055500",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "아현동",
+    "centroid": [
+      126.953239,
+      37.550451
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144071000",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "연남동",
+    "centroid": [
+      126.922455,
+      37.562492
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144061000",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "염리동",
+    "centroid": [
+      126.947184,
+      37.550141
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144059000",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "용강동",
+    "centroid": [
+      126.943257,
+      37.541533
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1144068000",
+    "districtCode": "11440",
+    "districtName": "마포구",
+    "name": "합정동",
+    "centroid": [
+      126.909648,
+      37.54777
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147051000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "목1동",
+    "centroid": [
+      126.876246,
+      37.527045
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147052000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "목2동",
+    "centroid": [
+      126.87566,
+      37.542722
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147053000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "목3동",
+    "centroid": [
+      126.866431,
+      37.545336
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147054000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "목4동",
+    "centroid": [
+      126.868082,
+      37.534796
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147055000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "목5동",
+    "centroid": [
+      126.878864,
+      37.537117
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147056000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "신월1동",
+    "centroid": [
+      126.834405,
+      37.531232
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147057000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "신월2동",
+    "centroid": [
+      126.846083,
+      37.522441
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147058000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "신월3동",
+    "centroid": [
+      126.828243,
+      37.532729
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147059000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "신월4동",
+    "centroid": [
+      126.839666,
+      37.521812
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147060000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "신월5동",
+    "centroid": [
+      126.829796,
+      37.541719
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147061000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "신월6동",
+    "centroid": [
+      126.841748,
+      37.516555
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147061100",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "신월7동",
+    "centroid": [
+      126.831342,
+      37.51694
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147062000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "신정1동",
+    "centroid": [
+      126.859895,
+      37.518124
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147063000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "신정2동",
+    "centroid": [
+      126.874912,
+      37.518706
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147064000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "신정3동",
+    "centroid": [
+      126.841748,
+      37.511338
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147065000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "신정4동",
+    "centroid": [
+      126.857146,
+      37.525458
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147067000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "신정6동",
+    "centroid": [
+      126.870412,
+      37.516243
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1147068000",
+    "districtCode": "11470",
+    "districtName": "양천구",
+    "name": "신정7동",
+    "centroid": [
+      126.864708,
+      37.510922
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150060300",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "가양1동",
+    "centroid": [
+      126.836238,
+      37.572166
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150060400",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "가양2동",
+    "centroid": [
+      126.853819,
+      37.567162
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150060500",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "가양3동",
+    "centroid": [
+      126.861447,
+      37.562102
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150062000",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "공항동",
+    "centroid": [
+      126.795956,
+      37.555714
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150052000",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "등촌1동",
+    "centroid": [
+      126.859814,
+      37.555997
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150053000",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "등촌2동",
+    "centroid": [
+      126.859404,
+      37.544794
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150053500",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "등촌3동",
+    "centroid": [
+      126.846696,
+      37.561522
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150061100",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "발산1동",
+    "centroid": [
+      126.825289,
+      37.550314
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150063000",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "방화1동",
+    "centroid": [
+      126.815577,
+      37.568564
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150064000",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "방화2동",
+    "centroid": [
+      126.803073,
+      37.583184
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150064100",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "방화3동",
+    "centroid": [
+      126.818019,
+      37.583433
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150051000",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "염창동",
+    "centroid": [
+      126.871358,
+      37.555966
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150061500",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "우장산동",
+    "centroid": [
+      126.841684,
+      37.550095
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150054000",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "화곡1동",
+    "centroid": [
+      126.841337,
+      37.534101
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150055000",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "화곡2동",
+    "centroid": [
+      126.85479,
+      37.532538
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150056000",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "화곡3동",
+    "centroid": [
+      126.835071,
+      37.543923
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150057000",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "화곡4동",
+    "centroid": [
+      126.858111,
+      37.5359
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150059100",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "화곡6동",
+    "centroid": [
+      126.851106,
+      37.551603
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150059300",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "화곡8동",
+    "centroid": [
+      126.847895,
+      37.533447
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1150059000",
+    "districtCode": "11500",
+    "districtName": "강서구",
+    "name": "화곡본동",
+    "centroid": [
+      126.848191,
+      37.542782
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153059500",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "가리봉동",
+    "centroid": [
+      126.888161,
+      37.4829
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153074000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "개봉1동",
+    "centroid": [
+      126.851277,
+      37.500917
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153075000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "개봉2동",
+    "centroid": [
+      126.858224,
+      37.492851
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153076000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "개봉3동",
+    "centroid": [
+      126.853874,
+      37.486255
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153072000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "고척1동",
+    "centroid": [
+      126.863406,
+      37.500003
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153073000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "고척2동",
+    "centroid": [
+      126.854024,
+      37.505028
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153052000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "구로1동",
+    "centroid": [
+      126.874344,
+      37.492733
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153053000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "구로2동",
+    "centroid": [
+      126.87922,
+      37.496753
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153054000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "구로3동",
+    "centroid": [
+      126.894719,
+      37.485293
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153055000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "구로4동",
+    "centroid": [
+      126.889734,
+      37.49135
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153056000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "구로5동",
+    "centroid": [
+      126.886838,
+      37.501725
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153079000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "수궁동",
+    "centroid": [
+      126.825528,
+      37.498613
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153051000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "신도림동",
+    "centroid": [
+      126.884309,
+      37.510178
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153077000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "오류1동",
+    "centroid": [
+      126.842443,
+      37.496906
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153078000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "오류2동",
+    "centroid": [
+      126.836958,
+      37.484508
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1153080000",
+    "districtCode": "11530",
+    "districtName": "구로구",
+    "name": "항동",
+    "centroid": [
+      126.823654,
+      37.481002
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1154551000",
+    "districtCode": "11545",
+    "districtName": "금천구",
+    "name": "가산동",
+    "centroid": [
+      126.885217,
+      37.475485
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1154561000",
+    "districtCode": "11545",
+    "districtName": "금천구",
+    "name": "독산1동",
+    "centroid": [
+      126.892114,
+      37.465436
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1154562000",
+    "districtCode": "11545",
+    "districtName": "금천구",
+    "name": "독산2동",
+    "centroid": [
+      126.90488,
+      37.462693
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1154563000",
+    "districtCode": "11545",
+    "districtName": "금천구",
+    "name": "독산3동",
+    "centroid": [
+      126.904974,
+      37.476119
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1154564000",
+    "districtCode": "11545",
+    "districtName": "금천구",
+    "name": "독산4동",
+    "centroid": [
+      126.905015,
+      37.469318
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1154567000",
+    "districtCode": "11545",
+    "districtName": "금천구",
+    "name": "시흥1동",
+    "centroid": [
+      126.899618,
+      37.453316
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1154568000",
+    "districtCode": "11545",
+    "districtName": "금천구",
+    "name": "시흥2동",
+    "centroid": [
+      126.92048,
+      37.450687
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1154569000",
+    "districtCode": "11545",
+    "districtName": "금천구",
+    "name": "시흥3동",
+    "centroid": [
+      126.906723,
+      37.440514
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1154570000",
+    "districtCode": "11545",
+    "districtName": "금천구",
+    "name": "시흥4동",
+    "centroid": [
+      126.909258,
+      37.459482
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1154571000",
+    "districtCode": "11545",
+    "districtName": "금천구",
+    "name": "시흥5동",
+    "centroid": [
+      126.912007,
+      37.448993
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156055000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "당산1동",
+    "centroid": [
+      126.897108,
+      37.524126
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156056000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "당산2동",
+    "centroid": [
+      126.903673,
+      37.534078
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156070000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "대림1동",
+    "centroid": [
+      126.904689,
+      37.493187
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156071000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "대림2동",
+    "centroid": [
+      126.90085,
+      37.489908
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156072000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "대림3동",
+    "centroid": [
+      126.898527,
+      37.500128
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156058500",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "도림동",
+    "centroid": [
+      126.901632,
+      37.508935
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156060500",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "문래동",
+    "centroid": [
+      126.891738,
+      37.515627
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156063000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "신길1동",
+    "centroid": [
+      126.919873,
+      37.512548
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156065000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "신길3동",
+    "centroid": [
+      126.904632,
+      37.506866
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156066000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "신길4동",
+    "centroid": [
+      126.913142,
+      37.507501
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156067000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "신길5동",
+    "centroid": [
+      126.905384,
+      37.500954
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156068000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "신길6동",
+    "centroid": [
+      126.914497,
+      37.498447
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156069000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "신길7동",
+    "centroid": [
+      126.919473,
+      37.507529
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156061000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "양평1동",
+    "centroid": [
+      126.886975,
+      37.525654
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156062000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "양평2동",
+    "centroid": [
+      126.890085,
+      37.542695
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156054000",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "여의동",
+    "centroid": [
+      126.927318,
+      37.528538
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156053500",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "영등포동",
+    "centroid": [
+      126.909233,
+      37.52364
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1156051500",
+    "districtCode": "11560",
+    "districtName": "영등포구",
+    "name": "영등포본동",
+    "centroid": [
+      126.908318,
+      37.51373
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159051000",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "노량진1동",
+    "centroid": [
+      126.950438,
+      37.511895
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159052000",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "노량진2동",
+    "centroid": [
+      126.938538,
+      37.510767
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159066000",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "대방동",
+    "centroid": [
+      126.927743,
+      37.50698
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159062000",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "사당1동",
+    "centroid": [
+      126.976128,
+      37.480111
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159063000",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "사당2동",
+    "centroid": [
+      126.974506,
+      37.495862
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159064000",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "사당3동",
+    "centroid": [
+      126.970703,
+      37.488921
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159065000",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "사당4동",
+    "centroid": [
+      126.970503,
+      37.480704
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159065100",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "사당5동",
+    "centroid": [
+      126.966071,
+      37.48686
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159053000",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "상도1동",
+    "centroid": [
+      126.954715,
+      37.499483
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159054000",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "상도2동",
+    "centroid": [
+      126.941456,
+      37.503525
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159055000",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "상도3동",
+    "centroid": [
+      126.934981,
+      37.497483
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159056000",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "상도4동",
+    "centroid": [
+      126.940114,
+      37.497675
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159067000",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "신대방1동",
+    "centroid": [
+      126.909598,
+      37.490775
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159068000",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "신대방2동",
+    "centroid": [
+      126.922202,
+      37.493997
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1159060500",
+    "districtCode": "11590",
+    "districtName": "동작구",
+    "name": "흑석동",
+    "centroid": [
+      126.963964,
+      37.505133
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162058500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "낙성대동",
+    "centroid": [
+      126.96128,
+      37.468193
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162077500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "난곡동",
+    "centroid": [
+      126.920492,
+      37.470313
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162071500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "난향동",
+    "centroid": [
+      126.918473,
+      37.461868
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162063000",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "남현동",
+    "centroid": [
+      126.976577,
+      37.461705
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162073500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "대학동",
+    "centroid": [
+      126.950053,
+      37.454235
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162076500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "미성동",
+    "centroid": [
+      126.916202,
+      37.474202
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162052500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "보라매동",
+    "centroid": [
+      126.932222,
+      37.490599
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162074500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "삼성동",
+    "centroid": [
+      126.930513,
+      37.461435
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162066500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "서림동",
+    "centroid": [
+      126.938101,
+      37.473787
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162064500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "서원동",
+    "centroid": [
+      126.93307,
+      37.48009
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162056500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "성현동",
+    "centroid": [
+      126.950724,
+      37.489787
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162069500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "신림동",
+    "centroid": [
+      126.9269,
+      37.486873
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162068500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "신사동",
+    "centroid": [
+      126.919752,
+      37.485688
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162065500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "신원동",
+    "centroid": [
+      126.926692,
+      37.479147
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162060500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "은천동",
+    "centroid": [
+      126.940577,
+      37.487112
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162062500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "인헌동",
+    "centroid": [
+      126.966477,
+      37.472189
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162072500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "조원동",
+    "centroid": [
+      126.907004,
+      37.483287
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162061500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "중앙동",
+    "centroid": [
+      126.951321,
+      37.484112
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162059500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "청룡동",
+    "centroid": [
+      126.944376,
+      37.477603
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162054500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "청림동",
+    "centroid": [
+      126.959127,
+      37.489563
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1162057500",
+    "districtCode": "11620",
+    "districtName": "관악구",
+    "name": "행운동",
+    "centroid": [
+      126.961628,
+      37.480835
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165066000",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "내곡동",
+    "centroid": [
+      127.069675,
+      37.452228
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165056000",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "반포1동",
+    "centroid": [
+      127.016802,
+      37.5052
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165057000",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "반포2동",
+    "centroid": [
+      126.99543,
+      37.506949
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165058000",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "반포3동",
+    "centroid": [
+      127.003801,
+      37.512766
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165058100",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "반포4동",
+    "centroid": [
+      127.001579,
+      37.499865
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165055000",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "반포본동",
+    "centroid": [
+      126.987336,
+      37.505817
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165060000",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "방배1동",
+    "centroid": [
+      126.995891,
+      37.485051
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165061000",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "방배2동",
+    "centroid": [
+      126.989415,
+      37.472289
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165062000",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "방배3동",
+    "centroid": [
+      126.997993,
+      37.474506
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165062100",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "방배4동",
+    "centroid": [
+      126.99144,
+      37.489703
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165059000",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "방배본동",
+    "centroid": [
+      126.989056,
+      37.49508
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165051000",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "서초1동",
+    "centroid": [
+      127.020459,
+      37.486439
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165052000",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "서초2동",
+    "centroid": [
+      127.027821,
+      37.489082
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165053000",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "서초3동",
+    "centroid": [
+      127.01005,
+      37.485654
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165053100",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "서초4동",
+    "centroid": [
+      127.020009,
+      37.499267
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165065100",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "양재1동",
+    "centroid": [
+      127.023682,
+      37.47047
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165065200",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "양재2동",
+    "centroid": [
+      127.046465,
+      37.454562
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1165054000",
+    "districtCode": "11650",
+    "districtName": "서초구",
+    "name": "잠원동",
+    "centroid": [
+      127.012868,
+      37.518075
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168066000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "개포1동",
+    "centroid": [
+      127.064444,
+      37.480252
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168067000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "개포2동",
+    "centroid": [
+      127.067281,
+      37.486046
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168067500",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "개포3동",
+    "centroid": [
+      127.081153,
+      37.494162
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168069000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "개포4동",
+    "centroid": [
+      127.053237,
+      37.47662
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168052100",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "논현1동",
+    "centroid": [
+      127.026664,
+      37.512078
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168053100",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "논현2동",
+    "centroid": [
+      127.035922,
+      37.515188
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168060000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "대치1동",
+    "centroid": [
+      127.05902,
+      37.493277
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168061000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "대치2동",
+    "centroid": [
+      127.066091,
+      37.500177
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168063000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "대치4동",
+    "centroid": [
+      127.054952,
+      37.501954
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168065500",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "도곡1동",
+    "centroid": [
+      127.040723,
+      37.489551
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168065600",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "도곡2동",
+    "centroid": [
+      127.048953,
+      37.487991
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168058000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "삼성1동",
+    "centroid": [
+      127.059368,
+      37.516229
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168059000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "삼성2동",
+    "centroid": [
+      127.048481,
+      37.511413
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168070000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "세곡동",
+    "centroid": [
+      127.103458,
+      37.471767
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168075000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "수서동",
+    "centroid": [
+      127.101511,
+      37.485449
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168051000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "신사동",
+    "centroid": [
+      127.020245,
+      37.525759
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168054500",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "압구정동",
+    "centroid": [
+      127.034117,
+      37.527741
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168064000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "역삼1동",
+    "centroid": [
+      127.0367,
+      37.499902
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168065000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "역삼2동",
+    "centroid": [
+      127.044886,
+      37.498406
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168073000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "일원1동",
+    "centroid": [
+      127.090791,
+      37.493073
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168072000",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "일원본동",
+    "centroid": [
+      127.083935,
+      37.483081
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1168056500",
+    "districtCode": "11680",
+    "districtName": "강남구",
+    "name": "청담동",
+    "centroid": [
+      127.052194,
+      37.525652
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171063100",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "가락1동",
+    "centroid": [
+      127.107588,
+      37.495153
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171063200",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "가락2동",
+    "centroid": [
+      127.131312,
+      37.496265
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171062000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "가락본동",
+    "centroid": [
+      127.121382,
+      37.497187
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171053100",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "거여1동",
+    "centroid": [
+      127.141207,
+      37.494275
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171053200",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "거여2동",
+    "centroid": [
+      127.147608,
+      37.492539
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171054000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "마천1동",
+    "centroid": [
+      127.154534,
+      37.494277
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171055000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "마천2동",
+    "centroid": [
+      127.151676,
+      37.500397
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171064100",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "문정1동",
+    "centroid": [
+      127.127317,
+      37.487794
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171064200",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "문정2동",
+    "centroid": [
+      127.117585,
+      37.478865
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171056100",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "방이1동",
+    "centroid": [
+      127.122324,
+      37.50998
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171056200",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "방이2동",
+    "centroid": [
+      127.113838,
+      37.51274
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171061000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "삼전동",
+    "centroid": [
+      127.090487,
+      37.501681
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171060000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "석촌동",
+    "centroid": [
+      127.104093,
+      37.502846
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171058000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "송파1동",
+    "centroid": [
+      127.110343,
+      37.506983
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171059000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "송파2동",
+    "centroid": [
+      127.116289,
+      37.502984
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171057000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "오금동",
+    "centroid": [
+      127.134138,
+      37.503558
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171056600",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "오륜동",
+    "centroid": [
+      127.12898,
+      37.518218
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171064700",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "위례동",
+    "centroid": [
+      127.142134,
+      37.480298
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171067000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "잠실2동",
+    "centroid": [
+      127.079523,
+      37.517747
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171068000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "잠실3동",
+    "centroid": [
+      127.0948,
+      37.516228
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171069000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "잠실4동",
+    "centroid": [
+      127.107261,
+      37.521733
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171071000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "잠실6동",
+    "centroid": [
+      127.099264,
+      37.518154
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171072000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "잠실7동",
+    "centroid": [
+      127.074139,
+      37.507
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171065000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "잠실본동",
+    "centroid": [
+      127.081952,
+      37.505567
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171064600",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "장지동",
+    "centroid": [
+      127.131616,
+      37.483904
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171051000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "풍납1동",
+    "centroid": [
+      127.113685,
+      37.538289
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1171052000",
+    "districtCode": "11710",
+    "districtName": "송파구",
+    "name": "풍납2동",
+    "centroid": [
+      127.110109,
+      37.529974
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174051500",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "강일동",
+    "centroid": [
+      127.172149,
+      37.569015
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174055000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "고덕1동",
+    "centroid": [
+      127.150501,
+      37.562682
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174056000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "고덕2동",
+    "centroid": [
+      127.163132,
+      37.565899
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174068500",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "길동",
+    "centroid": [
+      127.147347,
+      37.539865
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174069000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "둔촌1동",
+    "centroid": [
+      127.140035,
+      37.52288
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174070000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "둔촌2동",
+    "centroid": [
+      127.148518,
+      37.531794
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174053000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "명일1동",
+    "centroid": [
+      127.145264,
+      37.549566
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174054000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "명일2동",
+    "centroid": [
+      127.155881,
+      37.548487
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174052500",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "상일제1동",
+    "centroid": [
+      127.165033,
+      37.551094
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174052600",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "상일제2동",
+    "centroid": [
+      127.177519,
+      37.552036
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174064000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "성내1동",
+    "centroid": [
+      127.125492,
+      37.528449
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174065000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "성내2동",
+    "centroid": [
+      127.127824,
+      37.534335
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174066000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "성내3동",
+    "centroid": [
+      127.133657,
+      37.528406
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174057000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "암사1동",
+    "centroid": [
+      127.136069,
+      37.550946
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174058000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "암사2동",
+    "centroid": [
+      127.123135,
+      37.558169
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174059000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "암사3동",
+    "centroid": [
+      127.138224,
+      37.561602
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174060000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "천호1동",
+    "centroid": [
+      127.137548,
+      37.546573
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174061000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "천호2동",
+    "centroid": [
+      127.122071,
+      37.543865
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  },
+  {
+    "code": "1174062000",
+    "districtCode": "11740",
+    "districtName": "강동구",
+    "name": "천호3동",
+    "centroid": [
+      127.134055,
+      37.539301
+    ],
+    "description": "실제 행정동 경계 기준 행정동입니다.",
+    "serviceStatus": "active"
+  }
+]

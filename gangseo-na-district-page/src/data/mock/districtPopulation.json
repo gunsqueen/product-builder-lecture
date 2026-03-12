@@ -1,0 +1,1681 @@
+{
+  "updatedAt": "2026-02",
+  "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+  "items": [
+    {
+      "areaCode": "11110",
+      "areaName": "종로구",
+      "level": "district",
+      "districtCode": "11110",
+      "totalPopulation": 136764,
+      "malePopulation": 65495,
+      "femalePopulation": 71269,
+      "households": 72381,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 5041
+        },
+        {
+          "label": "10-19세",
+          "value": 9182
+        },
+        {
+          "label": "20-29세",
+          "value": 20095
+        },
+        {
+          "label": "30-39세",
+          "value": 19786
+        },
+        {
+          "label": "40-49세",
+          "value": 18091
+        },
+        {
+          "label": "50-59세",
+          "value": 22774
+        },
+        {
+          "label": "60-69세",
+          "value": 20979
+        },
+        {
+          "label": "70-79세",
+          "value": 12680
+        },
+        {
+          "label": "80-89세",
+          "value": 6864
+        },
+        {
+          "label": "90-99세",
+          "value": 1237
+        },
+        {
+          "label": "100+",
+          "value": 35
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 72381,
+        "onePerson": 38647,
+        "twoPerson": 14979,
+        "threePerson": 9952,
+        "fourPerson": 6598,
+        "fiveOrMore": 2205
+      },
+      "averageHouseholdSize": 1.89
+    },
+    {
+      "areaCode": "11140",
+      "areaName": "중구",
+      "level": "district",
+      "districtCode": "11140",
+      "totalPopulation": 117625,
+      "malePopulation": 56464,
+      "femalePopulation": 61161,
+      "households": 63883,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 4854
+        },
+        {
+          "label": "10-19세",
+          "value": 5861
+        },
+        {
+          "label": "20-29세",
+          "value": 15575
+        },
+        {
+          "label": "30-39세",
+          "value": 21165
+        },
+        {
+          "label": "40-49세",
+          "value": 16084
+        },
+        {
+          "label": "50-59세",
+          "value": 17779
+        },
+        {
+          "label": "60-69세",
+          "value": 17858
+        },
+        {
+          "label": "70-79세",
+          "value": 11578
+        },
+        {
+          "label": "80-89세",
+          "value": 5835
+        },
+        {
+          "label": "90-99세",
+          "value": 1014
+        },
+        {
+          "label": "100+",
+          "value": 22
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 63883,
+        "onePerson": 34506,
+        "twoPerson": 14401,
+        "threePerson": 8342,
+        "fourPerson": 5049,
+        "fiveOrMore": 1585
+      },
+      "averageHouseholdSize": 1.84
+    },
+    {
+      "areaCode": "11170",
+      "areaName": "용산구",
+      "level": "district",
+      "districtCode": "11170",
+      "totalPopulation": 201494,
+      "malePopulation": 95846,
+      "femalePopulation": 105648,
+      "households": 102844,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 9786
+        },
+        {
+          "label": "10-19세",
+          "value": 12702
+        },
+        {
+          "label": "20-29세",
+          "value": 26201
+        },
+        {
+          "label": "30-39세",
+          "value": 37095
+        },
+        {
+          "label": "40-49세",
+          "value": 29072
+        },
+        {
+          "label": "50-59세",
+          "value": 31831
+        },
+        {
+          "label": "60-69세",
+          "value": 28154
+        },
+        {
+          "label": "70-79세",
+          "value": 16390
+        },
+        {
+          "label": "80-89세",
+          "value": 8597
+        },
+        {
+          "label": "90-99세",
+          "value": 1613
+        },
+        {
+          "label": "100+",
+          "value": 53
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 102844,
+        "onePerson": 51173,
+        "twoPerson": 22906,
+        "threePerson": 15446,
+        "fourPerson": 10062,
+        "fiveOrMore": 3257
+      },
+      "averageHouseholdSize": 1.96
+    },
+    {
+      "areaCode": "11200",
+      "areaName": "성동구",
+      "level": "district",
+      "districtCode": "11200",
+      "totalPopulation": 274854,
+      "malePopulation": 132577,
+      "femalePopulation": 142277,
+      "households": 133618,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 15592
+        },
+        {
+          "label": "10-19세",
+          "value": 17242
+        },
+        {
+          "label": "20-29세",
+          "value": 37653
+        },
+        {
+          "label": "30-39세",
+          "value": 48267
+        },
+        {
+          "label": "40-49세",
+          "value": 39608
+        },
+        {
+          "label": "50-59세",
+          "value": 42822
+        },
+        {
+          "label": "60-69세",
+          "value": 38505
+        },
+        {
+          "label": "70-79세",
+          "value": 22606
+        },
+        {
+          "label": "80-89세",
+          "value": 10917
+        },
+        {
+          "label": "90-99세",
+          "value": 1611
+        },
+        {
+          "label": "100+",
+          "value": 31
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 133618,
+        "onePerson": 58969,
+        "twoPerson": 32261,
+        "threePerson": 23354,
+        "fourPerson": 15153,
+        "fiveOrMore": 3881
+      },
+      "averageHouseholdSize": 2.06
+    },
+    {
+      "areaCode": "11215",
+      "areaName": "광진구",
+      "level": "district",
+      "districtCode": "11215",
+      "totalPopulation": 331095,
+      "malePopulation": 158509,
+      "femalePopulation": 172586,
+      "households": 171518,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 13416
+        },
+        {
+          "label": "10-19세",
+          "value": 22854
+        },
+        {
+          "label": "20-29세",
+          "value": 54624
+        },
+        {
+          "label": "30-39세",
+          "value": 56682
+        },
+        {
+          "label": "40-49세",
+          "value": 45982
+        },
+        {
+          "label": "50-59세",
+          "value": 51100
+        },
+        {
+          "label": "60-69세",
+          "value": 45854
+        },
+        {
+          "label": "70-79세",
+          "value": 26863
+        },
+        {
+          "label": "80-89세",
+          "value": 11839
+        },
+        {
+          "label": "90-99세",
+          "value": 1834
+        },
+        {
+          "label": "100+",
+          "value": 47
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 171518,
+        "onePerson": 87459,
+        "twoPerson": 36712,
+        "threePerson": 25267,
+        "fourPerson": 17494,
+        "fiveOrMore": 4586
+      },
+      "averageHouseholdSize": 1.93
+    },
+    {
+      "areaCode": "11230",
+      "areaName": "동대문구",
+      "level": "district",
+      "districtCode": "11230",
+      "totalPopulation": 350393,
+      "malePopulation": 170741,
+      "femalePopulation": 179652,
+      "households": 179035,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 17776
+        },
+        {
+          "label": "10-19세",
+          "value": 23267
+        },
+        {
+          "label": "20-29세",
+          "value": 55434
+        },
+        {
+          "label": "30-39세",
+          "value": 55028
+        },
+        {
+          "label": "40-49세",
+          "value": 48207
+        },
+        {
+          "label": "50-59세",
+          "value": 52859
+        },
+        {
+          "label": "60-69세",
+          "value": 48909
+        },
+        {
+          "label": "70-79세",
+          "value": 31537
+        },
+        {
+          "label": "80-89세",
+          "value": 15152
+        },
+        {
+          "label": "90-99세",
+          "value": 2172
+        },
+        {
+          "label": "100+",
+          "value": 52
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 179035,
+        "onePerson": 88665,
+        "twoPerson": 39291,
+        "threePerson": 27687,
+        "fourPerson": 18407,
+        "fiveOrMore": 4985
+      },
+      "averageHouseholdSize": 1.96
+    },
+    {
+      "areaCode": "11260",
+      "areaName": "중랑구",
+      "level": "district",
+      "districtCode": "11260",
+      "totalPopulation": 376884,
+      "malePopulation": 183932,
+      "femalePopulation": 192952,
+      "households": 189939,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 16390
+        },
+        {
+          "label": "10-19세",
+          "value": 23122
+        },
+        {
+          "label": "20-29세",
+          "value": 44832
+        },
+        {
+          "label": "30-39세",
+          "value": 58737
+        },
+        {
+          "label": "40-49세",
+          "value": 50587
+        },
+        {
+          "label": "50-59세",
+          "value": 61636
+        },
+        {
+          "label": "60-69세",
+          "value": 64299
+        },
+        {
+          "label": "70-79세",
+          "value": 38490
+        },
+        {
+          "label": "80-89세",
+          "value": 16417
+        },
+        {
+          "label": "90-99세",
+          "value": 2314
+        },
+        {
+          "label": "100+",
+          "value": 60
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 189939,
+        "onePerson": 88069,
+        "twoPerson": 47683,
+        "threePerson": 30156,
+        "fourPerson": 18875,
+        "fiveOrMore": 5156
+      },
+      "averageHouseholdSize": 1.98
+    },
+    {
+      "areaCode": "11290",
+      "areaName": "성북구",
+      "level": "district",
+      "districtCode": "11290",
+      "totalPopulation": 422542,
+      "malePopulation": 201881,
+      "femalePopulation": 220661,
+      "households": 199301,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 21236
+        },
+        {
+          "label": "10-19세",
+          "value": 34185
+        },
+        {
+          "label": "20-29세",
+          "value": 62357
+        },
+        {
+          "label": "30-39세",
+          "value": 56734
+        },
+        {
+          "label": "40-49세",
+          "value": 59496
+        },
+        {
+          "label": "50-59세",
+          "value": 70822
+        },
+        {
+          "label": "60-69세",
+          "value": 58667
+        },
+        {
+          "label": "70-79세",
+          "value": 37564
+        },
+        {
+          "label": "80-89세",
+          "value": 18586
+        },
+        {
+          "label": "90-99세",
+          "value": 2826
+        },
+        {
+          "label": "100+",
+          "value": 69
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 199301,
+        "onePerson": 85538,
+        "twoPerson": 46262,
+        "threePerson": 35151,
+        "fourPerson": 25453,
+        "fiveOrMore": 6897
+      },
+      "averageHouseholdSize": 2.12
+    },
+    {
+      "areaCode": "11305",
+      "areaName": "강북구",
+      "level": "district",
+      "districtCode": "11305",
+      "totalPopulation": 278786,
+      "malePopulation": 134045,
+      "femalePopulation": 144741,
+      "households": 142553,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 9500
+        },
+        {
+          "label": "10-19세",
+          "value": 17872
+        },
+        {
+          "label": "20-29세",
+          "value": 33911
+        },
+        {
+          "label": "30-39세",
+          "value": 34264
+        },
+        {
+          "label": "40-49세",
+          "value": 36075
+        },
+        {
+          "label": "50-59세",
+          "value": 48625
+        },
+        {
+          "label": "60-69세",
+          "value": 47673
+        },
+        {
+          "label": "70-79세",
+          "value": 32605
+        },
+        {
+          "label": "80-89세",
+          "value": 16130
+        },
+        {
+          "label": "90-99세",
+          "value": 2087
+        },
+        {
+          "label": "100+",
+          "value": 44
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 142553,
+        "onePerson": 67982,
+        "twoPerson": 35553,
+        "threePerson": 21748,
+        "fourPerson": 13491,
+        "fiveOrMore": 3779
+      },
+      "averageHouseholdSize": 1.96
+    },
+    {
+      "areaCode": "11320",
+      "areaName": "도봉구",
+      "level": "district",
+      "districtCode": "11320",
+      "totalPopulation": 299295,
+      "malePopulation": 144374,
+      "femalePopulation": 154921,
+      "households": 139054,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 11649
+        },
+        {
+          "label": "10-19세",
+          "value": 21105
+        },
+        {
+          "label": "20-29세",
+          "value": 32983
+        },
+        {
+          "label": "30-39세",
+          "value": 37082
+        },
+        {
+          "label": "40-49세",
+          "value": 39446
+        },
+        {
+          "label": "50-59세",
+          "value": 51857
+        },
+        {
+          "label": "60-69세",
+          "value": 53213
+        },
+        {
+          "label": "70-79세",
+          "value": 33602
+        },
+        {
+          "label": "80-89세",
+          "value": 15894
+        },
+        {
+          "label": "90-99세",
+          "value": 2392
+        },
+        {
+          "label": "100+",
+          "value": 72
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 139054,
+        "onePerson": 53984,
+        "twoPerson": 37644,
+        "threePerson": 25773,
+        "fourPerson": 16933,
+        "fiveOrMore": 4720
+      },
+      "averageHouseholdSize": 2.15
+    },
+    {
+      "areaCode": "11350",
+      "areaName": "노원구",
+      "level": "district",
+      "districtCode": "11350",
+      "totalPopulation": 482293,
+      "malePopulation": 230633,
+      "femalePopulation": 251660,
+      "households": 216429,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 22719
+        },
+        {
+          "label": "10-19세",
+          "value": 43908
+        },
+        {
+          "label": "20-29세",
+          "value": 60296
+        },
+        {
+          "label": "30-39세",
+          "value": 60931
+        },
+        {
+          "label": "40-49세",
+          "value": 68772
+        },
+        {
+          "label": "50-59세",
+          "value": 83654
+        },
+        {
+          "label": "60-69세",
+          "value": 72414
+        },
+        {
+          "label": "70-79세",
+          "value": 45358
+        },
+        {
+          "label": "80-89세",
+          "value": 20663
+        },
+        {
+          "label": "90-99세",
+          "value": 3493
+        },
+        {
+          "label": "100+",
+          "value": 85
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 216429,
+        "onePerson": 80796,
+        "twoPerson": 54153,
+        "threePerson": 42234,
+        "fourPerson": 31854,
+        "fiveOrMore": 7392
+      },
+      "averageHouseholdSize": 2.23
+    },
+    {
+      "areaCode": "11380",
+      "areaName": "은평구",
+      "level": "district",
+      "districtCode": "11380",
+      "totalPopulation": 454341,
+      "malePopulation": 214765,
+      "femalePopulation": 239576,
+      "households": 214489,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 20101
+        },
+        {
+          "label": "10-19세",
+          "value": 33401
+        },
+        {
+          "label": "20-29세",
+          "value": 55361
+        },
+        {
+          "label": "30-39세",
+          "value": 66632
+        },
+        {
+          "label": "40-49세",
+          "value": 64241
+        },
+        {
+          "label": "50-59세",
+          "value": 76652
+        },
+        {
+          "label": "60-69세",
+          "value": 69056
+        },
+        {
+          "label": "70-79세",
+          "value": 44531
+        },
+        {
+          "label": "80-89세",
+          "value": 21269
+        },
+        {
+          "label": "90-99세",
+          "value": 3020
+        },
+        {
+          "label": "100+",
+          "value": 77
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 214489,
+        "onePerson": 88826,
+        "twoPerson": 55112,
+        "threePerson": 37620,
+        "fourPerson": 25435,
+        "fiveOrMore": 7496
+      },
+      "averageHouseholdSize": 2.12
+    },
+    {
+      "areaCode": "11410",
+      "areaName": "서대문구",
+      "level": "district",
+      "districtCode": "11410",
+      "totalPopulation": 300175,
+      "malePopulation": 141730,
+      "femalePopulation": 158445,
+      "households": 146591,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 15031
+        },
+        {
+          "label": "10-19세",
+          "value": 21859
+        },
+        {
+          "label": "20-29세",
+          "value": 44784
+        },
+        {
+          "label": "30-39세",
+          "value": 44926
+        },
+        {
+          "label": "40-49세",
+          "value": 41981
+        },
+        {
+          "label": "50-59세",
+          "value": 47659
+        },
+        {
+          "label": "60-69세",
+          "value": 41863
+        },
+        {
+          "label": "70-79세",
+          "value": 25971
+        },
+        {
+          "label": "80-89세",
+          "value": 13866
+        },
+        {
+          "label": "90-99세",
+          "value": 2180
+        },
+        {
+          "label": "100+",
+          "value": 55
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 146591,
+        "onePerson": 67118,
+        "twoPerson": 33179,
+        "threePerson": 24741,
+        "fourPerson": 16811,
+        "fiveOrMore": 4742
+      },
+      "averageHouseholdSize": 2.05
+    },
+    {
+      "areaCode": "11440",
+      "areaName": "마포구",
+      "level": "district",
+      "districtCode": "11440",
+      "totalPopulation": 357136,
+      "malePopulation": 165689,
+      "femalePopulation": 191447,
+      "households": 180447,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 18058
+        },
+        {
+          "label": "10-19세",
+          "value": 25754
+        },
+        {
+          "label": "20-29세",
+          "value": 54289
+        },
+        {
+          "label": "30-39세",
+          "value": 64380
+        },
+        {
+          "label": "40-49세",
+          "value": 54475
+        },
+        {
+          "label": "50-59세",
+          "value": 55809
+        },
+        {
+          "label": "60-69세",
+          "value": 42693
+        },
+        {
+          "label": "70-79세",
+          "value": 25748
+        },
+        {
+          "label": "80-89세",
+          "value": 13646
+        },
+        {
+          "label": "90-99세",
+          "value": 2239
+        },
+        {
+          "label": "100+",
+          "value": 45
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 180447,
+        "onePerson": 88125,
+        "twoPerson": 39264,
+        "threePerson": 28374,
+        "fourPerson": 19690,
+        "fiveOrMore": 4994
+      },
+      "averageHouseholdSize": 1.98
+    },
+    {
+      "areaCode": "11470",
+      "areaName": "양천구",
+      "level": "district",
+      "districtCode": "11470",
+      "totalPopulation": 424499,
+      "malePopulation": 206594,
+      "femalePopulation": 217905,
+      "households": 179618,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 22633
+        },
+        {
+          "label": "10-19세",
+          "value": 46116
+        },
+        {
+          "label": "20-29세",
+          "value": 46129
+        },
+        {
+          "label": "30-39세",
+          "value": 51600
+        },
+        {
+          "label": "40-49세",
+          "value": 69452
+        },
+        {
+          "label": "50-59세",
+          "value": 71762
+        },
+        {
+          "label": "60-69세",
+          "value": 62375
+        },
+        {
+          "label": "70-79세",
+          "value": 38073
+        },
+        {
+          "label": "80-89세",
+          "value": 14069
+        },
+        {
+          "label": "90-99세",
+          "value": 2223
+        },
+        {
+          "label": "100+",
+          "value": 67
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 179618,
+        "onePerson": 59890,
+        "twoPerson": 42993,
+        "threePerson": 38077,
+        "fourPerson": 31107,
+        "fiveOrMore": 7551
+      },
+      "averageHouseholdSize": 2.36
+    },
+    {
+      "areaCode": "11500",
+      "areaName": "강서구",
+      "level": "district",
+      "districtCode": "11500",
+      "totalPopulation": 549050,
+      "malePopulation": 262142,
+      "femalePopulation": 286908,
+      "households": 273891,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 26389
+        },
+        {
+          "label": "10-19세",
+          "value": 39939
+        },
+        {
+          "label": "20-29세",
+          "value": 70904
+        },
+        {
+          "label": "30-39세",
+          "value": 95950
+        },
+        {
+          "label": "40-49세",
+          "value": 81643
+        },
+        {
+          "label": "50-59세",
+          "value": 81376
+        },
+        {
+          "label": "60-69세",
+          "value": 78897
+        },
+        {
+          "label": "70-79세",
+          "value": 50710
+        },
+        {
+          "label": "80-89세",
+          "value": 19822
+        },
+        {
+          "label": "90-99세",
+          "value": 3321
+        },
+        {
+          "label": "100+",
+          "value": 99
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 273891,
+        "onePerson": 128468,
+        "twoPerson": 64248,
+        "threePerson": 43119,
+        "fourPerson": 30025,
+        "fiveOrMore": 8031
+      },
+      "averageHouseholdSize": 2
+    },
+    {
+      "areaCode": "11530",
+      "areaName": "구로구",
+      "level": "district",
+      "districtCode": "11530",
+      "totalPopulation": 382800,
+      "malePopulation": 187037,
+      "femalePopulation": 195763,
+      "households": 184378,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 19242
+        },
+        {
+          "label": "10-19세",
+          "value": 26865
+        },
+        {
+          "label": "20-29세",
+          "value": 45596
+        },
+        {
+          "label": "30-39세",
+          "value": 61292
+        },
+        {
+          "label": "40-49세",
+          "value": 54425
+        },
+        {
+          "label": "50-59세",
+          "value": 60005
+        },
+        {
+          "label": "60-69세",
+          "value": 57873
+        },
+        {
+          "label": "70-79세",
+          "value": 39123
+        },
+        {
+          "label": "80-89세",
+          "value": 16135
+        },
+        {
+          "label": "90-99세",
+          "value": 2199
+        },
+        {
+          "label": "100+",
+          "value": 45
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 184378,
+        "onePerson": 79471,
+        "twoPerson": 46363,
+        "threePerson": 31493,
+        "fourPerson": 21136,
+        "fiveOrMore": 5915
+      },
+      "averageHouseholdSize": 2.08
+    },
+    {
+      "areaCode": "11545",
+      "areaName": "금천구",
+      "level": "district",
+      "districtCode": "11545",
+      "totalPopulation": 222809,
+      "malePopulation": 111903,
+      "femalePopulation": 110906,
+      "households": 121591,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 8174
+        },
+        {
+          "label": "10-19세",
+          "value": 11982
+        },
+        {
+          "label": "20-29세",
+          "value": 31310
+        },
+        {
+          "label": "30-39세",
+          "value": 39762
+        },
+        {
+          "label": "40-49세",
+          "value": 27456
+        },
+        {
+          "label": "50-59세",
+          "value": 34885
+        },
+        {
+          "label": "60-69세",
+          "value": 37050
+        },
+        {
+          "label": "70-79세",
+          "value": 21751
+        },
+        {
+          "label": "80-89세",
+          "value": 9172
+        },
+        {
+          "label": "90-99세",
+          "value": 1242
+        },
+        {
+          "label": "100+",
+          "value": 25
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 121591,
+        "onePerson": 65247,
+        "twoPerson": 27730,
+        "threePerson": 16090,
+        "fourPerson": 9734,
+        "fiveOrMore": 2790
+      },
+      "averageHouseholdSize": 1.83
+    },
+    {
+      "areaCode": "11560",
+      "areaName": "영등포구",
+      "level": "district",
+      "districtCode": "11560",
+      "totalPopulation": 371055,
+      "malePopulation": 180918,
+      "femalePopulation": 190137,
+      "households": 192779,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 19474
+        },
+        {
+          "label": "10-19세",
+          "value": 22363
+        },
+        {
+          "label": "20-29세",
+          "value": 52384
+        },
+        {
+          "label": "30-39세",
+          "value": 74050
+        },
+        {
+          "label": "40-49세",
+          "value": 52080
+        },
+        {
+          "label": "50-59세",
+          "value": 53909
+        },
+        {
+          "label": "60-69세",
+          "value": 48941
+        },
+        {
+          "label": "70-79세",
+          "value": 31105
+        },
+        {
+          "label": "80-89세",
+          "value": 14444
+        },
+        {
+          "label": "90-99세",
+          "value": 2250
+        },
+        {
+          "label": "100+",
+          "value": 55
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 192779,
+        "onePerson": 98086,
+        "twoPerson": 42160,
+        "threePerson": 28277,
+        "fourPerson": 19298,
+        "fiveOrMore": 4958
+      },
+      "averageHouseholdSize": 1.92
+    },
+    {
+      "areaCode": "11590",
+      "areaName": "동작구",
+      "level": "district",
+      "districtCode": "11590",
+      "totalPopulation": 371746,
+      "malePopulation": 179409,
+      "femalePopulation": 192337,
+      "households": 187240,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 17141
+        },
+        {
+          "label": "10-19세",
+          "value": 25028
+        },
+        {
+          "label": "20-29세",
+          "value": 59504
+        },
+        {
+          "label": "30-39세",
+          "value": 61480
+        },
+        {
+          "label": "40-49세",
+          "value": 50822
+        },
+        {
+          "label": "50-59세",
+          "value": 56426
+        },
+        {
+          "label": "60-69세",
+          "value": 50026
+        },
+        {
+          "label": "70-79세",
+          "value": 33338
+        },
+        {
+          "label": "80-89세",
+          "value": 15613
+        },
+        {
+          "label": "90-99세",
+          "value": 2313
+        },
+        {
+          "label": "100+",
+          "value": 55
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 187240,
+        "onePerson": 91107,
+        "twoPerson": 40880,
+        "threePerson": 29326,
+        "fourPerson": 20515,
+        "fiveOrMore": 5412
+      },
+      "averageHouseholdSize": 1.99
+    },
+    {
+      "areaCode": "11620",
+      "areaName": "관악구",
+      "level": "district",
+      "districtCode": "11620",
+      "totalPopulation": 478195,
+      "malePopulation": 240381,
+      "femalePopulation": 237814,
+      "households": 290146,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 13701
+        },
+        {
+          "label": "10-19세",
+          "value": 23837
+        },
+        {
+          "label": "20-29세",
+          "value": 101607
+        },
+        {
+          "label": "30-39세",
+          "value": 94012
+        },
+        {
+          "label": "40-49세",
+          "value": 57603
+        },
+        {
+          "label": "50-59세",
+          "value": 64490
+        },
+        {
+          "label": "60-69세",
+          "value": 59972
+        },
+        {
+          "label": "70-79세",
+          "value": 41602
+        },
+        {
+          "label": "80-89세",
+          "value": 19004
+        },
+        {
+          "label": "90-99세",
+          "value": 2323
+        },
+        {
+          "label": "100+",
+          "value": 44
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 290146,
+        "onePerson": 184941,
+        "twoPerson": 52881,
+        "threePerson": 28806,
+        "fourPerson": 18239,
+        "fiveOrMore": 5279
+      },
+      "averageHouseholdSize": 1.65
+    },
+    {
+      "areaCode": "11650",
+      "areaName": "서초구",
+      "level": "district",
+      "districtCode": "11650",
+      "totalPopulation": 415691,
+      "malePopulation": 197511,
+      "femalePopulation": 218180,
+      "households": 174010,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 26528
+        },
+        {
+          "label": "10-19세",
+          "value": 45925
+        },
+        {
+          "label": "20-29세",
+          "value": 47773
+        },
+        {
+          "label": "30-39세",
+          "value": 57559
+        },
+        {
+          "label": "40-49세",
+          "value": 71608
+        },
+        {
+          "label": "50-59세",
+          "value": 68523
+        },
+        {
+          "label": "60-69세",
+          "value": 48832
+        },
+        {
+          "label": "70-79세",
+          "value": 32907
+        },
+        {
+          "label": "80-89세",
+          "value": 13750
+        },
+        {
+          "label": "90-99세",
+          "value": 2216
+        },
+        {
+          "label": "100+",
+          "value": 70
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 174010,
+        "onePerson": 60725,
+        "twoPerson": 37786,
+        "threePerson": 35422,
+        "fourPerson": 30843,
+        "fiveOrMore": 9234
+      },
+      "averageHouseholdSize": 2.39
+    },
+    {
+      "areaCode": "11680",
+      "areaName": "강남구",
+      "level": "district",
+      "districtCode": "11680",
+      "totalPopulation": 555502,
+      "malePopulation": 265349,
+      "femalePopulation": 290153,
+      "households": 245226,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 31925
+        },
+        {
+          "label": "10-19세",
+          "value": 63898
+        },
+        {
+          "label": "20-29세",
+          "value": 62394
+        },
+        {
+          "label": "30-39세",
+          "value": 80006
+        },
+        {
+          "label": "40-49세",
+          "value": 100128
+        },
+        {
+          "label": "50-59세",
+          "value": 88597
+        },
+        {
+          "label": "60-69세",
+          "value": 63683
+        },
+        {
+          "label": "70-79세",
+          "value": 44729
+        },
+        {
+          "label": "80-89세",
+          "value": 17276
+        },
+        {
+          "label": "90-99세",
+          "value": 2778
+        },
+        {
+          "label": "100+",
+          "value": 88
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 245226,
+        "onePerson": 97643,
+        "twoPerson": 50535,
+        "threePerson": 46284,
+        "fourPerson": 39805,
+        "fiveOrMore": 10959
+      },
+      "averageHouseholdSize": 2.27
+    },
+    {
+      "areaCode": "11710",
+      "areaName": "송파구",
+      "level": "district",
+      "districtCode": "11710",
+      "totalPopulation": 649042,
+      "malePopulation": 310717,
+      "femalePopulation": 338325,
+      "households": 288403,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 39847
+        },
+        {
+          "label": "10-19세",
+          "value": 57630
+        },
+        {
+          "label": "20-29세",
+          "value": 75783
+        },
+        {
+          "label": "30-39세",
+          "value": 106555
+        },
+        {
+          "label": "40-49세",
+          "value": 105192
+        },
+        {
+          "label": "50-59세",
+          "value": 98803
+        },
+        {
+          "label": "60-69세",
+          "value": 88176
+        },
+        {
+          "label": "70-79세",
+          "value": 54370
+        },
+        {
+          "label": "80-89세",
+          "value": 19321
+        },
+        {
+          "label": "90-99세",
+          "value": 3275
+        },
+        {
+          "label": "100+",
+          "value": 90
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 288403,
+        "onePerson": 110013,
+        "twoPerson": 67192,
+        "threePerson": 55647,
+        "fourPerson": 43780,
+        "fiveOrMore": 11771
+      },
+      "averageHouseholdSize": 2.25
+    },
+    {
+      "areaCode": "11740",
+      "areaName": "강동구",
+      "level": "district",
+      "districtCode": "11740",
+      "totalPopulation": 500063,
+      "malePopulation": 243658,
+      "femalePopulation": 256405,
+      "households": 223454,
+      "updatedAt": "2026-02",
+      "source": "행정안전부 주민등록 인구통계 / 서울시 공식 스냅샷",
+      "ageGroups": [
+        {
+          "label": "0-9세",
+          "value": 32044
+        },
+        {
+          "label": "10-19세",
+          "value": 43851
+        },
+        {
+          "label": "20-29세",
+          "value": 55333
+        },
+        {
+          "label": "30-39세",
+          "value": 77376
+        },
+        {
+          "label": "40-49세",
+          "value": 81515
+        },
+        {
+          "label": "50-59세",
+          "value": 75377
+        },
+        {
+          "label": "60-69세",
+          "value": 72142
+        },
+        {
+          "label": "70-79세",
+          "value": 44480
+        },
+        {
+          "label": "80-89세",
+          "value": 15407
+        },
+        {
+          "label": "90-99세",
+          "value": 2468
+        },
+        {
+          "label": "100+",
+          "value": 70
+        }
+      ],
+      "householdComposition": {
+        "totalHouseholds": 223454,
+        "onePerson": 84238,
+        "twoPerson": 54423,
+        "threePerson": 43252,
+        "fourPerson": 33138,
+        "fiveOrMore": 8403
+      },
+      "averageHouseholdSize": 2.24
+    }
+  ]
+}

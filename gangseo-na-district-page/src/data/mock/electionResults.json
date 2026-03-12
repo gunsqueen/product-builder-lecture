@@ -1,0 +1,3348 @@
+{
+  "updatedAt": "2025-06-03",
+  "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+  "items": [
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "city",
+      "scopeCode": "seoul",
+      "scopeName": "서울특별시",
+      "turnout": 0.781,
+      "totalVotes": 5743211,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46.9,
+          "value": 2693566,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.8,
+          "value": 2343230,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.3,
+          "value": 706415,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "city",
+      "scopeCode": "seoul",
+      "scopeName": "서울특별시",
+      "turnout": 0.692,
+      "totalVotes": 4990003,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29.7,
+          "value": 1482031,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.7,
+          "value": 1581831,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.8,
+          "value": 1087821,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.9,
+          "value": 494010,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.9,
+          "value": 344310,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11110",
+      "scopeName": "종로구",
+      "districtCode": "11110",
+      "turnout": 0.71,
+      "totalVotes": 87696,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 44.9,
+          "value": 39376,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 42.9,
+          "value": 37622,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.2,
+          "value": 10699,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11110",
+      "scopeName": "종로구",
+      "districtCode": "11110",
+      "turnout": 0.63,
+      "totalVotes": 74088,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29.7,
+          "value": 22004,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.7,
+          "value": 23486,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.8,
+          "value": 16151,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.9,
+          "value": 7335,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.9,
+          "value": 5112,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11140",
+      "scopeName": "중구",
+      "districtCode": "11140",
+      "turnout": 0.728,
+      "totalVotes": 76006,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 45.5,
+          "value": 34583,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 41.4,
+          "value": 31466,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 13.1,
+          "value": 9957,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11140",
+      "scopeName": "중구",
+      "districtCode": "11140",
+      "turnout": 0.65,
+      "totalVotes": 64169,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29.8,
+          "value": 19122,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.7,
+          "value": 20342,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 22.1,
+          "value": 14181,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.7,
+          "value": 5583,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.7,
+          "value": 4941,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11170",
+      "scopeName": "용산구",
+      "districtCode": "11170",
+      "turnout": 0.746,
+      "totalVotes": 137280,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46.9,
+          "value": 64384,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.8,
+          "value": 56010,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.3,
+          "value": 16885,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11170",
+      "scopeName": "용산구",
+      "districtCode": "11170",
+      "turnout": 0.67,
+      "totalVotes": 115830,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 31.4,
+          "value": 36371,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.4,
+          "value": 36371,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 20.6,
+          "value": 23861,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.8,
+          "value": 11351,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.8,
+          "value": 7876,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11200",
+      "scopeName": "성동구",
+      "districtCode": "11200",
+      "turnout": 0.764,
+      "totalVotes": 191687,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46.1,
+          "value": 88368,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 41.2,
+          "value": 78975,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.7,
+          "value": 24344,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11200",
+      "scopeName": "성동구",
+      "districtCode": "11200",
+      "turnout": 0.69,
+      "totalVotes": 161646,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 28.7,
+          "value": 46392,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32.7,
+          "value": 52858,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.8,
+          "value": 35239,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.9,
+          "value": 14386,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.9,
+          "value": 12770,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11215",
+      "scopeName": "광진구",
+      "districtCode": "11215",
+      "turnout": 0.782,
+      "totalVotes": 236880,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 47.5,
+          "value": 112518,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.6,
+          "value": 96173,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 11.9,
+          "value": 28189,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11215",
+      "scopeName": "광진구",
+      "districtCode": "11215",
+      "turnout": 0.63,
+      "totalVotes": 165816,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29.4,
+          "value": 48750,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.4,
+          "value": 52066,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 22.5,
+          "value": 37309,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.8,
+          "value": 16250,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.9,
+          "value": 11441,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11230",
+      "scopeName": "동대문구",
+      "districtCode": "11230",
+      "turnout": 0.71,
+      "totalVotes": 197316,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 45.4,
+          "value": 89581,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 41.2,
+          "value": 81294,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 13.4,
+          "value": 26440,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11230",
+      "scopeName": "동대문구",
+      "districtCode": "11230",
+      "turnout": 0.65,
+      "totalVotes": 175203,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 30.4,
+          "value": 53262,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32.4,
+          "value": 56766,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 20.6,
+          "value": 36092,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.8,
+          "value": 15418,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.8,
+          "value": 13666,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11260",
+      "scopeName": "중랑구",
+      "districtCode": "11260",
+      "turnout": 0.728,
+      "totalVotes": 235094,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 45.5,
+          "value": 106968,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 42.4,
+          "value": 99680,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.1,
+          "value": 28446,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11260",
+      "scopeName": "중랑구",
+      "districtCode": "11260",
+      "turnout": 0.67,
+      "totalVotes": 208116,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 31.1,
+          "value": 64724,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.1,
+          "value": 64724,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.4,
+          "value": 44537,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.7,
+          "value": 20187,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.7,
+          "value": 13944,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11290",
+      "scopeName": "성북구",
+      "districtCode": "11290",
+      "turnout": 0.746,
+      "totalVotes": 274368,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46,
+          "value": 126209,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 41,
+          "value": 112491,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 13,
+          "value": 35668,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11290",
+      "scopeName": "성북구",
+      "districtCode": "11290",
+      "turnout": 0.69,
+      "totalVotes": 242215,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 28.4,
+          "value": 68789,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32.4,
+          "value": 78478,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 22.5,
+          "value": 54498,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.8,
+          "value": 21315,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.9,
+          "value": 19135,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11305",
+      "scopeName": "강북구",
+      "districtCode": "11305",
+      "turnout": 0.764,
+      "totalVotes": 193429,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 47.5,
+          "value": 91879,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.4,
+          "value": 78145,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.1,
+          "value": 23405,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11305",
+      "scopeName": "강북구",
+      "districtCode": "11305",
+      "turnout": 0.63,
+      "totalVotes": 141463,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 30,
+          "value": 42439,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32,
+          "value": 45268,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21,
+          "value": 29707,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 10,
+          "value": 14146,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7,
+          "value": 9902,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11320",
+      "scopeName": "도봉구",
+      "districtCode": "11320",
+      "turnout": 0.782,
+      "totalVotes": 215460,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46.6,
+          "value": 100404,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.8,
+          "value": 87908,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.6,
+          "value": 27148,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11320",
+      "scopeName": "도봉구",
+      "districtCode": "11320",
+      "turnout": 0.65,
+      "totalVotes": 158517,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 30.1,
+          "value": 47714,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32,
+          "value": 50725,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.4,
+          "value": 33923,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.7,
+          "value": 13791,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.8,
+          "value": 12364,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11350",
+      "scopeName": "노원구",
+      "districtCode": "11350",
+      "turnout": 0.71,
+      "totalVotes": 290058,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 45.4,
+          "value": 131686,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 42.3,
+          "value": 122695,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.3,
+          "value": 35677,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11350",
+      "scopeName": "노원구",
+      "districtCode": "11350",
+      "turnout": 0.67,
+      "totalVotes": 270054,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 30.8,
+          "value": 83177,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 30.8,
+          "value": 83177,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 22.1,
+          "value": 59682,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.6,
+          "value": 25925,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.7,
+          "value": 18094,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11380",
+      "scopeName": "은평구",
+      "districtCode": "11380",
+      "turnout": 0.728,
+      "totalVotes": 284748,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 45.9,
+          "value": 130699,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.8,
+          "value": 116177,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 13.3,
+          "value": 37871,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11380",
+      "scopeName": "은평구",
+      "districtCode": "11380",
+      "turnout": 0.69,
+      "totalVotes": 263742,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29,
+          "value": 76485,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 33,
+          "value": 87035,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21,
+          "value": 55386,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9,
+          "value": 23737,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 8,
+          "value": 21099,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11410",
+      "scopeName": "서대문구",
+      "districtCode": "11410",
+      "turnout": 0.746,
+      "totalVotes": 193344,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46,
+          "value": 88938,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 42,
+          "value": 81204,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12,
+          "value": 23201,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11410",
+      "scopeName": "서대문구",
+      "districtCode": "11410",
+      "turnout": 0.63,
+      "totalVotes": 148029,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29.7,
+          "value": 43965,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.7,
+          "value": 46925,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.8,
+          "value": 32270,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.9,
+          "value": 14655,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.9,
+          "value": 10214,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11440",
+      "scopeName": "마포구",
+      "districtCode": "11440",
+      "turnout": 0.764,
+      "totalVotes": 239592,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46.5,
+          "value": 111410,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.6,
+          "value": 97274,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.9,
+          "value": 30907,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11440",
+      "scopeName": "마포구",
+      "districtCode": "11440",
+      "turnout": 0.65,
+      "totalVotes": 184164,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29.8,
+          "value": 54881,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.7,
+          "value": 58380,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 22.1,
+          "value": 40700,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.7,
+          "value": 16022,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.7,
+          "value": 14181,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11470",
+      "scopeName": "양천구",
+      "districtCode": "11470",
+      "turnout": 0.782,
+      "totalVotes": 303450,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 48,
+          "value": 145656,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40,
+          "value": 121380,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12,
+          "value": 36414,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11470",
+      "scopeName": "양천구",
+      "districtCode": "11470",
+      "turnout": 0.67,
+      "totalVotes": 234090,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 31.4,
+          "value": 73504,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.4,
+          "value": 73504,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 20.6,
+          "value": 48223,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.8,
+          "value": 22941,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.8,
+          "value": 15918,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11500",
+      "scopeName": "강서구",
+      "districtCode": "11500",
+      "turnout": 0.71,
+      "totalVotes": 322016,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 44.4,
+          "value": 142975,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 42.4,
+          "value": 136535,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 13.2,
+          "value": 42506,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11500",
+      "scopeName": "강서구",
+      "districtCode": "11500",
+      "turnout": 0.69,
+      "totalVotes": 313688,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 28.7,
+          "value": 90028,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32.7,
+          "value": 102576,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.8,
+          "value": 68384,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.9,
+          "value": 27918,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.9,
+          "value": 24781,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11530",
+      "scopeName": "구로구",
+      "districtCode": "11530",
+      "turnout": 0.728,
+      "totalVotes": 249978,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 45.9,
+          "value": 114740,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 41.8,
+          "value": 104491,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.3,
+          "value": 30747,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11530",
+      "scopeName": "구로구",
+      "districtCode": "11530",
+      "turnout": 0.63,
+      "totalVotes": 200802,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29.4,
+          "value": 59036,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.4,
+          "value": 63052,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 22.5,
+          "value": 45180,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.8,
+          "value": 19679,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.9,
+          "value": 13855,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11545",
+      "scopeName": "금천구",
+      "districtCode": "11545",
+      "turnout": 0.746,
+      "totalVotes": 146496,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46.5,
+          "value": 68121,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.4,
+          "value": 59184,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 13.1,
+          "value": 19191,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11545",
+      "scopeName": "금천구",
+      "districtCode": "11545",
+      "turnout": 0.65,
+      "totalVotes": 117884,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 30.4,
+          "value": 35837,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32.4,
+          "value": 38194,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 20.6,
+          "value": 24284,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.8,
+          "value": 10374,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.8,
+          "value": 9195,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11560",
+      "scopeName": "영등포구",
+      "districtCode": "11560",
+      "turnout": 0.764,
+      "totalVotes": 252188,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46.5,
+          "value": 117267,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 41.6,
+          "value": 104910,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 11.9,
+          "value": 30010,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11560",
+      "scopeName": "영등포구",
+      "districtCode": "11560",
+      "turnout": 0.67,
+      "totalVotes": 203256,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 31.1,
+          "value": 63213,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.1,
+          "value": 63213,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.4,
+          "value": 43497,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.7,
+          "value": 19716,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.7,
+          "value": 13618,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11590",
+      "scopeName": "동작구",
+      "districtCode": "11590",
+      "turnout": 0.782,
+      "totalVotes": 270410,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 47.1,
+          "value": 127363,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.2,
+          "value": 108705,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.7,
+          "value": 34342,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11590",
+      "scopeName": "동작구",
+      "districtCode": "11590",
+      "turnout": 0.69,
+      "totalVotes": 218259,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 28.4,
+          "value": 61986,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32.4,
+          "value": 70716,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 22.5,
+          "value": 49108,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.8,
+          "value": 19207,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.9,
+          "value": 17242,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11620",
+      "scopeName": "관악구",
+      "districtCode": "11620",
+      "turnout": 0.71,
+      "totalVotes": 276022,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 45.8,
+          "value": 126418,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 41.7,
+          "value": 115101,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.5,
+          "value": 34503,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11620",
+      "scopeName": "관악구",
+      "districtCode": "11620",
+      "turnout": 0.63,
+      "totalVotes": 233191,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 30,
+          "value": 69957,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32,
+          "value": 74621,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21,
+          "value": 48970,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 10,
+          "value": 23319,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7,
+          "value": 16323,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11650",
+      "scopeName": "서초구",
+      "districtCode": "11650",
+      "turnout": 0.728,
+      "totalVotes": 251808,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 45,
+          "value": 113314,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 42,
+          "value": 105759,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 13,
+          "value": 32735,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11650",
+      "scopeName": "서초구",
+      "districtCode": "11650",
+      "turnout": 0.65,
+      "totalVotes": 212592,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 30.1,
+          "value": 63990,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32,
+          "value": 68029,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.4,
+          "value": 45495,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.7,
+          "value": 18496,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.8,
+          "value": 16582,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11680",
+      "scopeName": "강남구",
+      "districtCode": "11680",
+      "turnout": 0.746,
+      "totalVotes": 337536,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46.5,
+          "value": 156954,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 41.4,
+          "value": 139740,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.1,
+          "value": 40842,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11680",
+      "scopeName": "강남구",
+      "districtCode": "11680",
+      "turnout": 0.67,
+      "totalVotes": 284796,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 30.8,
+          "value": 87717,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 30.8,
+          "value": 87717,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 22.1,
+          "value": 62940,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.6,
+          "value": 27340,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.7,
+          "value": 19081,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11710",
+      "scopeName": "송파구",
+      "districtCode": "11710",
+      "turnout": 0.764,
+      "totalVotes": 437577,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 47,
+          "value": 205661,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40,
+          "value": 175031,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 13,
+          "value": 56885,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11710",
+      "scopeName": "송파구",
+      "districtCode": "11710",
+      "turnout": 0.69,
+      "totalVotes": 369001,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29,
+          "value": 107010,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 33,
+          "value": 121770,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21,
+          "value": 77490,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9,
+          "value": 33210,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 8,
+          "value": 29520,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "district",
+      "scopeCode": "11740",
+      "scopeName": "강동구",
+      "districtCode": "11740",
+      "turnout": 0.782,
+      "totalVotes": 324520,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 47.1,
+          "value": 152849,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 41.2,
+          "value": 133702,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 11.7,
+          "value": 37969,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "district",
+      "scopeCode": "11740",
+      "scopeName": "강동구",
+      "districtCode": "11740",
+      "turnout": 0.63,
+      "totalVotes": 227164,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29.7,
+          "value": 67468,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.7,
+          "value": 72011,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.8,
+          "value": 49522,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.9,
+          "value": 22489,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.9,
+          "value": 15674,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "dong",
+      "scopeCode": "11500010",
+      "scopeName": "염창동",
+      "districtCode": "11500",
+      "turnout": 0.69,
+      "totalVotes": 23392,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46.9,
+          "value": 10971,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.8,
+          "value": 9544,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.3,
+          "value": 2877,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "dong",
+      "scopeCode": "11500010",
+      "scopeName": "염창동",
+      "districtCode": "11500",
+      "turnout": 0.61,
+      "totalVotes": 19288,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 31.4,
+          "value": 6056,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.4,
+          "value": 6056,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 20.6,
+          "value": 3973,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.8,
+          "value": 1890,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.8,
+          "value": 1312,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "dong",
+      "scopeCode": "11500020",
+      "scopeName": "화곡1동",
+      "districtCode": "11500",
+      "turnout": 0.71,
+      "totalVotes": 13500,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46.1,
+          "value": 6224,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 41.2,
+          "value": 5562,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.7,
+          "value": 1715,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "dong",
+      "scopeCode": "11500020",
+      "scopeName": "화곡1동",
+      "districtCode": "11500",
+      "turnout": 0.63,
+      "totalVotes": 11157,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 28.7,
+          "value": 3202,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32.7,
+          "value": 3648,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.8,
+          "value": 2432,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.9,
+          "value": 993,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.9,
+          "value": 881,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "dong",
+      "scopeCode": "11500030",
+      "scopeName": "가양1동",
+      "districtCode": "11500",
+      "turnout": 0.73,
+      "totalVotes": 32616,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 47.5,
+          "value": 15493,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.6,
+          "value": 13242,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 11.9,
+          "value": 3881,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "dong",
+      "scopeCode": "11500030",
+      "scopeName": "가양1동",
+      "districtCode": "11500",
+      "turnout": 0.65,
+      "totalVotes": 27010,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29.4,
+          "value": 7941,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.4,
+          "value": 8481,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 22.5,
+          "value": 6077,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.8,
+          "value": 2647,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.9,
+          "value": 1864,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "dong",
+      "scopeCode": "11500040",
+      "scopeName": "방화3동",
+      "districtCode": "11500",
+      "turnout": 0.75,
+      "totalVotes": 12718,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 45.4,
+          "value": 5774,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 41.2,
+          "value": 5240,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 13.4,
+          "value": 1704,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "dong",
+      "scopeCode": "11500040",
+      "scopeName": "방화3동",
+      "districtCode": "11500",
+      "turnout": 0.67,
+      "totalVotes": 10552,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 30.4,
+          "value": 3208,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32.4,
+          "value": 3419,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 20.6,
+          "value": 2174,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.8,
+          "value": 929,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.8,
+          "value": 823,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "dong",
+      "scopeCode": "11440010",
+      "scopeName": "공덕동",
+      "districtCode": "11440",
+      "turnout": 0.69,
+      "totalVotes": 18001,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 45.5,
+          "value": 8190,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 42.4,
+          "value": 7632,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.1,
+          "value": 2178,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "dong",
+      "scopeCode": "11440010",
+      "scopeName": "공덕동",
+      "districtCode": "11440",
+      "turnout": 0.61,
+      "totalVotes": 14843,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 31.1,
+          "value": 4616,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.1,
+          "value": 4616,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.4,
+          "value": 3176,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.7,
+          "value": 1440,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.7,
+          "value": 994,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "dong",
+      "scopeCode": "11440020",
+      "scopeName": "합정동",
+      "districtCode": "11440",
+      "turnout": 0.71,
+      "totalVotes": 14901,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46,
+          "value": 6854,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 41,
+          "value": 6109,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 13,
+          "value": 1937,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "dong",
+      "scopeCode": "11440020",
+      "scopeName": "합정동",
+      "districtCode": "11440",
+      "turnout": 0.63,
+      "totalVotes": 12315,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 28.4,
+          "value": 3497,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32.4,
+          "value": 3990,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 22.5,
+          "value": 2771,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.8,
+          "value": 1084,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.9,
+          "value": 973,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "dong",
+      "scopeCode": "11440030",
+      "scopeName": "서교동",
+      "districtCode": "11440",
+      "turnout": 0.73,
+      "totalVotes": 17798,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 47.5,
+          "value": 8454,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.4,
+          "value": 7190,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.1,
+          "value": 2154,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "dong",
+      "scopeCode": "11440030",
+      "scopeName": "서교동",
+      "districtCode": "11440",
+      "turnout": 0.65,
+      "totalVotes": 14739,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 30,
+          "value": 4422,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32,
+          "value": 4716,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21,
+          "value": 3095,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 10,
+          "value": 1474,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7,
+          "value": 1032,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "dong",
+      "scopeCode": "11440040",
+      "scopeName": "상암동",
+      "districtCode": "11440",
+      "turnout": 0.75,
+      "totalVotes": 25117,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46.6,
+          "value": 11705,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.8,
+          "value": 10248,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.6,
+          "value": 3165,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "dong",
+      "scopeCode": "11440040",
+      "scopeName": "상암동",
+      "districtCode": "11440",
+      "turnout": 0.67,
+      "totalVotes": 20838,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 30.1,
+          "value": 6272,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 32,
+          "value": 6668,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.4,
+          "value": 4459,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.7,
+          "value": 1813,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.8,
+          "value": 1625,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "dong",
+      "scopeCode": "11710010",
+      "scopeName": "잠실본동",
+      "districtCode": "11710",
+      "turnout": 0.69,
+      "totalVotes": 12529,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 45.4,
+          "value": 5688,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 42.3,
+          "value": 5300,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.3,
+          "value": 1541,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "dong",
+      "scopeCode": "11710010",
+      "scopeName": "잠실본동",
+      "districtCode": "11710",
+      "turnout": 0.61,
+      "totalVotes": 10331,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 30.8,
+          "value": 3182,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 30.8,
+          "value": 3182,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 22.1,
+          "value": 2283,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.6,
+          "value": 992,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.7,
+          "value": 692,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "dong",
+      "scopeCode": "11710020",
+      "scopeName": "잠실2동",
+      "districtCode": "11710",
+      "turnout": 0.71,
+      "totalVotes": 11428,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 45.9,
+          "value": 5245,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.8,
+          "value": 4663,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 13.3,
+          "value": 1520,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "dong",
+      "scopeCode": "11710020",
+      "scopeName": "잠실2동",
+      "districtCode": "11710",
+      "turnout": 0.63,
+      "totalVotes": 9445,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29,
+          "value": 2739,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 33,
+          "value": 3117,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21,
+          "value": 1983,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9,
+          "value": 850,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 8,
+          "value": 756,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "dong",
+      "scopeCode": "11710030",
+      "scopeName": "문정1동",
+      "districtCode": "11710",
+      "turnout": 0.73,
+      "totalVotes": 19354,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46,
+          "value": 8903,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 42,
+          "value": 8129,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12,
+          "value": 2322,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "dong",
+      "scopeCode": "11710030",
+      "scopeName": "문정1동",
+      "districtCode": "11710",
+      "turnout": 0.65,
+      "totalVotes": 16027,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29.7,
+          "value": 4760,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.7,
+          "value": 5081,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 21.8,
+          "value": 3494,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 9.9,
+          "value": 1587,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 6.9,
+          "value": 1106,
+          "color": "#16a34a"
+        }
+      ]
+    },
+    {
+      "electionId": "presidential-2025",
+      "electionName": "제21대 대통령선거",
+      "electionType": "presidential",
+      "resultMode": "candidate",
+      "scopeLevel": "dong",
+      "scopeCode": "11710040",
+      "scopeName": "위례동",
+      "districtCode": "11710",
+      "turnout": 0.75,
+      "totalVotes": 24084,
+      "updatedAt": "2025-06-03",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "이재명",
+          "party": "더불어민주당",
+          "share": 46.5,
+          "value": 11199,
+          "color": "#2563eb"
+        },
+        {
+          "label": "김문수",
+          "party": "국민의힘",
+          "share": 40.6,
+          "value": 9778,
+          "color": "#dc2626"
+        },
+        {
+          "label": "이준석",
+          "party": "개혁신당",
+          "share": 12.9,
+          "value": 3107,
+          "color": "#f97316"
+        }
+      ]
+    },
+    {
+      "electionId": "assembly-pr-2024",
+      "electionName": "제22대 국회의원선거 비례대표",
+      "electionType": "assembly",
+      "resultMode": "party",
+      "scopeLevel": "dong",
+      "scopeCode": "11710040",
+      "scopeName": "위례동",
+      "districtCode": "11710",
+      "turnout": 0.67,
+      "totalVotes": 19981,
+      "updatedAt": "2024-04-10",
+      "source": "중앙선거관리위원회 구조를 반영한 mock dataset",
+      "results": [
+        {
+          "label": "더불어민주연합",
+          "party": "더불어민주연합",
+          "share": 29.8,
+          "value": 5954,
+          "color": "#2563eb"
+        },
+        {
+          "label": "국민의미래",
+          "party": "국민의미래",
+          "share": 31.7,
+          "value": 6334,
+          "color": "#dc2626"
+        },
+        {
+          "label": "조국혁신당",
+          "party": "조국혁신당",
+          "share": 22.1,
+          "value": 4416,
+          "color": "#0f172a"
+        },
+        {
+          "label": "개혁신당",
+          "party": "개혁신당",
+          "share": 8.7,
+          "value": 1738,
+          "color": "#f97316"
+        },
+        {
+          "label": "녹색정의당",
+          "party": "녹색정의당",
+          "share": 7.7,
+          "value": 1539,
+          "color": "#16a34a"
+        }
+      ]
+    }
+  ]
+}

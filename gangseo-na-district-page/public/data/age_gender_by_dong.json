@@ -1,0 +1,1426 @@
+{
+  "updatedAt": "2026-02",
+  "source": "변환 스크립트 생성 (age_population_month_2026_02.csv)",
+  "items": [
+    {
+      "dongName": "염창동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 1559,
+          "female": 1516,
+          "total": 3075
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 2244,
+          "female": 2048,
+          "total": 4292
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 2149,
+          "female": 2733,
+          "total": 4882
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 3415,
+          "female": 4103,
+          "total": 7518
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 3438,
+          "female": 3599,
+          "total": 7037
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 3056,
+          "female": 3137,
+          "total": 6193
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 2165,
+          "female": 2424,
+          "total": 4589
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 1162,
+          "female": 1305,
+          "total": 2467
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 371,
+          "female": 468,
+          "total": 839
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 40,
+          "female": 105,
+          "total": 145
+        },
+        {
+          "ageGroup": "100+",
+          "male": 0,
+          "female": 2,
+          "total": 2
+        }
+      ]
+    },
+    {
+      "dongName": "등촌1동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 614,
+          "female": 551,
+          "total": 1165
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 593,
+          "female": 475,
+          "total": 1068
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 1640,
+          "female": 2549,
+          "total": 4189
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 3174,
+          "female": 3719,
+          "total": 6893
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 1822,
+          "female": 1730,
+          "total": 3552
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 1455,
+          "female": 1576,
+          "total": 3031
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1210,
+          "female": 1393,
+          "total": 2603
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 645,
+          "female": 792,
+          "total": 1437
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 259,
+          "female": 464,
+          "total": 723
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 59,
+          "female": 150,
+          "total": 209
+        },
+        {
+          "ageGroup": "100+",
+          "male": 4,
+          "female": 3,
+          "total": 7
+        }
+      ]
+    },
+    {
+      "dongName": "등촌2동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 453,
+          "female": 362,
+          "total": 815
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 739,
+          "female": 579,
+          "total": 1318
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 1200,
+          "female": 1238,
+          "total": 2438
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 1650,
+          "female": 1666,
+          "total": 3316
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 1304,
+          "female": 1331,
+          "total": 2635
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 1382,
+          "female": 1540,
+          "total": 2922
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1364,
+          "female": 1611,
+          "total": 2975
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 881,
+          "female": 950,
+          "total": 1831
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 244,
+          "female": 350,
+          "total": 594
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 29,
+          "female": 89,
+          "total": 118
+        },
+        {
+          "ageGroup": "100+",
+          "male": 0,
+          "female": 2,
+          "total": 2
+        }
+      ]
+    },
+    {
+      "dongName": "등촌3동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 654,
+          "female": 668,
+          "total": 1322
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 760,
+          "female": 730,
+          "total": 1490
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 1352,
+          "female": 1414,
+          "total": 2766
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 2301,
+          "female": 2318,
+          "total": 4619
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 1769,
+          "female": 1766,
+          "total": 3535
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 1764,
+          "female": 2109,
+          "total": 3873
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 2508,
+          "female": 2861,
+          "total": 5369
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 1609,
+          "female": 1879,
+          "total": 3488
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 529,
+          "female": 1095,
+          "total": 1624
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 86,
+          "female": 258,
+          "total": 344
+        },
+        {
+          "ageGroup": "100+",
+          "male": 1,
+          "female": 12,
+          "total": 13
+        }
+      ]
+    },
+    {
+      "dongName": "화곡1동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 814,
+          "female": 778,
+          "total": 1592
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 1077,
+          "female": 1077,
+          "total": 2154
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 3332,
+          "female": 4406,
+          "total": 7738
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 5303,
+          "female": 4793,
+          "total": 10096
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 3667,
+          "female": 3277,
+          "total": 6944
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 3443,
+          "female": 3588,
+          "total": 7031
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 3289,
+          "female": 3922,
+          "total": 7211
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 2106,
+          "female": 2619,
+          "total": 4725
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 745,
+          "female": 1004,
+          "total": 1749
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 56,
+          "female": 154,
+          "total": 210
+        },
+        {
+          "ageGroup": "100+",
+          "male": 0,
+          "female": 4,
+          "total": 4
+        }
+      ]
+    },
+    {
+      "dongName": "화곡2동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 324,
+          "female": 336,
+          "total": 660
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 612,
+          "female": 578,
+          "total": 1190
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 1028,
+          "female": 1076,
+          "total": 2104
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 1390,
+          "female": 1218,
+          "total": 2608
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 1266,
+          "female": 1244,
+          "total": 2510
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 1314,
+          "female": 1482,
+          "total": 2796
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1126,
+          "female": 1442,
+          "total": 2568
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 669,
+          "female": 905,
+          "total": 1574
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 259,
+          "female": 345,
+          "total": 604
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 14,
+          "female": 46,
+          "total": 60
+        },
+        {
+          "ageGroup": "100+",
+          "male": 1,
+          "female": 3,
+          "total": 4
+        }
+      ]
+    },
+    {
+      "dongName": "화곡3동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 412,
+          "female": 363,
+          "total": 775
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 824,
+          "female": 747,
+          "total": 1571
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 1170,
+          "female": 1427,
+          "total": 2597
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 1468,
+          "female": 1504,
+          "total": 2972
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 1417,
+          "female": 1475,
+          "total": 2892
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 1479,
+          "female": 1641,
+          "total": 3120
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1515,
+          "female": 1754,
+          "total": 3269
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 1058,
+          "female": 1275,
+          "total": 2333
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 382,
+          "female": 462,
+          "total": 844
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 30,
+          "female": 94,
+          "total": 124
+        },
+        {
+          "ageGroup": "100+",
+          "male": 0,
+          "female": 1,
+          "total": 1
+        }
+      ]
+    },
+    {
+      "dongName": "화곡4동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 333,
+          "female": 284,
+          "total": 617
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 615,
+          "female": 536,
+          "total": 1151
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 1054,
+          "female": 1098,
+          "total": 2152
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 1465,
+          "female": 1221,
+          "total": 2686
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 1489,
+          "female": 1373,
+          "total": 2862
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 1500,
+          "female": 1674,
+          "total": 3174
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1464,
+          "female": 1781,
+          "total": 3245
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 942,
+          "female": 1203,
+          "total": 2145
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 324,
+          "female": 510,
+          "total": 834
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 33,
+          "female": 84,
+          "total": 117
+        },
+        {
+          "ageGroup": "100+",
+          "male": 0,
+          "female": 1,
+          "total": 1
+        }
+      ]
+    },
+    {
+      "dongName": "화곡본동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 576,
+          "female": 483,
+          "total": 1059
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 1049,
+          "female": 991,
+          "total": 2040
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 2225,
+          "female": 2608,
+          "total": 4833
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 3095,
+          "female": 2854,
+          "total": 5949
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 2400,
+          "female": 2286,
+          "total": 4686
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 2395,
+          "female": 2451,
+          "total": 4846
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 2003,
+          "female": 2439,
+          "total": 4442
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 1188,
+          "female": 1548,
+          "total": 2736
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 404,
+          "female": 604,
+          "total": 1008
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 39,
+          "female": 121,
+          "total": 160
+        },
+        {
+          "ageGroup": "100+",
+          "male": 0,
+          "female": 4,
+          "total": 4
+        }
+      ]
+    },
+    {
+      "dongName": "화곡6동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 671,
+          "female": 664,
+          "total": 1335
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 713,
+          "female": 641,
+          "total": 1354
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 1534,
+          "female": 2232,
+          "total": 3766
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 2475,
+          "female": 2582,
+          "total": 5057
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 1836,
+          "female": 1668,
+          "total": 3504
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 1738,
+          "female": 1790,
+          "total": 3528
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1736,
+          "female": 2005,
+          "total": 3741
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 1030,
+          "female": 1209,
+          "total": 2239
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 318,
+          "female": 400,
+          "total": 718
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 31,
+          "female": 102,
+          "total": 133
+        },
+        {
+          "ageGroup": "100+",
+          "male": 0,
+          "female": 5,
+          "total": 5
+        }
+      ]
+    },
+    {
+      "dongName": "화곡8동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 362,
+          "female": 328,
+          "total": 690
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 631,
+          "female": 639,
+          "total": 1270
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 1430,
+          "female": 1570,
+          "total": 3000
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 1954,
+          "female": 1683,
+          "total": 3637
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 1665,
+          "female": 1528,
+          "total": 3193
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 1724,
+          "female": 1834,
+          "total": 3558
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1480,
+          "female": 2017,
+          "total": 3497
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 1060,
+          "female": 1366,
+          "total": 2426
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 426,
+          "female": 546,
+          "total": 972
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 27,
+          "female": 71,
+          "total": 98
+        },
+        {
+          "ageGroup": "100+",
+          "male": 1,
+          "female": 1,
+          "total": 2
+        }
+      ]
+    },
+    {
+      "dongName": "가양1동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 620,
+          "female": 587,
+          "total": 1207
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 816,
+          "female": 719,
+          "total": 1535
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 2262,
+          "female": 4812,
+          "total": 7074
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 4252,
+          "female": 4946,
+          "total": 9198
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 2250,
+          "female": 2235,
+          "total": 4485
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 1964,
+          "female": 2012,
+          "total": 3976
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1687,
+          "female": 1855,
+          "total": 3542
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 829,
+          "female": 859,
+          "total": 1688
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 267,
+          "female": 320,
+          "total": 587
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 24,
+          "female": 77,
+          "total": 101
+        },
+        {
+          "ageGroup": "100+",
+          "male": 1,
+          "female": 5,
+          "total": 6
+        }
+      ]
+    },
+    {
+      "dongName": "가양2동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 203,
+          "female": 173,
+          "total": 376
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 177,
+          "female": 195,
+          "total": 372
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 506,
+          "female": 585,
+          "total": 1091
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 1066,
+          "female": 1070,
+          "total": 2136
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 670,
+          "female": 650,
+          "total": 1320
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 689,
+          "female": 733,
+          "total": 1422
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1326,
+          "female": 1485,
+          "total": 2811
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 1082,
+          "female": 1161,
+          "total": 2243
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 318,
+          "female": 592,
+          "total": 910
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 43,
+          "female": 157,
+          "total": 200
+        },
+        {
+          "ageGroup": "100+",
+          "male": 0,
+          "female": 4,
+          "total": 4
+        }
+      ]
+    },
+    {
+      "dongName": "가양3동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 298,
+          "female": 251,
+          "total": 549
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 184,
+          "female": 153,
+          "total": 337
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 471,
+          "female": 559,
+          "total": 1030
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 1366,
+          "female": 1483,
+          "total": 2849
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 906,
+          "female": 771,
+          "total": 1677
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 806,
+          "female": 839,
+          "total": 1645
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1067,
+          "female": 1353,
+          "total": 2420
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 778,
+          "female": 1124,
+          "total": 1902
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 275,
+          "female": 552,
+          "total": 827
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 33,
+          "female": 87,
+          "total": 120
+        },
+        {
+          "ageGroup": "100+",
+          "male": 0,
+          "female": 4,
+          "total": 4
+        }
+      ]
+    },
+    {
+      "dongName": "발산1동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 1031,
+          "female": 984,
+          "total": 2015
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 2228,
+          "female": 2270,
+          "total": 4498
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 1958,
+          "female": 2109,
+          "total": 4067
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 1865,
+          "female": 1949,
+          "total": 3814
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 2610,
+          "female": 3034,
+          "total": 5644
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 2989,
+          "female": 3188,
+          "total": 6177
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1956,
+          "female": 2448,
+          "total": 4404
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 1147,
+          "female": 1550,
+          "total": 2697
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 425,
+          "female": 670,
+          "total": 1095
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 41,
+          "female": 157,
+          "total": 198
+        },
+        {
+          "ageGroup": "100+",
+          "male": 1,
+          "female": 4,
+          "total": 5
+        }
+      ]
+    },
+    {
+      "dongName": "우장산동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 1319,
+          "female": 1353,
+          "total": 2672
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 2564,
+          "female": 2724,
+          "total": 5288
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 2352,
+          "female": 2954,
+          "total": 5306
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 2570,
+          "female": 2773,
+          "total": 5343
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 3610,
+          "female": 4070,
+          "total": 7680
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 3648,
+          "female": 3670,
+          "total": 7318
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 2441,
+          "female": 2823,
+          "total": 5264
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 1621,
+          "female": 1869,
+          "total": 3490
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 524,
+          "female": 611,
+          "total": 1135
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 50,
+          "female": 113,
+          "total": 163
+        },
+        {
+          "ageGroup": "100+",
+          "male": 1,
+          "female": 8,
+          "total": 9
+        }
+      ]
+    },
+    {
+      "dongName": "공항동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 1086,
+          "female": 1080,
+          "total": 2166
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 1295,
+          "female": 1240,
+          "total": 2535
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 1647,
+          "female": 1664,
+          "total": 3311
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 2435,
+          "female": 2229,
+          "total": 4664
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 2718,
+          "female": 2361,
+          "total": 5079
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 2068,
+          "female": 1969,
+          "total": 4037
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1716,
+          "female": 1857,
+          "total": 3573
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 987,
+          "female": 1185,
+          "total": 2172
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 372,
+          "female": 479,
+          "total": 851
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 47,
+          "female": 116,
+          "total": 163
+        },
+        {
+          "ageGroup": "100+",
+          "male": 0,
+          "female": 4,
+          "total": 4
+        }
+      ]
+    },
+    {
+      "dongName": "방화1동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 1330,
+          "female": 1246,
+          "total": 2576
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 2040,
+          "female": 2039,
+          "total": 4079
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 1995,
+          "female": 2103,
+          "total": 4098
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 2629,
+          "female": 2719,
+          "total": 5348
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 3194,
+          "female": 3289,
+          "total": 6483
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 3141,
+          "female": 3111,
+          "total": 6252
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 2728,
+          "female": 3144,
+          "total": 5872
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 1748,
+          "female": 1956,
+          "total": 3704
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 611,
+          "female": 897,
+          "total": 1508
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 82,
+          "female": 170,
+          "total": 252
+        },
+        {
+          "ageGroup": "100+",
+          "male": 2,
+          "female": 6,
+          "total": 8
+        }
+      ]
+    },
+    {
+      "dongName": "방화2동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 444,
+          "female": 374,
+          "total": 818
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 624,
+          "female": 570,
+          "total": 1194
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 1298,
+          "female": 1426,
+          "total": 2724
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 2123,
+          "female": 1886,
+          "total": 4009
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 1593,
+          "female": 1353,
+          "total": 2946
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 1711,
+          "female": 1580,
+          "total": 3291
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1787,
+          "female": 1994,
+          "total": 3781
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 1135,
+          "female": 1426,
+          "total": 2561
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 464,
+          "female": 725,
+          "total": 1189
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 49,
+          "female": 130,
+          "total": 179
+        },
+        {
+          "ageGroup": "100+",
+          "male": 3,
+          "female": 3,
+          "total": 6
+        }
+      ]
+    },
+    {
+      "dongName": "방화3동",
+      "bands": [
+        {
+          "ageGroup": "0-9세",
+          "male": 468,
+          "female": 437,
+          "total": 905
+        },
+        {
+          "ageGroup": "10-19세",
+          "male": 599,
+          "female": 604,
+          "total": 1203
+        },
+        {
+          "ageGroup": "20-29세",
+          "male": 872,
+          "female": 866,
+          "total": 1738
+        },
+        {
+          "ageGroup": "30-39세",
+          "male": 1662,
+          "female": 1576,
+          "total": 3238
+        },
+        {
+          "ageGroup": "40-49세",
+          "male": 1478,
+          "female": 1501,
+          "total": 2979
+        },
+        {
+          "ageGroup": "50-59세",
+          "male": 1578,
+          "female": 1608,
+          "total": 3186
+        },
+        {
+          "ageGroup": "60-69세",
+          "male": 1708,
+          "female": 2013,
+          "total": 3721
+        },
+        {
+          "ageGroup": "70-79세",
+          "male": 1296,
+          "female": 1556,
+          "total": 2852
+        },
+        {
+          "ageGroup": "80-89세",
+          "male": 461,
+          "female": 750,
+          "total": 1211
+        },
+        {
+          "ageGroup": "90-99세",
+          "male": 52,
+          "female": 175,
+          "total": 227
+        },
+        {
+          "ageGroup": "100+",
+          "male": 1,
+          "female": 7,
+          "total": 8
+        }
+      ]
+    }
+  ]
+}

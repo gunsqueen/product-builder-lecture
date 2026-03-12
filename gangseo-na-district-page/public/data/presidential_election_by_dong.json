@@ -1,0 +1,807 @@
+{
+  "updatedAt": "2025-06-03",
+  "source": "변환 스크립트 생성 (presidential_21.xlsx)",
+  "electionType": "presidential",
+  "items": [
+    {
+      "dongName": "가양1동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7642066122382992,
+      "totalElectors": 24742,
+      "validVotes": 18728,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 8011,
+          "voteShare": 42.8
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 8146,
+          "voteShare": 43.5
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 2309,
+          "voteShare": 12.3
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 235,
+          "voteShare": 1.3
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 27,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "가양2동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7892010038047438,
+      "totalElectors": 12353,
+      "validVotes": 9676,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 4539,
+          "voteShare": 46.9
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 4272,
+          "voteShare": 44.2
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 747,
+          "voteShare": 7.7
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 106,
+          "voteShare": 1.1
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 12,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "가양3동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7998546159437848,
+      "totalElectors": 12381,
+      "validVotes": 9818,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 4714,
+          "voteShare": 48
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 4127,
+          "voteShare": 42
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 864,
+          "voteShare": 8.8
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 103,
+          "voteShare": 1
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 10,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "공항동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7563052282768777,
+      "totalElectors": 21728,
+      "validVotes": 16319,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 8101,
+          "voteShare": 49.6
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 6522,
+          "voteShare": 40
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 1514,
+          "voteShare": 9.3
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 163,
+          "voteShare": 1
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 19,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "등촌1동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7847263681592039,
+      "totalElectors": 20100,
+      "validVotes": 15595,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 7318,
+          "voteShare": 46.9
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 6107,
+          "voteShare": 39.2
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 1938,
+          "voteShare": 12.4
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 218,
+          "voteShare": 1.4
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 14,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "등촌2동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7851585485452762,
+      "totalElectors": 15295,
+      "validVotes": 11931,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 5392,
+          "voteShare": 45.2
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 5300,
+          "voteShare": 44.4
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 1067,
+          "voteShare": 8.9
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 160,
+          "voteShare": 1.3
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 12,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "등촌3동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7965097662504003,
+      "totalElectors": 24984,
+      "validVotes": 19745,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 9404,
+          "voteShare": 47.6
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 8331,
+          "voteShare": 42.2
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 1762,
+          "voteShare": 8.9
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 231,
+          "voteShare": 1.2
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 17,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "발산1동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.8228752131893121,
+      "totalElectors": 28144,
+      "validVotes": 22994,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 12519,
+          "voteShare": 54.4
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 8177,
+          "voteShare": 35.6
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 1977,
+          "voteShare": 8.6
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 293,
+          "voteShare": 1.3
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 28,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "방화1동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.8055582053483418,
+      "totalElectors": 31449,
+      "validVotes": 25169,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 12458,
+          "voteShare": 49.5
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 10158,
+          "voteShare": 40.4
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 2276,
+          "voteShare": 9
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 259,
+          "voteShare": 1
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 18,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "방화2동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7535909259553718,
+      "totalElectors": 18867,
+      "validVotes": 14108,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 6590,
+          "voteShare": 46.7
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 6125,
+          "voteShare": 43.4
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 1248,
+          "voteShare": 8.8
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 128,
+          "voteShare": 0.9
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 17,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "방화3동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7921788317197868,
+      "totalElectors": 18386,
+      "validVotes": 14469,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 6854,
+          "voteShare": 47.4
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 6349,
+          "voteShare": 43.9
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 1084,
+          "voteShare": 7.5
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 162,
+          "voteShare": 1.1
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 20,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "염창동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.8223016882714989,
+      "totalElectors": 29083,
+      "validVotes": 23769,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 11379,
+          "voteShare": 47.9
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 9617,
+          "voteShare": 40.5
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 2418,
+          "voteShare": 10.2
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 339,
+          "voteShare": 1.4
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 16,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "우장산동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7898206660973527,
+      "totalElectors": 29275,
+      "validVotes": 22983,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 10318,
+          "voteShare": 44.9
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 10358,
+          "voteShare": 45.1
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 2043,
+          "voteShare": 8.9
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 243,
+          "voteShare": 1.1
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 21,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "화곡1동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.6956224709653687,
+      "totalElectors": 38058,
+      "validVotes": 26239,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 12847,
+          "voteShare": 49
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 10565,
+          "voteShare": 40.3
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 2506,
+          "voteShare": 9.6
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 290,
+          "voteShare": 1.1
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 31,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "화곡2동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7241247807184806,
+      "totalElectors": 13111,
+      "validVotes": 9415,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 4951,
+          "voteShare": 52.6
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 3618,
+          "voteShare": 38.4
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 734,
+          "voteShare": 7.8
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 101,
+          "voteShare": 1.1
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 11,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "화곡3동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.8204301075268817,
+      "totalElectors": 19530,
+      "validVotes": 15900,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 7828,
+          "voteShare": 49.2
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 6447,
+          "voteShare": 40.5
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 1406,
+          "voteShare": 8.8
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 202,
+          "voteShare": 1.3
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 17,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "화곡4동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7355329949238578,
+      "totalElectors": 15760,
+      "validVotes": 11488,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 5994,
+          "voteShare": 52.2
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 4519,
+          "voteShare": 39.3
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 833,
+          "voteShare": 7.3
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 124,
+          "voteShare": 1.1
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 18,
+          "voteShare": 0.2
+        }
+      ]
+    },
+    {
+      "dongName": "화곡6동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7725392497884742,
+      "totalElectors": 21274,
+      "validVotes": 16285,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 7846,
+          "voteShare": 48.2
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 6627,
+          "voteShare": 40.7
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 1614,
+          "voteShare": 9.9
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 185,
+          "voteShare": 1.1
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 13,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "화곡8동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7606868089876191,
+      "totalElectors": 19627,
+      "validVotes": 14805,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 8080,
+          "voteShare": 54.6
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 5319,
+          "voteShare": 35.9
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 1230,
+          "voteShare": 8.3
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 162,
+          "voteShare": 1.1
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 14,
+          "voteShare": 0.1
+        }
+      ]
+    },
+    {
+      "dongName": "화곡본동",
+      "electionType": "presidential",
+      "electionName": "제21대 대통령선거",
+      "turnout": 0.7060246893327318,
+      "totalElectors": 24383,
+      "validVotes": 17049,
+      "candidates": [
+        {
+          "candidateName": "이재명",
+          "party": "더불어민주당",
+          "votes": 8838,
+          "voteShare": 51.8
+        },
+        {
+          "candidateName": "김문수",
+          "party": "국민의힘",
+          "votes": 6421,
+          "voteShare": 37.7
+        },
+        {
+          "candidateName": "이준석",
+          "party": "개혁신당",
+          "votes": 1555,
+          "voteShare": 9.1
+        },
+        {
+          "candidateName": "권영국",
+          "party": "민주노동당",
+          "votes": 213,
+          "voteShare": 1.2
+        },
+        {
+          "candidateName": "송진호",
+          "party": "무소속",
+          "votes": 22,
+          "voteShare": 0.1
+        }
+      ]
+    }
+  ]
+}
