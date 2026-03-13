@@ -1,0 +1,13 @@
+*
+!.vercelignore
+!package.json
+!package-lock.json
+!vercel.json
+!gangseo-na-district-page/
+!gangseo-na-district-page/**
+
+gangseo-na-district-page/node_modules
+gangseo-na-district-page/dist
+gangseo-na-district-page/.vercel
+gangseo-na-district-page/raw
+gangseo-na-district-page/.env

@@ -89,6 +89,16 @@ export function GeoMap({
                 onFeatureClick?.(code);
               },
             });
+
+            if (onFeatureClick) {
+              layer.on('add', () => {
+                const element =
+                  'getElement' in layer && typeof layer.getElement === 'function' ? layer.getElement() : null;
+                if (element) {
+                  element.style.cursor = 'pointer';
+                }
+              });
+            }
           }}
           style={(feature) => {
             if (!feature) {

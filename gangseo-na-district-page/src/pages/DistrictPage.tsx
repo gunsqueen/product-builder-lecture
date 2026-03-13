@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Bar, BarChart, CartesianGrid, Cell, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { Breadcrumbs } from '../components/Breadcrumbs';
 import { ChartCard } from '../components/ChartCard';
@@ -21,6 +21,7 @@ import type { DetailTabKey } from '../types';
 
 export function DistrictPage() {
   const { districtCode } = useParams();
+  const navigate = useNavigate();
   const { data, loading, error } = useDistrictDetail(districtCode);
   const [activeTab, setActiveTab] = useState<DetailTabKey>('overview');
 
@@ -100,10 +101,20 @@ export function DistrictPage() {
               errorMessage={null}
               height={460}
               items={mapItems}
+              onFeatureClick={(code) => {
+                const clickedDong = data.detail?.dongs.find((dong) => dong.dongCode === code);
+                if (!clickedDong || !data.detail?.district.districtCode) {
+                  return;
+                }
+
+                navigate(`/district/${data.detail.district.districtCode}/dong/${clickedDong.dongCode}`);
+              }}
             />
             {!data.joinedDongFeatures.length ? (
               <p className="inline-note">이 자치구는 아직 행정동 경계가 연결되지 않았습니다. 자치구 경계만 표시합니다.</p>
-            ) : null}
+            ) : (
+              <p className="inline-note">지도의 행정동을 클릭하면 해당 동 상세 페이지로 이동합니다.</p>
+            )}
           </ChartCard>
 
           <div className="page-stack">
