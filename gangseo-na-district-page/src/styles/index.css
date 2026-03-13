@@ -359,6 +359,31 @@ select {
   color: #243648;
 }
 
+.chart-shell {
+  display: grid;
+  gap: 14px;
+}
+
+.chart-note-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.chart-note-item {
+  display: grid;
+  gap: 4px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(18, 58, 99, 0.08);
+  background: #f8fbfe;
+}
+
+.chart-note-label {
+  color: #536f87;
+  font-size: 0.86rem;
+}
+
 .breadcrumbs {
   display: flex;
   flex-wrap: wrap;

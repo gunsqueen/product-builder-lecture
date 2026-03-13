@@ -12,7 +12,7 @@ import { PopulationMetricsCards } from '../components/population/PopulationMetri
 import { SourceBadgeRow } from '../components/SourceBadgeRow';
 import { StatusState } from '../components/StatusState';
 import { useDongDetail } from '../hooks/useDistrictDetail';
-import { calculateAgeRatioMetrics } from '../utils/ageMetrics';
+import { calculateAgeRatioMetrics, getAgeGroupColor } from '../utils/ageMetrics';
 import { calculateHouseholdMetrics } from '../utils/householdMetrics';
 import { formatArea, formatHouseholds, formatNumber, formatPercent, formatPopulation } from '../utils/formatters';
 import type { DetailTabKey } from '../types';
@@ -134,7 +134,11 @@ export function DongPage() {
                 <XAxis dataKey="label" />
                 <YAxis />
                 <Tooltip formatter={(value: number) => `${formatNumber(value)}명`} />
-                <Bar dataKey="value" fill="#2563eb" radius={[6, 6, 0, 0]} />
+                <Bar dataKey="value" radius={[6, 6, 0, 0]}>
+                  {(data.population?.ageGroups ?? []).map((entry) => (
+                    <Cell fill={getAgeGroupColor(entry.label)} key={entry.label} />
+                  ))}
+                </Bar>
               </BarChart>
             </ResponsiveContainer>
           </ChartCard>

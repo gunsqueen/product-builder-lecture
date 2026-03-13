@@ -33,6 +33,23 @@ export function normalizeAgeGroups(ageGroups: AgeGroupStat[]): ParsedAgeGroup[] 
     .filter((group): group is ParsedAgeGroup => Boolean(group));
 }
 
+export function getAgeGroupColor(label: string): string {
+  const normalizedLabel = `${label}`.replace(/\s+/g, '').replace('세', '').replace('이상', '+');
+  const plusMatch = normalizedLabel.match(/^(\d+)\+$/);
+  if (plusMatch) {
+    const start = Number(plusMatch[1]);
+    return getDecadeColor(start);
+  }
+
+  const rangeMatch = normalizedLabel.match(/^(\d+)[~-](\d+)$/);
+  if (rangeMatch) {
+    const start = Number(rangeMatch[1]);
+    return getDecadeColor(start);
+  }
+
+  return '#5b7288';
+}
+
 export function calculateAgeRatioMetrics(ageGroups: AgeGroupStat[], totalPopulation: number): AgeRatioMetrics {
   if (!totalPopulation) {
     return {};
@@ -87,4 +104,40 @@ function estimateOverlap(group: ParsedAgeGroup, rangeStart: number, rangeEnd: nu
   const groupSpan = group.end - group.start + 1;
   const overlapSpan = overlapEnd - overlapStart + 1;
   return group.value * (overlapSpan / groupSpan);
+}
+
+function getDecadeColor(start: number): string {
+  if (start < 10) {
+    return '#f97316';
+  }
+
+  if (start < 20) {
+    return '#ef4444';
+  }
+
+  if (start < 30) {
+    return '#facc15';
+  }
+
+  if (start < 40) {
+    return '#2563eb';
+  }
+
+  if (start < 50) {
+    return '#14b8a6';
+  }
+
+  if (start < 60) {
+    return '#8b5cf6';
+  }
+
+  if (start < 70) {
+    return '#f59e0b';
+  }
+
+  if (start < 80) {
+    return '#10b981';
+  }
+
+  return '#6b7280';
 }
