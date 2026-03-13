@@ -3,7 +3,7 @@ import type { GeoJsonObject } from 'geojson';
 import type { PathOptions } from 'leaflet';
 import L from 'leaflet';
 import { GeoJSON, MapContainer, TileLayer, useMap } from 'react-leaflet';
-import { getColorByRate, getLegendStops, getTurnoutColor } from '../utils/colorScale';
+import { getColorByRate, getTurnoutColor } from '../utils/colorScale';
 import { formatHouseholds, formatPercent, formatPopulation } from '../utils/formatters';
 import { normalizeRegionCode } from '../utils/normalizeRegionCode';
 import type { JoinedBoundaryFeature, MapMetricKey } from '../types';
@@ -107,18 +107,6 @@ export function GeoMap({
           }}
         />
       </MapContainer>
-
-      <div className="legend-card">
-        <h4>범례</h4>
-        <div className="legend-list">
-          {getLegendStops(metricKey).map((stop) => (
-            <div className="legend-item" key={`${metricKey}-${stop.label}`}>
-              <span className="legend-swatch" style={{ backgroundColor: stop.color }} />
-              <span>{stop.label}</span>
-            </div>
-          ))}
-        </div>
-      </div>
     </div>
   );
 }

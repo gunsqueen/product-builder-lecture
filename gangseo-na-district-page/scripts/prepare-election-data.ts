@@ -85,8 +85,14 @@ interface LocalConstituencySheetConfig extends LocalSheetConfig {
  * 입력 파일 예시
  * - raw/presidential_21.xlsx                  (제21대 대통령선거 통합 엑셀, NEC open-data file.do?dataId=8)
  * - raw/presidential_20.csv                   (공공데이터포털 15025528 주기성 과거데이터 20220309)
+ * - raw/presidential_19.csv                   (공공데이터포털 15025528 주기성 과거데이터 20170509)
  * - raw/assembly_22.xlsx                      (제22대 국회의원선거 통합 엑셀)
+ * - raw/assembly_21.csv                       (공공데이터포털 15025527 주기성 과거데이터 20200415)
+ * - raw/assembly_20.csv                       (공공데이터포털 15025527 주기성 과거데이터 20160413)
+ * - raw/assembly_pr_21.csv                    (공공데이터포털 15144273 주기성 과거데이터 20200415)
+ * - raw/assembly_pr_20.csv                    (공공데이터포털 15144273 주기성 과거데이터 20160413)
  * - raw/local_8.xlsx                          (공공데이터포털 15101509, 제8회 전국동시지방선거 개표결과)
+ * - raw/local_7.xlsx                          (공공데이터포털 15048208, 제7회 전국동시지방선거 개표결과)
  *
  * 기대 시트 / 포맷 예시
  * - 대통령선거(2025): sheet1
@@ -100,8 +106,14 @@ interface LocalConstituencySheetConfig extends LocalSheetConfig {
 
 const DEFAULT_PRESIDENTIAL_21_INPUT = path.resolve('raw/presidential_21.xlsx');
 const DEFAULT_PRESIDENTIAL_20_INPUT = path.resolve('raw/presidential_20.csv');
+const DEFAULT_PRESIDENTIAL_19_INPUT = path.resolve('raw/presidential_19.csv');
 const DEFAULT_ASSEMBLY_INPUT = path.resolve('raw/assembly_22.xlsx');
+const DEFAULT_ASSEMBLY_21_INPUT = path.resolve('raw/assembly_21.csv');
+const DEFAULT_ASSEMBLY_20_INPUT = path.resolve('raw/assembly_20.csv');
+const DEFAULT_ASSEMBLY_PR_21_INPUT = path.resolve('raw/assembly_pr_21.csv');
+const DEFAULT_ASSEMBLY_PR_20_INPUT = path.resolve('raw/assembly_pr_20.csv');
 const DEFAULT_LOCAL_INPUT = path.resolve('raw/local_8.xlsx');
+const DEFAULT_LOCAL_7_INPUT = path.resolve('raw/local_7.xlsx');
 const DEFAULT_OUTPUT = path.resolve('src/data/elections/seoulElectionResults.json');
 const DONGS_JSON = path.resolve('src/data/mock/seoulDongs.json');
 const DISTRICTS_JSON = path.resolve('src/data/mock/seoulDistricts.json');
@@ -474,6 +486,68 @@ function extractVariableCandidateDefs(
   };
 }
 
+function determineVariableTotalVotesIndex(rows: Array<Array<string | number>>): number {
+  const header0 = (rows[0] ?? []).map((cell) => `${cell ?? ''}`.trim());
+  const header1 = (rows[1] ?? []).map((cell) => `${cell ?? ''}`.trim());
+
+  const directIndex = header0.findIndex((cell) => cell === '계');
+  if (directIndex >= 0) {
+    return directIndex;
+  }
+
+  const header1Index = header1.findIndex((cell) => cell === '계');
+  if (header1Index >= 0) {
+    return header1Index;
+  }
+
+  const invalidIndex = header0.findIndex((cell) => cell === '무효투표수');
+  if (invalidIndex > 0) {
+    return invalidIndex - 1;
+  }
+
+  const abstentionIndex = header0.findIndex((cell) => cell === '기권수');
+  if (abstentionIndex > 0) {
+    return abstentionIndex - 1;
+  }
+
+  return -1;
+}
+
+function hasPlaceholderCandidateLabels(cells: string[]): boolean {
+  return cells.filter(Boolean).every((cell) => /^후보\d+$/u.test(cell));
+}
+
+function findVariableCandidateDefs(
+  rows: Array<Array<string | number>>,
+  candidateStartIndex: number,
+  candidateEndIndex: number,
+): Array<{ index: number; label: string; party?: string }> {
+  for (const rowIndex of [1, 2, 3]) {
+    const currentCells = (rows[rowIndex] ?? []).slice(candidateStartIndex, candidateEndIndex).map((cell) => `${cell ?? ''}`.trim());
+    if (!currentCells.some(Boolean)) {
+      continue;
+    }
+
+    if (hasPlaceholderCandidateLabels(currentCells)) {
+      continue;
+    }
+
+    const extracted = extractVariableCandidateDefs(rows, rowIndex, candidateStartIndex, candidateEndIndex);
+    if (!extracted?.defs.length) {
+      continue;
+    }
+
+    const hasNumericLabels = extracted.defs.some((item) => /^[\d,]+$/.test(item.label));
+    if (hasNumericLabels) {
+      continue;
+    }
+
+    return extracted.defs;
+  }
+
+  return [];
+}
+
 function parsePresidentialElection2025(
   inputPath: string,
   regionMeta: Awaited<ReturnType<typeof loadRegionMeta>>,
@@ -741,6 +815,365 @@ async function parsePresidentialElection2022(
   return [cityItem, ...districtItems, ...dongItems];
 }
 
+async function readCsvRows(inputPath: string, encoding: 'utf-8' | 'euc-kr'): Promise<Record<string, string>[]> {
+  const buffer = await readFile(inputPath);
+  const text = new TextDecoder(encoding).decode(buffer);
+  const parsed = Papa.parse<Record<string, string>>(text, {
+    header: true,
+    skipEmptyLines: true,
+  });
+
+  if (parsed.errors.length > 0) {
+    throw new Error(`${inputPath} CSV 파싱 실패: ${parsed.errors[0]?.message ?? '알 수 없는 오류'}`);
+  }
+
+  return parsed.data;
+}
+
+function getDongMetaByCode(regionMeta: Awaited<ReturnType<typeof loadRegionMeta>>): Map<string, RegionMeta> {
+  const byCode = new Map<string, RegionMeta>();
+  for (const meta of regionMeta.dongMetaByKey.values()) {
+    byCode.set(meta.dongCode, meta);
+  }
+  return byCode;
+}
+
+async function parseCandidateElectionCsv(
+  inputPath: string,
+  regionMeta: Awaited<ReturnType<typeof loadRegionMeta>>,
+  config: {
+    electionId: string;
+    electionName: string;
+    electionType: ElectionType;
+    electionYear: number;
+    updatedAt: string;
+    source: string;
+    encoding: 'utf-8' | 'euc-kr';
+    districtField: string;
+    dongField: string;
+    resultField: string;
+    valueField: string;
+    districtAggregateMode: 'candidate' | 'party';
+  },
+): Promise<ElectionItem[]> {
+  const rows = await readCsvRows(inputPath, config.encoding);
+  const districtAggregates = new Map<string, RunningAggregate>();
+  const dongAggregates = new Map<string, RunningAggregate>();
+  const constituencyNameByDongCode = new Map<string, string>();
+  const dongMetaByCode = getDongMetaByCode(regionMeta);
+
+  for (const row of rows) {
+    const city = `${row['시도명'] ?? ''}`.trim().replace(/^\uFEFF/, '');
+    const districtLabel = `${row[config.districtField] ?? ''}`.trim();
+    const dongLabel = `${row[config.dongField] ?? ''}`.trim();
+    const candidateLabel = `${row[config.resultField] ?? ''}`.trim();
+    const value = parseNumber(row[config.valueField]);
+
+    if (city !== '서울특별시') {
+      continue;
+    }
+
+    const districtCode = inferDistrictCode(districtLabel, regionMeta.districtCodeByName, dongLabel, regionMeta.uniqueDongMetaByName);
+    if (!districtCode) {
+      continue;
+    }
+
+    const districtAggregate = getOrCreateAggregate(districtAggregates, districtCode);
+    if (candidateLabel === '선거인수') {
+      districtAggregate.totalElectors += value;
+    } else if (candidateLabel === '투표수') {
+      districtAggregate.totalVotes += value;
+    } else if (candidateLabel === '무효 투표수') {
+      districtAggregate.invalidVotes += value;
+    } else {
+      const parsedCandidate = parseCombinedPartyCandidate(candidateLabel);
+      if (parsedCandidate) {
+        addAggregateEntry(districtAggregate, parsedCandidate.label, parsedCandidate.party, value);
+      }
+    }
+
+    const dongMeta = resolveDongMeta(districtCode, dongLabel, regionMeta.dongMetaByKey, regionMeta.uniqueDongMetaByName);
+    if (!dongMeta) {
+      continue;
+    }
+
+    constituencyNameByDongCode.set(dongMeta.dongCode, districtLabel);
+    const dongAggregate = getOrCreateAggregate(dongAggregates, dongMeta.dongCode);
+    if (candidateLabel === '선거인수') {
+      dongAggregate.totalElectors += value;
+    } else if (candidateLabel === '투표수') {
+      dongAggregate.totalVotes += value;
+    } else if (candidateLabel === '무효 투표수') {
+      dongAggregate.invalidVotes += value;
+    } else {
+      const parsedCandidate = parseCombinedPartyCandidate(candidateLabel);
+      if (parsedCandidate) {
+        addAggregateEntry(dongAggregate, parsedCandidate.label, parsedCandidate.party, value);
+      }
+    }
+  }
+
+  const dongItems: ElectionItem[] = [...dongAggregates.entries()]
+    .map(([dongCode, aggregate]) => {
+      const meta = dongMetaByCode.get(dongCode);
+      if (!meta) {
+        return undefined;
+      }
+
+      return {
+        electionId: config.electionId,
+        electionName: config.electionName,
+        electionType: config.electionType,
+        electionYear: config.electionYear,
+        resultMode: 'candidate' as const,
+        scopeLevel: 'dong' as const,
+        scopeCode: dongCode,
+        scopeName: meta.dongName,
+        districtCode: meta.districtCode,
+        districtName: meta.districtName,
+        dongCode: meta.dongCode,
+        dongName: meta.dongName,
+        constituencyName: constituencyNameByDongCode.get(dongCode),
+        turnout: aggregate.totalElectors > 0 ? aggregate.totalVotes / aggregate.totalElectors : 0,
+        totalVotes: aggregate.totalVotes,
+        totalElectors: aggregate.totalElectors,
+        updatedAt: config.updatedAt,
+        source: config.source,
+        results: buildCandidateResultsFromAggregate(aggregate),
+      };
+    })
+    .filter((item): item is ElectionItem => Boolean(item))
+    .sort((left, right) => left.scopeName.localeCompare(right.scopeName, 'ko'));
+
+  const districtItems: ElectionItem[] =
+    config.districtAggregateMode === 'candidate'
+      ? [...districtAggregates.entries()]
+          .map(([districtCode, aggregate]) => {
+            const districtName = regionMeta.districtNameByCode.get(districtCode) ?? districtCode;
+            return {
+              electionId: config.electionId,
+              electionName: config.electionName,
+              electionType: config.electionType,
+              electionYear: config.electionYear,
+              resultMode: 'candidate' as const,
+              scopeLevel: 'district' as const,
+              scopeCode: districtCode,
+              scopeName: districtName,
+              districtCode,
+              districtName,
+              turnout: aggregate.totalElectors > 0 ? aggregate.totalVotes / aggregate.totalElectors : 0,
+              totalVotes: aggregate.totalVotes,
+              totalElectors: aggregate.totalElectors,
+              updatedAt: config.updatedAt,
+              source: config.source,
+              results: buildCandidateResultsFromAggregate(aggregate),
+            };
+          })
+          .sort((left, right) => left.scopeName.localeCompare(right.scopeName, 'ko'))
+      : [...dongItems.reduce(
+          (map, item) => {
+            if (!item.districtCode || !item.districtName) {
+              return map;
+            }
+            const aggregate = map.get(item.districtCode) ?? {
+              ...createRunningAggregate(),
+              districtName: item.districtName,
+            };
+            aggregate.totalElectors += item.totalElectors ?? 0;
+            aggregate.totalVotes += item.totalVotes;
+            for (const result of item.results) {
+              addAggregateEntry(aggregate, result.label, result.party, result.value);
+            }
+            map.set(item.districtCode, aggregate);
+            return map;
+          },
+          new Map<string, RunningAggregate & { districtName: string }>(),
+        ).entries()]
+          .map(([districtCode, aggregate]) => ({
+            electionId: config.electionId,
+            electionName: config.electionName,
+            electionType: config.electionType,
+            electionYear: config.electionYear,
+            resultMode: 'party' as const,
+            scopeLevel: 'district' as const,
+            scopeCode: districtCode,
+            scopeName: aggregate.districtName,
+            districtCode,
+            districtName: aggregate.districtName,
+            turnout: aggregate.totalElectors > 0 ? aggregate.totalVotes / aggregate.totalElectors : 0,
+            totalVotes: aggregate.totalVotes,
+            totalElectors: aggregate.totalElectors,
+            updatedAt: config.updatedAt,
+            source: config.source,
+            results: buildPartyResultsFromCandidateAggregate(aggregate),
+          }))
+          .sort((left, right) => left.scopeName.localeCompare(right.scopeName, 'ko'));
+
+  const cityItem = aggregateElectionRows(districtItems, {
+    electionId: config.electionId,
+    electionName: config.electionName,
+    electionType: config.electionType,
+    electionYear: config.electionYear,
+    resultMode: config.districtAggregateMode,
+    scopeLevel: 'city',
+    scopeCode: 'seoul',
+    scopeName: '서울특별시',
+    updatedAt: config.updatedAt,
+    source: config.source,
+  });
+
+  return [cityItem, ...districtItems, ...dongItems];
+}
+
+async function parsePartyElectionCsv(
+  inputPath: string,
+  regionMeta: Awaited<ReturnType<typeof loadRegionMeta>>,
+  config: {
+    electionId: string;
+    electionName: string;
+    electionType: ElectionType;
+    electionYear: number;
+    updatedAt: string;
+    source: string;
+    encoding: 'utf-8' | 'euc-kr';
+    districtField: string;
+    dongField: string;
+    resultField: string;
+    valueField: string;
+  },
+): Promise<ElectionItem[]> {
+  const rows = await readCsvRows(inputPath, config.encoding);
+  const districtAggregates = new Map<string, RunningAggregate>();
+  const dongAggregates = new Map<string, RunningAggregate>();
+  const dongMetaByCode = getDongMetaByCode(regionMeta);
+
+  for (const row of rows) {
+    const city = `${row['시도명'] ?? ''}`.trim().replace(/^\uFEFF/, '');
+    const districtLabel = `${row[config.districtField] ?? ''}`.trim();
+    const dongLabel = `${row[config.dongField] ?? ''}`.trim();
+    const partyLabel = `${row[config.resultField] ?? ''}`.trim();
+    const value = parseNumber(row[config.valueField]);
+
+    if (city !== '서울특별시') {
+      continue;
+    }
+
+    const districtCode = inferDistrictCode(districtLabel, regionMeta.districtCodeByName, dongLabel, regionMeta.uniqueDongMetaByName);
+    if (!districtCode) {
+      continue;
+    }
+
+    const districtAggregate = getOrCreateAggregate(districtAggregates, districtCode);
+    if (partyLabel === '선거인수') {
+      districtAggregate.totalElectors += value;
+    } else if (partyLabel === '투표수') {
+      districtAggregate.totalVotes += value;
+    } else if (partyLabel === '무효 투표수') {
+      districtAggregate.invalidVotes += value;
+    } else if (partyLabel) {
+      addAggregateEntry(districtAggregate, partyLabel, partyLabel, value);
+    }
+
+    const dongMeta = resolveDongMeta(districtCode, dongLabel, regionMeta.dongMetaByKey, regionMeta.uniqueDongMetaByName);
+    if (!dongMeta) {
+      continue;
+    }
+
+    const dongAggregate = getOrCreateAggregate(dongAggregates, dongMeta.dongCode);
+    if (partyLabel === '선거인수') {
+      dongAggregate.totalElectors += value;
+    } else if (partyLabel === '투표수') {
+      dongAggregate.totalVotes += value;
+    } else if (partyLabel === '무효 투표수') {
+      dongAggregate.invalidVotes += value;
+    } else if (partyLabel) {
+      addAggregateEntry(dongAggregate, partyLabel, partyLabel, value);
+    }
+  }
+
+  const districtItems: ElectionItem[] = [...districtAggregates.entries()]
+    .map(([districtCode, aggregate]) => ({
+      electionId: config.electionId,
+      electionName: config.electionName,
+      electionType: config.electionType,
+      electionYear: config.electionYear,
+      resultMode: 'party' as const,
+      scopeLevel: 'district' as const,
+      scopeCode: districtCode,
+      scopeName: regionMeta.districtNameByCode.get(districtCode) ?? districtCode,
+      districtCode,
+      districtName: regionMeta.districtNameByCode.get(districtCode) ?? districtCode,
+      turnout: aggregate.totalElectors > 0 ? aggregate.totalVotes / aggregate.totalElectors : 0,
+      totalVotes: aggregate.totalVotes,
+      totalElectors: aggregate.totalElectors,
+      updatedAt: config.updatedAt,
+      source: config.source,
+      results: createEntries(
+        [...aggregate.results.entries()].map(([label, value]) => ({
+          label,
+          party: value.party,
+          value: value.value,
+        })),
+        [...aggregate.results.values()].reduce((sum, item) => sum + item.value, 0),
+      ),
+    }))
+    .sort((left, right) => left.scopeName.localeCompare(right.scopeName, 'ko'));
+
+  const dongItems: ElectionItem[] = [...dongAggregates.entries()]
+    .map(([dongCode, aggregate]) => {
+      const meta = dongMetaByCode.get(dongCode);
+      if (!meta) {
+        return undefined;
+      }
+
+      const validVotes = [...aggregate.results.values()].reduce((sum, item) => sum + item.value, 0);
+      return {
+        electionId: config.electionId,
+        electionName: config.electionName,
+        electionType: config.electionType,
+        electionYear: config.electionYear,
+        resultMode: 'party' as const,
+        scopeLevel: 'dong' as const,
+        scopeCode: dongCode,
+        scopeName: meta.dongName,
+        districtCode: meta.districtCode,
+        districtName: meta.districtName,
+        dongCode: meta.dongCode,
+        dongName: meta.dongName,
+        turnout: aggregate.totalElectors > 0 ? aggregate.totalVotes / aggregate.totalElectors : 0,
+        totalVotes: aggregate.totalVotes,
+        totalElectors: aggregate.totalElectors,
+        updatedAt: config.updatedAt,
+        source: config.source,
+        results: createEntries(
+          [...aggregate.results.entries()].map(([label, value]) => ({
+            label,
+            party: value.party,
+            value: value.value,
+          })),
+          validVotes,
+        ),
+      };
+    })
+    .filter((item): item is ElectionItem => Boolean(item))
+    .sort((left, right) => left.scopeName.localeCompare(right.scopeName, 'ko'));
+
+  const cityItem = aggregateElectionRows(districtItems, {
+    electionId: config.electionId,
+    electionName: config.electionName,
+    electionType: config.electionType,
+    electionYear: config.electionYear,
+    resultMode: 'party',
+    scopeLevel: 'city',
+    scopeCode: 'seoul',
+    scopeName: '서울특별시',
+    updatedAt: config.updatedAt,
+    source: config.source,
+  });
+
+  return [cityItem, ...districtItems, ...dongItems];
+}
+
 function parseAssemblyProportionalElection(
   inputPath: string,
   regionMeta: Awaited<ReturnType<typeof loadRegionMeta>>,
@@ -1000,9 +1433,8 @@ function parseLocalElectionSheet(
 ): ElectionItem[] {
   const workbook = XLSX.readFile(inputPath);
   const rows = XLSX.utils.sheet_to_json(workbook.Sheets[config.sheetName], { header: 1, defval: '' }) as Array<Array<string | number>>;
-  const totalVotesIndex = rows[0].findIndex((cell) => `${cell ?? ''}`.trim() === '계');
-  let candidateDefs =
-    extractVariableCandidateDefs(rows, 2, config.indexes.votes + 1, totalVotesIndex)?.defs ?? [];
+  const totalVotesIndex = determineVariableTotalVotesIndex(rows);
+  let candidateDefs = findVariableCandidateDefs(rows, config.indexes.votes + 1, totalVotesIndex);
 
   const districtItems: ElectionItem[] = [];
   const dongItems: ElectionItem[] = [];
@@ -1027,7 +1459,10 @@ function parseLocalElectionSheet(
     if (isVariableCandidateHeaderRow(row, config.indexes.electors, config.indexes.votes, config.indexes.votes + 1)) {
       const extracted = extractVariableCandidateDefs(rows, index, config.indexes.votes + 1, totalVotesIndex);
       if (extracted) {
-        candidateDefs = extracted.defs;
+        const hasNumericLabels = extracted.defs.some((item) => /^[\d,]+$/.test(item.label));
+        if (!hasNumericLabels) {
+          candidateDefs = extracted.defs;
+        }
         index += extracted.consumedRows - 1;
         continue;
       }
@@ -1051,7 +1486,7 @@ function parseLocalElectionSheet(
       validVotes,
     );
 
-    if (dongName === '합계' && districtCode) {
+    if ((dongName === '합계' || dongName === '계') && !pollName && districtCode) {
       districtItems.push({
         electionId: config.electionId,
         electionName: config.electionName,
@@ -1131,9 +1566,8 @@ function parseLocalConstituencyElectionSheet(
 ): ElectionItem[] {
   const workbook = XLSX.readFile(inputPath);
   const rows = XLSX.utils.sheet_to_json(workbook.Sheets[config.sheetName], { header: 1, defval: '' }) as Array<Array<string | number>>;
-  const totalVotesIndex = rows[0].findIndex((cell) => `${cell ?? ''}`.trim() === '계');
-  let candidateDefs =
-    extractVariableCandidateDefs(rows, 2, config.indexes.votes + 1, totalVotesIndex)?.defs ?? [];
+  const totalVotesIndex = determineVariableTotalVotesIndex(rows);
+  let candidateDefs = findVariableCandidateDefs(rows, config.indexes.votes + 1, totalVotesIndex);
 
   const dongItems: ElectionItem[] = [];
   let currentCity = '';
@@ -1161,7 +1595,10 @@ function parseLocalConstituencyElectionSheet(
     if (isVariableCandidateHeaderRow(row, config.indexes.electors, config.indexes.votes, config.indexes.votes + 1)) {
       const extracted = extractVariableCandidateDefs(rows, index, config.indexes.votes + 1, totalVotesIndex);
       if (extracted) {
-        candidateDefs = extracted.defs;
+        const hasNumericLabels = extracted.defs.some((item) => /^[\d,]+$/.test(item.label));
+        if (!hasNumericLabels) {
+          candidateDefs = extracted.defs;
+        }
         index += extracted.consumedRows - 1;
         continue;
       }
@@ -1286,8 +1723,14 @@ function parseLocalConstituencyElectionSheet(
 async function main(): Promise<void> {
   const presidential21Input = path.resolve(getArg('--presidential21-input') ?? DEFAULT_PRESIDENTIAL_21_INPUT);
   const presidential20Input = path.resolve(getArg('--presidential20-input') ?? DEFAULT_PRESIDENTIAL_20_INPUT);
+  const presidential19Input = path.resolve(getArg('--presidential19-input') ?? DEFAULT_PRESIDENTIAL_19_INPUT);
   const assemblyInput = path.resolve(getArg('--assembly-input') ?? DEFAULT_ASSEMBLY_INPUT);
+  const assembly21Input = path.resolve(getArg('--assembly21-input') ?? DEFAULT_ASSEMBLY_21_INPUT);
+  const assembly20Input = path.resolve(getArg('--assembly20-input') ?? DEFAULT_ASSEMBLY_20_INPUT);
+  const assemblyPr21Input = path.resolve(getArg('--assembly-pr21-input') ?? DEFAULT_ASSEMBLY_PR_21_INPUT);
+  const assemblyPr20Input = path.resolve(getArg('--assembly-pr20-input') ?? DEFAULT_ASSEMBLY_PR_20_INPUT);
   const localInput = path.resolve(getArg('--local-input') ?? DEFAULT_LOCAL_INPUT);
+  const local7Input = path.resolve(getArg('--local7-input') ?? DEFAULT_LOCAL_7_INPUT);
   const outputPath = path.resolve(getArg('--output') ?? DEFAULT_OUTPUT);
   const regionMeta = await loadRegionMeta();
 
@@ -1383,11 +1826,173 @@ async function main(): Promise<void> {
     },
   ];
 
+  const local7Configs: LocalSheetConfig[] = [
+    {
+      sheetName: '시·도지사',
+      electionId: 'local-mayor-2018',
+      electionName: '제7회 전국동시지방선거 서울시장',
+      electionType: 'mayoral',
+      electionYear: 2018,
+      resultMode: 'candidate',
+      updatedAt: '2018-06-13',
+      source: '공공데이터포털 · 중앙선거관리위원회',
+      citywide: true,
+      indexes: { city: 2, district: 3, dong: 4, poll: 5, electors: 6, votes: 7 },
+    },
+    {
+      sheetName: '구·시·군의장',
+      electionId: 'local-district-head-2018',
+      electionName: '제7회 전국동시지방선거 구청장',
+      electionType: 'mayoral',
+      electionYear: 2018,
+      resultMode: 'candidate',
+      updatedAt: '2018-06-13',
+      source: '공공데이터포털 · 중앙선거관리위원회',
+      citywide: false,
+      indexes: { city: 1, district: 2, dong: 5, poll: 6, electors: 7, votes: 8 },
+    },
+    {
+      sheetName: '교육감',
+      electionId: 'local-superintendent-2018',
+      electionName: '제7회 전국동시지방선거 서울시교육감',
+      electionType: 'local',
+      electionYear: 2018,
+      resultMode: 'candidate',
+      updatedAt: '2018-06-13',
+      source: '공공데이터포털 · 중앙선거관리위원회',
+      citywide: true,
+      indexes: { city: 2, district: 3, dong: 4, poll: 5, electors: 6, votes: 7 },
+    },
+    {
+      sheetName: '광역의원비례대표',
+      electionId: 'local-metropolitan-pr-2018',
+      electionName: '제7회 전국동시지방선거 서울시의원 비례대표',
+      electionType: 'local',
+      electionYear: 2018,
+      resultMode: 'party',
+      updatedAt: '2018-06-13',
+      source: '공공데이터포털 · 중앙선거관리위원회',
+      citywide: true,
+      indexes: { city: 2, district: 3, dong: 4, poll: 5, electors: 6, votes: 7 },
+    },
+    {
+      sheetName: '기초의원비례대표',
+      electionId: 'local-local-pr-2018',
+      electionName: '제7회 전국동시지방선거 구의원 비례대표',
+      electionType: 'local',
+      electionYear: 2018,
+      resultMode: 'party',
+      updatedAt: '2018-06-13',
+      source: '공공데이터포털 · 중앙선거관리위원회',
+      citywide: true,
+      indexes: { city: 1, district: 2, dong: 5, poll: 6, electors: 7, votes: 8 },
+    },
+  ];
+
+  const local7ConstituencyConfigs: LocalConstituencySheetConfig[] = [
+    {
+      sheetName: '시·도의회의원',
+      electionId: 'local-metropolitan-council-2018',
+      electionName: '제7회 전국동시지방선거 서울시의원',
+      electionType: 'local',
+      electionYear: 2018,
+      resultMode: 'candidate',
+      updatedAt: '2018-06-13',
+      source: '공공데이터포털 · 중앙선거관리위원회',
+      citywide: true,
+      constituency: 2,
+      indexes: { city: 1, district: 4, dong: 5, poll: 6, electors: 7, votes: 8 },
+    },
+    {
+      sheetName: '구·시·군의회의원',
+      electionId: 'local-local-council-2018',
+      electionName: '제7회 전국동시지방선거 구의원',
+      electionType: 'local',
+      electionYear: 2018,
+      resultMode: 'candidate',
+      updatedAt: '2018-06-13',
+      source: '공공데이터포털 · 중앙선거관리위원회',
+      citywide: true,
+      constituency: 2,
+      indexes: { city: 1, district: 4, dong: 5, poll: 6, electors: 7, votes: 8 },
+    },
+  ];
+
   const items = [
     ...parsePresidentialElection2025(presidential21Input, regionMeta),
     ...(await parsePresidentialElection2022(presidential20Input, regionMeta)),
+    ...(await parseCandidateElectionCsv(presidential19Input, regionMeta, {
+      electionId: 'presidential-2017',
+      electionName: '제19대 대통령선거',
+      electionType: 'presidential',
+      electionYear: 2017,
+      updatedAt: '2017-05-09',
+      source: '공공데이터포털 · 중앙선거관리위원회',
+      encoding: 'utf-8',
+      districtField: '구시군명',
+      dongField: '읍면동명',
+      resultField: '후보자',
+      valueField: '득표수',
+      districtAggregateMode: 'candidate',
+    })),
+    ...(await parseCandidateElectionCsv(assembly21Input, regionMeta, {
+      electionId: 'assembly-constituency-2020',
+      electionName: '제21대 국회의원선거 지역구',
+      electionType: 'assembly',
+      electionYear: 2020,
+      updatedAt: '2020-04-15',
+      source: '공공데이터포털 · 중앙선거관리위원회',
+      encoding: 'euc-kr',
+      districtField: '선거구명',
+      dongField: '법정읍면동명',
+      resultField: '후보자',
+      valueField: '득표수',
+      districtAggregateMode: 'party',
+    })),
+    ...(await parseCandidateElectionCsv(assembly20Input, regionMeta, {
+      electionId: 'assembly-constituency-2016',
+      electionName: '제20대 국회의원선거 지역구',
+      electionType: 'assembly',
+      electionYear: 2016,
+      updatedAt: '2016-04-13',
+      source: '공공데이터포털 · 중앙선거관리위원회',
+      encoding: 'euc-kr',
+      districtField: '선거구명',
+      dongField: '법정읍면동명',
+      resultField: '후보자',
+      valueField: '득표수',
+      districtAggregateMode: 'party',
+    })),
     ...parseAssemblyConstituencyElection(assemblyInput, regionMeta),
+    ...(await parsePartyElectionCsv(assemblyPr21Input, regionMeta, {
+      electionId: 'assembly-pr-2020',
+      electionName: '제21대 국회의원선거 비례대표',
+      electionType: 'assembly',
+      electionYear: 2020,
+      updatedAt: '2020-04-15',
+      source: '공공데이터포털 · 중앙선거관리위원회',
+      encoding: 'euc-kr',
+      districtField: '구시군명',
+      dongField: '읍면동명',
+      resultField: '정당',
+      valueField: '득표수',
+    })),
+    ...(await parsePartyElectionCsv(assemblyPr20Input, regionMeta, {
+      electionId: 'assembly-pr-2016',
+      electionName: '제20대 국회의원선거 비례대표',
+      electionType: 'assembly',
+      electionYear: 2016,
+      updatedAt: '2016-04-13',
+      source: '공공데이터포털 · 중앙선거관리위원회',
+      encoding: 'euc-kr',
+      districtField: '구시군명',
+      dongField: '읍면동명',
+      resultField: '정당',
+      valueField: '득표수',
+    })),
     ...parseAssemblyProportionalElection(assemblyInput, regionMeta),
+    ...local7Configs.flatMap((config) => parseLocalElectionSheet(local7Input, config, regionMeta)),
+    ...local7ConstituencyConfigs.flatMap((config) => parseLocalConstituencyElectionSheet(local7Input, config, regionMeta)),
     ...localConfigs.flatMap((config) => parseLocalElectionSheet(localInput, config, regionMeta)),
     ...localConstituencyConfigs.flatMap((config) => parseLocalConstituencyElectionSheet(localInput, config, regionMeta)),
   ].sort((left, right) => {

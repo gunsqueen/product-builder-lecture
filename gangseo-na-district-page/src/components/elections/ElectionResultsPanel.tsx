@@ -52,6 +52,7 @@ export function ElectionResultsPanel({ elections }: ElectionResultsPanelProps) {
     [elections, selectedElectionId, selectedType, selectedYear],
   );
   const selectedElection = filtered[0];
+  const isPartyResult = selectedElection?.resultMode === 'party';
 
   if (!elections.length) {
     return <p className="inline-note">선거 데이터가 없습니다.</p>;
@@ -137,7 +138,7 @@ export function ElectionResultsPanel({ elections }: ElectionResultsPanelProps) {
                   <thead>
                     <tr>
                       <th>{selectedElection.resultMode === 'candidate' ? '후보' : '정당'}</th>
-                      <th>정당</th>
+                      {!isPartyResult ? <th>정당</th> : null}
                       <th>득표수</th>
                       <th>득표율</th>
                     </tr>
@@ -146,7 +147,7 @@ export function ElectionResultsPanel({ elections }: ElectionResultsPanelProps) {
                     {selectedElection.results.map((result) => (
                       <tr key={result.label}>
                         <td>{result.label}</td>
-                        <td>{result.party ?? '-'}</td>
+                        {!isPartyResult ? <td>{result.party ?? '-'}</td> : null}
                         <td>{formatNumber(result.value)}표</td>
                         <td>{result.share.toFixed(1)}%</td>
                       </tr>
