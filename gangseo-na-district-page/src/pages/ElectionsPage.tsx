@@ -113,11 +113,11 @@ export function ElectionsPage() {
           isEmpty={!districtResults.length}
           emptyMessage="자치구별 비교 데이터가 없습니다."
         >
-          <ResponsiveContainer height={300} width="100%">
-            <BarChart data={districtResults}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis angle={-20} dataKey="districtName" height={60} interval={0} textAnchor="end" />
-              <YAxis tickFormatter={(value: number) => `${value}%`} />
+          <ResponsiveContainer height={Math.max(420, districtResults.length * 28)} width="100%">
+            <BarChart data={districtResults} layout="vertical" margin={{ top: 8, right: 12, left: 12, bottom: 8 }}>
+              <CartesianGrid horizontal={false} strokeDasharray="3 3" />
+              <XAxis tickFormatter={(value: number) => `${value}%`} type="number" />
+              <YAxis dataKey="districtName" type="category" width={72} />
               <Tooltip formatter={(value: number) => `${value.toFixed(1)}%`} />
               <Bar dataKey="share" fill="#2f6fad" radius={[6, 6, 0, 0]} />
             </BarChart>
