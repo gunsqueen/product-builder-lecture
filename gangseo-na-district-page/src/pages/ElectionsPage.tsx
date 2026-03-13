@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from 'react';
 import { Bar, BarChart, CartesianGrid, Cell, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { ChartCard } from '../components/ChartCard';
 import { MetricCard } from '../components/MetricCard';
-import { SourceBadgeRow } from '../components/SourceBadgeRow';
 import { StatusState } from '../components/StatusState';
 import { useElectionOverview } from '../hooks/useElectionOverview';
 import { formatNumber, formatPercent } from '../utils/formatters';
@@ -56,8 +55,6 @@ export function ElectionsPage() {
             <p>중앙선거관리위원회 원본을 가공한 실제 서울시 선거 스냅샷을 사용하며, 동일한 구조로 외부 JSON/API로 교체할 수 있습니다.</p>
           </div>
         </div>
-        <SourceBadgeRow items={data.sourceBadges} />
-
         <div className="filter-grid">
           <label className="field">
             <span>선거 선택</span>

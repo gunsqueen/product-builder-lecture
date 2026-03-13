@@ -2,14 +2,15 @@ import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { GeoMap } from '../components/GeoMap';
 import { SearchSortControls } from '../components/SearchSortControls';
-import { SourceBadgeRow } from '../components/SourceBadgeRow';
 import { StatusState } from '../components/StatusState';
+import { useCompactScreen } from '../hooks/useCompactScreen';
 import { useDistrictIndexData } from '../hooks/useDistrictIndexData';
 import { formatPopulation } from '../utils/formatters';
 import type { DistrictSortKey, MapMetricKey } from '../types';
 
 export function MapPage() {
   const navigate = useNavigate();
+  const isCompactScreen = useCompactScreen();
   const { data, loading, error } = useDistrictIndexData();
   const [search, setSearch] = useState('');
   const [sortKey, setSortKey] = useState<DistrictSortKey>('name');
@@ -45,7 +46,6 @@ export function MapPage() {
             <p>자치구 단위 choropleth를 우선 렌더링하고, 자치구 상세에서만 행정동 지도를 불러옵니다.</p>
           </div>
         </div>
-        <SourceBadgeRow items={data.sourceBadges} />
         <SearchSortControls
           metricKey={metricKey}
           onMetricChange={setMetricKey}
@@ -60,7 +60,7 @@ export function MapPage() {
         <div className="content-card">
           <GeoMap
             errorMessage={null}
-            height={620}
+            height={isCompactScreen ? 420 : 620}
             items={data.joinedDistrictFeatures}
             metricKey={metricKey}
             onFeatureClick={(districtCode) => navigate(`/district/${districtCode}`)}

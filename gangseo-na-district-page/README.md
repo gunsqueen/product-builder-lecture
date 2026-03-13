@@ -83,12 +83,15 @@ npm run build
 - React Router DOM
 - Leaflet / React Leaflet
 - Recharts
+- Capacitor 7
 - 정적 배포 가능 구조
 
 배포 대상:
 - Vercel
 - Netlify
 - Cloudflare Pages
+
+현재 프로젝트는 `React + Vite` 기반이며, 안드로이드 패키징 시 Capacitor의 `webDir = dist`를 사용한다.
 
 ---
 
@@ -128,6 +131,8 @@ scripts/
   convert-shp-to-geojson.ts
   normalize-boundary-properties.ts
   filter-seoul-boundaries.ts
+android/
+capacitor.config.ts
 ```
 
 ---
@@ -747,3 +752,90 @@ https://openapi.seoul.go.kr:8088/{API_KEY}/json/{SERVICE_NAME}/{START}/{END}/...
 - 중앙선거관리위원회 선거통계시스템: https://info.nec.go.kr/
 
 데이터는 갱신 시점에 따라 달라질 수 있다.
+
+---
+
+## 19. Android 앱 빌드
+
+이 프로젝트는 기존 웹앱 구조를 유지한 채 Capacitor로 Android 앱 패키징이 가능하도록 설정되어 있다.
+
+현재 반영된 사항:
+- `capacitor.config.ts` 추가
+- `android/` 네이티브 프로젝트 생성
+- `vite.config.ts`의 `base: './'` 적용
+- Android WebView에서 서울시 Open API의 `http` 요청이 막히지 않도록 `android:usesCleartextTraffic="true"` 적용
+- 모바일 세로 화면에 맞춘 카드/지도/탭/입력 UI 보정
+
+### 19-1. Android 관련 명령어
+
+웹 번들 빌드:
+```bash
+npm run build
+```
+
+안드로이드 프로젝트 동기화:
+```bash
+npm run cap:sync
+```
+
+빌드와 동기화를 한 번에:
+```bash
+npm run android:sync
+```
+
+Android Studio 열기:
+```bash
+npm run cap:open:android
+```
+
+### 19-2. Android Studio에서 내가 해야 할 작업
+
+1. 터미널에서 `npm run cap:open:android` 실행
+2. Android Studio가 열리면 Android SDK / Emulator가 없을 경우 설치
+3. 상단 디바이스 선택에서:
+   - 실제 안드로이드 기기 또는
+   - 에뮬레이터 선택
+4. `Run` 버튼으로 디버그 빌드 실행
+5. APK가 필요하면:
+   - `Build > Build Bundle(s) / APK(s) > Build APK(s)`
+6. AAB가 필요하면:
+   - `Build > Generate Signed Bundle / APK`
+   - `Android App Bundle` 선택
+   - 키스토어 생성 또는 기존 키스토어 선택
+   - release 서명 후 `.aab` 생성
+
+### 19-3. 앱 수정 후 다시 반영하는 순서
+
+웹 코드를 수정한 뒤에는 아래 순서를 반복하면 된다.
+
+```bash
+npm run build
+npm run cap:sync
+```
+
+그 다음 Android Studio에서 다시 실행하거나 release 빌드를 만들면 된다.
+
+### 19-4. Android에서 자주 발생하는 문제
+
+- 앱에 웹 수정사항이 안 보임
+  - `npm run build`를 먼저 실행했는지 확인
+  - 그 다음 `npm run cap:sync`를 실행
+
+- 서울시 Open API가 앱에서 실패하고 fallback만 동작함
+  - `.env`의 `VITE_SEOUL_OPEN_API_KEY` 확인
+  - 서울시 기본 Open API URL이 `http://openapi.seoul.go.kr:8088`이므로 Android 쪽 cleartext 허용이 필요
+  - 현재 프로젝트는 이를 위해 `AndroidManifest.xml`에 `android:usesCleartextTraffic="true"`를 넣어둔 상태
+
+- 정적 자산이 안 열리거나 라우팅이 꼬임
+  - `vite.config.ts`의 `base: './'` 유지
+  - `capacitor.config.ts`의 `webDir: 'dist'` 유지
+
+### 19-5. 현재 검증 상태
+
+이 저장소에서 아래 작업은 이미 실행 확인했다.
+- `npm install`
+- `npm run build`
+- `npx cap add android`
+- `npx cap sync android`
+
+즉 지금은 Android Studio에서 앱 실행 또는 APK/AAB 생성 단계만 남은 상태다.

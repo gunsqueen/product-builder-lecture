@@ -11,8 +11,8 @@ import { MetricCard } from '../components/MetricCard';
 import { AgeRatioCards } from '../components/population/AgeRatioCards';
 import { HouseholdCompositionTable } from '../components/population/HouseholdCompositionTable';
 import { PopulationMetricsCards } from '../components/population/PopulationMetricsCards';
-import { SourceBadgeRow } from '../components/SourceBadgeRow';
 import { StatusState } from '../components/StatusState';
+import { useCompactScreen } from '../hooks/useCompactScreen';
 import { useDistrictDetail } from '../hooks/useDistrictDetail';
 import { calculateAgeRatioMetrics, getAgeGroupColor } from '../utils/ageMetrics';
 import { calculateHouseholdMetrics } from '../utils/householdMetrics';
@@ -22,6 +22,7 @@ import type { DetailTabKey } from '../types';
 export function DistrictPage() {
   const { districtCode } = useParams();
   const navigate = useNavigate();
+  const isCompactScreen = useCompactScreen();
   const { data, loading, error } = useDistrictDetail(districtCode);
   const [activeTab, setActiveTab] = useState<DetailTabKey>('overview');
 
@@ -81,7 +82,6 @@ export function DistrictPage() {
             <p>{data.detail.district.description ?? '실제 행정구역 경계와 주민등록 통계 기준 자치구입니다.'}</p>
           </div>
         </div>
-        <SourceBadgeRow items={data.sourceBadges} />
         <div className="metric-grid">
           <MetricCard label="총인구" value={formatPopulation(data.detail.population?.totalPopulation)} />
           <MetricCard label="세대수" value={formatHouseholds(data.detail.population?.households)} />
@@ -99,7 +99,7 @@ export function DistrictPage() {
           <ChartCard description="자치구 경계와 해당 자치구의 실제 행정동 경계를 함께 표시합니다." title="구 지도">
             <GeoMap
               errorMessage={null}
-              height={460}
+              height={isCompactScreen ? 340 : 460}
               items={mapItems}
               onFeatureClick={(code) => {
                 const clickedDong = data.detail?.dongs.find((dong) => dong.dongCode === code);

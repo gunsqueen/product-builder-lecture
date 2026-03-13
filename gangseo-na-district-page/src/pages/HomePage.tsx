@@ -4,14 +4,15 @@ import { GeoMap } from '../components/GeoMap';
 import { MetricCard } from '../components/MetricCard';
 import { RouteCard } from '../components/RouteCard';
 import { SearchSortControls } from '../components/SearchSortControls';
-import { SourceBadgeRow } from '../components/SourceBadgeRow';
 import { StatusState } from '../components/StatusState';
+import { useCompactScreen } from '../hooks/useCompactScreen';
 import { useDistrictIndexData } from '../hooks/useDistrictIndexData';
 import { formatHouseholds, formatNumber, formatPopulation } from '../utils/formatters';
 import type { DistrictSortKey } from '../types';
 
 export function HomePage() {
   const navigate = useNavigate();
+  const isCompactScreen = useCompactScreen();
   const { data, loading, error } = useDistrictIndexData();
   const [search, setSearch] = useState('');
   const [sortKey, setSortKey] = useState<DistrictSortKey>('name');
@@ -48,7 +49,6 @@ export function HomePage() {
           <h1>서울특별시 데이터맵</h1>
           <p>실제 행정동 경계와 서울시 공식 통계 스냅샷을 기본으로 사용하고, Open API가 응답하면 실시간 값으로 우선 교체하는 구조입니다.</p>
         </div>
-        <SourceBadgeRow items={data.sourceBadges} />
         <div className="metric-grid">
           <MetricCard helper="자치구 합산" label="서울시 총인구" value={formatPopulation(cityPopulation)} />
           <MetricCard helper="자치구 합산" label="서울시 세대수" value={formatHouseholds(cityHouseholds)} />
@@ -67,7 +67,7 @@ export function HomePage() {
           </div>
           <GeoMap
             errorMessage={null}
-            height={420}
+            height={isCompactScreen ? 320 : 420}
             items={data.joinedDistrictFeatures}
             onFeatureClick={(districtCode) => navigate(`/district/${districtCode}`)}
           />

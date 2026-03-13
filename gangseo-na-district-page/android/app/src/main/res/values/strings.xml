@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">서울시 데이터맵</string>
+    <string name="title_activity_main">서울시 데이터맵</string>
+    <string name="package_name">com.withlee.seouldatamap</string>
+    <string name="custom_url_scheme">com.withlee.seouldatamap</string>
+</resources>

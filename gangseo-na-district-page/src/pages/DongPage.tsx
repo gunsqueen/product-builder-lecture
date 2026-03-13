@@ -9,7 +9,6 @@ import { MetricCard } from '../components/MetricCard';
 import { AgeRatioCards } from '../components/population/AgeRatioCards';
 import { HouseholdCompositionTable } from '../components/population/HouseholdCompositionTable';
 import { PopulationMetricsCards } from '../components/population/PopulationMetricsCards';
-import { SourceBadgeRow } from '../components/SourceBadgeRow';
 import { StatusState } from '../components/StatusState';
 import { useDongDetail } from '../hooks/useDistrictDetail';
 import { calculateAgeRatioMetrics, getAgeGroupColor } from '../utils/ageMetrics';
@@ -70,7 +69,6 @@ export function DongPage() {
             <p>{data.dong.description ?? '실제 행정동 목록 기준 상세 페이지입니다.'}</p>
           </div>
         </div>
-        <SourceBadgeRow items={data.sourceBadges} />
         <div className="metric-grid">
           <MetricCard label="총인구" value={formatPopulation(data.population?.totalPopulation)} />
           <MetricCard label="세대수" value={formatHouseholds(data.population?.households)} />

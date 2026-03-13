@@ -1,5 +1,4 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import { getDataSourceMode } from '../config/dataSource';
 
 const NAV_ITEMS = [
   { to: '/', label: '홈' },
@@ -9,8 +8,6 @@ const NAV_ITEMS = [
 ] as const;
 
 export function AppLayout() {
-  const dataSourceMode = getDataSourceMode();
-
   return (
     <div className="app-shell">
       <header className="site-header">
@@ -20,9 +17,6 @@ export function AppLayout() {
             서울시 데이터맵
           </NavLink>
           <p className="brand-description">자치구와 행정동 단위로 서울시 인구·선거 데이터를 탐색하는 정적 웹앱</p>
-          <div className="source-badge-row">
-            <span className="source-badge">mode: {dataSourceMode}</span>
-          </div>
         </div>
         <nav className="site-nav">
           {NAV_ITEMS.map((item) => (
