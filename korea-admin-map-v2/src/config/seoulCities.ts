@@ -1,0 +1,30 @@
+export const SEOUL_CITIES = [
+  { code: '11110', sgisCode: '11010', name: '종로구' },
+  { code: '11140', sgisCode: '11020', name: '중구' },
+  { code: '11170', sgisCode: '11030', name: '용산구' },
+  { code: '11200', sgisCode: '11040', name: '성동구' },
+  { code: '11215', sgisCode: '11050', name: '광진구' },
+  { code: '11230', sgisCode: '11060', name: '동대문구' },
+  { code: '11260', sgisCode: '11070', name: '중랑구' },
+  { code: '11290', sgisCode: '11080', name: '성북구' },
+  { code: '11305', sgisCode: '11090', name: '강북구' },
+  { code: '11320', sgisCode: '11100', name: '도봉구' },
+  { code: '11350', sgisCode: '11110', name: '노원구' },
+  { code: '11380', sgisCode: '11120', name: '은평구' },
+  { code: '11410', sgisCode: '11130', name: '서대문구' },
+  { code: '11440', sgisCode: '11140', name: '마포구' },
+  { code: '11470', sgisCode: '11150', name: '양천구' },
+  { code: '11500', sgisCode: '11160', name: '강서구' },
+  { code: '11530', sgisCode: '11170', name: '구로구' },
+  { code: '11545', sgisCode: '11180', name: '금천구' },
+  { code: '11560', sgisCode: '11190', name: '영등포구' },
+  { code: '11590', sgisCode: '11200', name: '동작구' },
+  { code: '11620', sgisCode: '11210', name: '관악구' },
+  { code: '11650', sgisCode: '11220', name: '서초구' },
+  { code: '11680', sgisCode: '11230', name: '강남구' },
+  { code: '11710', sgisCode: '11240', name: '송파구' },
+  { code: '11740', sgisCode: '11250', name: '강동구' },
+] as const
+
+export const getSeoulCityMeta = (cityCode: string) => SEOUL_CITIES.find((city) => city.code === cityCode)
+export const getSeoulCityBySgisCode = (sgisCode: string) => SEOUL_CITIES.find((city) => city.sgisCode === sgisCode)

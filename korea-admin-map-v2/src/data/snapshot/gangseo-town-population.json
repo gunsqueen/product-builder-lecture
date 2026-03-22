@@ -1,0 +1,23 @@
+[
+  { "adminCode": "11160510", "totalPopulation": 18142, "householdCount": 8921, "malePopulation": 8704, "femalePopulation": 9438, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160520", "totalPopulation": 24877, "householdCount": 11824, "malePopulation": 11980, "femalePopulation": 12897, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160530", "totalPopulation": 19846, "householdCount": 9621, "malePopulation": 9574, "femalePopulation": 10272, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160540", "totalPopulation": 17263, "householdCount": 8460, "malePopulation": 8326, "femalePopulation": 8937, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160550", "totalPopulation": 21124, "householdCount": 10045, "malePopulation": 10164, "femalePopulation": 10960, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160570", "totalPopulation": 16678, "householdCount": 7928, "malePopulation": 8035, "femalePopulation": 8643, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160580", "totalPopulation": 20498, "householdCount": 9787, "malePopulation": 9872, "femalePopulation": 10626, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160590", "totalPopulation": 21644, "householdCount": 10154, "malePopulation": 10418, "femalePopulation": 11226, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160610", "totalPopulation": 23387, "householdCount": 11166, "malePopulation": 11225, "femalePopulation": 12162, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160630", "totalPopulation": 19274, "householdCount": 9220, "malePopulation": 9290, "femalePopulation": 9984, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160640", "totalPopulation": 15808, "householdCount": 7607, "malePopulation": 7644, "femalePopulation": 8164, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160650", "totalPopulation": 19652, "householdCount": 9527, "malePopulation": 9498, "femalePopulation": 10154, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160660", "totalPopulation": 23114, "householdCount": 10928, "malePopulation": 11132, "femalePopulation": 11982, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160670", "totalPopulation": 33399, "householdCount": 14280, "malePopulation": 16243, "femalePopulation": 17156, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160680", "totalPopulation": 21856, "householdCount": 10211, "malePopulation": 10527, "femalePopulation": 11329, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160690", "totalPopulation": 19512, "householdCount": 9318, "malePopulation": 9445, "femalePopulation": 10067, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160700", "totalPopulation": 14508, "householdCount": 7056, "malePopulation": 6991, "femalePopulation": 7517, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160710", "totalPopulation": 16841, "householdCount": 8123, "malePopulation": 8138, "femalePopulation": 8703, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160730", "totalPopulation": 49454, "householdCount": 21406, "malePopulation": 23820, "femalePopulation": 25634, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160740", "totalPopulation": 27408, "householdCount": 12520, "malePopulation": 13234, "femalePopulation": 14174, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" },
+  { "adminCode": "11160751", "totalPopulation": 30126, "householdCount": 13098, "malePopulation": 14585, "femalePopulation": 15541, "age0to14": 0, "age15to64": 0, "age65plus": 0, "sourceDate": "2026-02-01" }
+]

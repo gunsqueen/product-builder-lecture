@@ -1,0 +1,19 @@
+[
+  { "adminCode": "11", "name": "서울특별시", "level": "province", "parentCode": null, "sgisCode": "11" },
+  { "adminCode": "26", "name": "부산광역시", "level": "province", "parentCode": null, "sgisCode": "21" },
+  { "adminCode": "27", "name": "대구광역시", "level": "province", "parentCode": null, "sgisCode": "22" },
+  { "adminCode": "28", "name": "인천광역시", "level": "province", "parentCode": null, "sgisCode": "23" },
+  { "adminCode": "29", "name": "광주광역시", "level": "province", "parentCode": null, "sgisCode": "24" },
+  { "adminCode": "30", "name": "대전광역시", "level": "province", "parentCode": null, "sgisCode": "25" },
+  { "adminCode": "31", "name": "울산광역시", "level": "province", "parentCode": null, "sgisCode": "26" },
+  { "adminCode": "36", "name": "세종특별자치시", "level": "province", "parentCode": null, "sgisCode": "29" },
+  { "adminCode": "41", "name": "경기도", "level": "province", "parentCode": null, "sgisCode": "31" },
+  { "adminCode": "42", "name": "강원특별자치도", "level": "province", "parentCode": null, "sgisCode": "32" },
+  { "adminCode": "43", "name": "충청북도", "level": "province", "parentCode": null, "sgisCode": "33" },
+  { "adminCode": "44", "name": "충청남도", "level": "province", "parentCode": null, "sgisCode": "34" },
+  { "adminCode": "45", "name": "전북특별자치도", "level": "province", "parentCode": null, "sgisCode": "35" },
+  { "adminCode": "46", "name": "전라남도", "level": "province", "parentCode": null, "sgisCode": "36" },
+  { "adminCode": "47", "name": "경상북도", "level": "province", "parentCode": null, "sgisCode": "37" },
+  { "adminCode": "48", "name": "경상남도", "level": "province", "parentCode": null, "sgisCode": "38" },
+  { "adminCode": "50", "name": "제주특별자치도", "level": "province", "parentCode": null, "sgisCode": "39" }
+]

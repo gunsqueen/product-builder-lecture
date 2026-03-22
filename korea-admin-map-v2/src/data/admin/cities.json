@@ -1,0 +1,52 @@
+[
+  { "adminCode": "11110", "name": "종로구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11010" },
+  { "adminCode": "11140", "name": "중구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11020" },
+  { "adminCode": "11170", "name": "용산구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11030" },
+  { "adminCode": "11200", "name": "성동구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11040" },
+  { "adminCode": "11215", "name": "광진구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11050" },
+  { "adminCode": "11230", "name": "동대문구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11060" },
+  { "adminCode": "11260", "name": "중랑구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11070" },
+  { "adminCode": "11290", "name": "성북구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11080" },
+  { "adminCode": "11305", "name": "강북구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11090" },
+  { "adminCode": "11320", "name": "도봉구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11100" },
+  { "adminCode": "11350", "name": "노원구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11110" },
+  { "adminCode": "11380", "name": "은평구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11120" },
+  { "adminCode": "11410", "name": "서대문구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11130" },
+  { "adminCode": "11440", "name": "마포구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11140" },
+  { "adminCode": "11470", "name": "양천구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11150" },
+  { "adminCode": "11500", "name": "강서구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11160" },
+  { "adminCode": "11530", "name": "구로구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11170" },
+  { "adminCode": "11545", "name": "금천구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11180" },
+  { "adminCode": "11560", "name": "영등포구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11190" },
+  { "adminCode": "11590", "name": "동작구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11200" },
+  { "adminCode": "11620", "name": "관악구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11210" },
+  { "adminCode": "11650", "name": "서초구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11220" },
+  { "adminCode": "11680", "name": "강남구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11230" },
+  { "adminCode": "11710", "name": "송파구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11240" },
+  { "adminCode": "11740", "name": "강동구", "level": "city", "parentCode": "11", "provinceCode": "11", "sgisCode": "11250" },
+
+  { "adminCode": "21050", "name": "부산진구", "level": "city", "parentCode": "26", "provinceCode": "26", "sgisCode": "21050" },
+  { "adminCode": "21090", "name": "해운대구", "level": "city", "parentCode": "26", "provinceCode": "26", "sgisCode": "21090" },
+  { "adminCode": "21120", "name": "강서구", "level": "city", "parentCode": "26", "provinceCode": "26", "sgisCode": "21120" },
+  { "adminCode": "21150", "name": "사상구", "level": "city", "parentCode": "26", "provinceCode": "26", "sgisCode": "21150" },
+
+  { "adminCode": "31011", "name": "수원시 장안구", "level": "city", "parentCode": "41", "provinceCode": "41", "sgisCode": "31011" },
+  { "adminCode": "31021", "name": "성남시 수정구", "level": "city", "parentCode": "41", "provinceCode": "41", "sgisCode": "31021" },
+  { "adminCode": "31281", "name": "고양시 덕양구", "level": "city", "parentCode": "41", "provinceCode": "41", "sgisCode": "31281" },
+  { "adminCode": "31030", "name": "의정부시", "level": "city", "parentCode": "41", "provinceCode": "41", "sgisCode": "31030" },
+
+  { "adminCode": "38111", "name": "창원시 의창구", "level": "city", "parentCode": "48", "provinceCode": "48", "sgisCode": "38111" },
+  { "adminCode": "38030", "name": "진주시", "level": "city", "parentCode": "48", "provinceCode": "48", "sgisCode": "38030" },
+  { "adminCode": "38070", "name": "김해시", "level": "city", "parentCode": "48", "provinceCode": "48", "sgisCode": "38070" },
+
+  { "adminCode": "39010", "name": "제주시", "level": "city", "parentCode": "50", "provinceCode": "50", "sgisCode": "39010" },
+  { "adminCode": "39020", "name": "서귀포시", "level": "city", "parentCode": "50", "provinceCode": "50", "sgisCode": "39020" },
+
+  { "adminCode": "35011", "name": "전주시 완산구", "level": "city", "parentCode": "45", "provinceCode": "45", "sgisCode": "35011" },
+  { "adminCode": "35012", "name": "전주시 덕진구", "level": "city", "parentCode": "45", "provinceCode": "45", "sgisCode": "35012" },
+  { "adminCode": "35020", "name": "군산시", "level": "city", "parentCode": "45", "provinceCode": "45", "sgisCode": "35020" },
+
+  { "adminCode": "37011", "name": "포항시 남구", "level": "city", "parentCode": "47", "provinceCode": "47", "sgisCode": "37011" },
+  { "adminCode": "37012", "name": "포항시 북구", "level": "city", "parentCode": "47", "provinceCode": "47", "sgisCode": "37012" },
+  { "adminCode": "37030", "name": "김천시", "level": "city", "parentCode": "47", "provinceCode": "47", "sgisCode": "37030" }
+]
