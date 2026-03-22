@@ -1,0 +1,240 @@
+[
+  {
+    "provinceCode": "11",
+    "name": "서울특별시",
+    "shortName": "서울",
+    "slug": "seoul",
+    "capital": "중구",
+    "center": [
+      37.5665,
+      126.978
+    ],
+    "populationRank": 2,
+    "cityCount": 25,
+    "description": "대한민국 수도권 핵심 생활·행정 중심지"
+  },
+  {
+    "provinceCode": "26",
+    "name": "부산광역시",
+    "shortName": "부산",
+    "slug": "busan",
+    "capital": "연제구",
+    "center": [
+      35.1796,
+      129.0756
+    ],
+    "populationRank": 6,
+    "cityCount": 16,
+    "description": "남동권 해양 물류와 관광 거점"
+  },
+  {
+    "provinceCode": "27",
+    "name": "대구광역시",
+    "shortName": "대구",
+    "slug": "daegu",
+    "capital": "중구",
+    "center": [
+      35.8722,
+      128.6025
+    ],
+    "populationRank": 10,
+    "cityCount": 9,
+    "description": "영남 내륙권 산업·교통 허브"
+  },
+  {
+    "provinceCode": "28",
+    "name": "인천광역시",
+    "shortName": "인천",
+    "slug": "incheon",
+    "capital": "남동구",
+    "center": [
+      37.4563,
+      126.7052
+    ],
+    "populationRank": 5,
+    "cityCount": 10,
+    "description": "국제공항과 항만을 보유한 서해권 관문"
+  },
+  {
+    "provinceCode": "29",
+    "name": "광주광역시",
+    "shortName": "광주",
+    "slug": "gwangju",
+    "capital": "서구",
+    "center": [
+      35.1595,
+      126.8526
+    ],
+    "populationRank": 14,
+    "cityCount": 5,
+    "description": "호남권 중심 도시"
+  },
+  {
+    "provinceCode": "30",
+    "name": "대전광역시",
+    "shortName": "대전",
+    "slug": "daejeon",
+    "capital": "서구",
+    "center": [
+      36.3504,
+      127.3845
+    ],
+    "populationRank": 13,
+    "cityCount": 5,
+    "description": "연구개발과 행정 기능이 결합된 중부권 거점"
+  },
+  {
+    "provinceCode": "31",
+    "name": "울산광역시",
+    "shortName": "울산",
+    "slug": "ulsan",
+    "capital": "남구",
+    "center": [
+      35.5384,
+      129.3114
+    ],
+    "populationRank": 16,
+    "cityCount": 5,
+    "description": "제조업과 항만 산업 중심지"
+  },
+  {
+    "provinceCode": "36",
+    "name": "세종특별자치시",
+    "shortName": "세종",
+    "slug": "province-36",
+    "capital": "세종특별자치시",
+    "center": [
+      36.2,
+      127.8
+    ],
+    "populationRank": 99,
+    "cityCount": 1,
+    "description": "세종특별자치시 전체 시군구 마스터 데이터"
+  },
+  {
+    "provinceCode": "41",
+    "name": "경기도",
+    "shortName": "경기",
+    "slug": "gyeonggi",
+    "capital": "수원시",
+    "center": [
+      37.275,
+      127.009
+    ],
+    "populationRank": 1,
+    "cityCount": 55,
+    "description": "대한민국 최대 인구권"
+  },
+  {
+    "provinceCode": "43",
+    "name": "충청북도",
+    "shortName": "충북",
+    "slug": "chungbuk",
+    "capital": "청주시",
+    "center": [
+      36.6357,
+      127.4917
+    ],
+    "populationRank": 11,
+    "cityCount": 15,
+    "description": "내륙 교통축과 산업벨트 중심"
+  },
+  {
+    "provinceCode": "44",
+    "name": "충청남도",
+    "shortName": "충남",
+    "slug": "chungnam",
+    "capital": "홍성군",
+    "center": [
+      36.5184,
+      126.8
+    ],
+    "populationRank": 7,
+    "cityCount": 17,
+    "description": "서해안 산업단지와 신도시 축"
+  },
+  {
+    "provinceCode": "46",
+    "name": "전라남도",
+    "shortName": "전남",
+    "slug": "jeonnam",
+    "capital": "무안군",
+    "center": [
+      34.8161,
+      126.4629
+    ],
+    "populationRank": 9,
+    "cityCount": 22,
+    "description": "도서해양과 농수산 자원이 집약된 남해권"
+  },
+  {
+    "provinceCode": "47",
+    "name": "경상북도",
+    "shortName": "경북",
+    "slug": "gyeongbuk",
+    "capital": "안동시",
+    "center": [
+      36.576,
+      128.5057
+    ],
+    "populationRank": 4,
+    "cityCount": 24,
+    "description": "대구권과 동해권을 잇는 광역도"
+  },
+  {
+    "provinceCode": "48",
+    "name": "경상남도",
+    "shortName": "경남",
+    "slug": "gyeongnam",
+    "capital": "창원시",
+    "center": [
+      35.237,
+      128.692
+    ],
+    "populationRank": 3,
+    "cityCount": 23,
+    "description": "남해안 산업도시와 배후 주거권 중심"
+  },
+  {
+    "provinceCode": "50",
+    "name": "제주특별자치도",
+    "shortName": "제주",
+    "slug": "jeju",
+    "capital": "제주시",
+    "center": [
+      33.4996,
+      126.5312
+    ],
+    "populationRank": 15,
+    "cityCount": 2,
+    "description": "관광·물류 특화 섬 광역자치단체"
+  },
+  {
+    "provinceCode": "51",
+    "name": "강원특별자치도",
+    "shortName": "강원",
+    "slug": "province-51",
+    "capital": "강원특별자치도",
+    "center": [
+      36.2,
+      127.8
+    ],
+    "populationRank": 99,
+    "cityCount": 18,
+    "description": "강원특별자치도 전체 시군구 마스터 데이터"
+  },
+  {
+    "provinceCode": "52",
+    "name": "전북특별자치도",
+    "shortName": "전북",
+    "slug": "province-52",
+    "capital": "전북특별자치도",
+    "center": [
+      36.2,
+      127.8
+    ],
+    "populationRank": 99,
+    "cityCount": 16,
+    "description": "전북특별자치도 전체 시군구 마스터 데이터"
+  }
+]
